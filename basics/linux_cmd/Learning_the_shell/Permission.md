@@ -38,7 +38,12 @@ Password:
 ```
 to exit the superuser session, type **exit** and you will return to your previous session.
 
-In some distributions, an alternate method is used. Rather than using su, 
+In some distributions, an alternate method is used. Rather than using su, these systems employ the **sudo** command instead.
+```bash
+[me@linuxbox me]$ sudo some_command
+Password:
+[me@linuxbox me]$
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg0MzM5MjgsMjkxMzA0NTcwXX0=
+eyJoaXN0b3J5IjpbMTIwOTQwOTIwMCwyOTEzMDQ1NzBdfQ==
 -->
