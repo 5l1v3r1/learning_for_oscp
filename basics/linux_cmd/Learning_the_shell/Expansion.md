@@ -59,7 +59,13 @@ echo {Z..A}
 Brace expansion may be nested:
 echo a{A{1,2},B{3,4}}b
 
-This expansion is used to make lists of files or directories to be created.
+This expansion is used to make lists of files or directories to be created like this:
+```bash
+mkdir {2007..2009}-0{1..9} {2007..2009}-{10..12}
+```
+
+## Parameter Expansion
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY3MTY4MzZdfQ==
+eyJoaXN0b3J5IjpbLTc5ODg5ODYwXX0=
 -->
