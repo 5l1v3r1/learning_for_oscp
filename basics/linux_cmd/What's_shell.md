@@ -18,8 +18,8 @@ Now, you can type command!
 
 ## Using The Mouse
 Even though the shell is a command line interface, the mouse is still handy.
-you can scroll the contents of terminal window, copy text
+you can scroll the contents of terminal window, copy text, drag your mouse over some text.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwODc0NTU2XX0=
+eyJoaXN0b3J5IjpbMTQxNzc0NDEzXX0=
 -->
