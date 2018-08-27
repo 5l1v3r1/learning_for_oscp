@@ -74,8 +74,16 @@ To see a list of available variables, try this:
 printenv | less
 ```
 
-## Command Substitu
+## Command Substitution
+Command substitution allows us to use the output of a command as an expansion:
+```bash
+echo $(ls)
+```
+Entire piplines can be used
+```bash
+file $(ls /usr/bin* | grep bin/zip)
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTEwODY3Nl19
+eyJoaXN0b3J5IjpbMTk5MDgzNDU4MV19
 -->
