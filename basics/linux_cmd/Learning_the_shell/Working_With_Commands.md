@@ -5,7 +5,14 @@ This lesson will introduce you the following commands.
 - **help** - Display reference page for shell builtin
 - **man** - Display an on-line commands reference
 
-## What a
+## What are "Commands"?
+Commands can be one of 4 different kinds:
+1. An executable program
+2. A command built into the shell itself
+3. A shell function
+4. An alias
+
+## Identif
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjIwNDU3Nl19
+eyJoaXN0b3J5IjpbMTkzNTk4NjUxOF19
 -->
