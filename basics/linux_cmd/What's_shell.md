@@ -10,7 +10,11 @@ It's a program that opens a window and lets you interact with the shell.
 Ctrl + Alt + T
 
 ## Testing The Keyboard
+You should see a shell prompt that contains your username and the name of the machine followed by a dollar sign. Something like this.
+```
+me@linuxbox me $
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg2MjU3NF19
+eyJoaXN0b3J5IjpbMTU4OTU4NjkyXX0=
 -->
