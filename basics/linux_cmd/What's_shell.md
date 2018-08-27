@@ -5,6 +5,12 @@ There are other shell programs available in a Linux system such as ksh, tcsh and
 
 ## What's A "Terminal" ?
 It's a program that opens a window and lets you interact with the shell.
+
+## Starting A Terminal
+Ctrl + Alt + T
+
+## Testing The Keyboard
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTIyMzk2NV19
+eyJoaXN0b3J5IjpbLTE1Njg2MjU3NF19
 -->
