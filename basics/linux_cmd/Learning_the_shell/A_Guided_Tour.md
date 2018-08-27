@@ -46,7 +46,8 @@ When you find interesting programs to install on your system, they shou.d be ins
 :--|:--|
 |/root|This is the superuser's home directory.
 |/tmp|/tmp is a directory in which programs can write their temporary files.|
-|/dev|The /dev directory is a special directory, since it does not really contain files in th usual sense. Rather, it contains devices that are available to the system
+|/dev|The /dev directory is a special directory, since it does not really contain files in th usual sense. Rather, it contains devices that are available to the system. In Linux (like Unix), devices as though they were files. For example /dev/fd0 is the first floppy disk drive, /dev/sda (/dev/hda on older system) is the first hard drive. All th devices that the kernel understands are represented here.|
+|/proc|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzA0MTE0N119
+eyJoaXN0b3J5IjpbMTk5NDYxMDg1OF19
 -->
