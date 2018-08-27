@@ -11,7 +11,11 @@ For each of the directories listed below, do the following:
 |/boot|This is where the Linux Kernel and boot loader files are kept. The kernel is a file called vmlinux.|
 |/etc|The /etc directory contains the configuration files for the system. All of the files in /etc should be text files. Points of interest:
 /etc/passwd
-	T
+	The passwd file contains the essential information for each user. It is here that users are difined.
+/etc/fstab
+	The fstab file contains a table of device that get mounted when your system boots. This file defines your disk drives.
+/etc/hosts/
+	This file lists the network host names and IP address that are intrinsically known
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTM0MTA3MV19
+eyJoaXN0b3J5IjpbMTc2NTQ5ODk3OF19
 -->
