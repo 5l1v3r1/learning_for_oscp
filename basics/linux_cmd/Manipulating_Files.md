@@ -29,7 +29,7 @@ The **cp** program copies files and directories.
 ```bash
 [me@linuxbox me]$ cp file... directory
 ```
-- i option is used for informing the source file or directory already exist in the destination directory. 
+if you specified i option and the file you want to make exists, the user is prompted
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTQwNDc3MV19
+eyJoaXN0b3J5IjpbLTg0ODc4NDE2Nl19
 -->
