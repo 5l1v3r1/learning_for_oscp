@@ -10,7 +10,9 @@ Special characters to help you rapidly specify groups of filenames is called wil
 wildcards allow you to select filenames based on patterns of characters. The table below list the wildcards and what they select:
 |**Wildcard**|**Meaning**|
 |:--|:--|
- 
+|*|Matches any characters|
+|?|Matches any single characters|
+|[character]|Mathces any character that is a member of the set characters. you can use POSIX character class ins
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODc3NzE2NDFdfQ==
+eyJoaXN0b3J5IjpbLTE0OTIwNTY1NzVdfQ==
 -->
