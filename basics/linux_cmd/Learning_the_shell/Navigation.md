@@ -38,10 +38,15 @@ You can also use relative pathnames.
 ### A Few Shortcuts
 If you type cd followed by nothing, cd will change the working directory to your home directory.
 ~ means user. So you can use like this
+```bash
+[me@linuxbox me]$ cd ~/bin
+[me@linuxbox me/bin]$ pwd
+/home/me/bin
 ```
-[me@linuxbox bin]$ cd ~/bin
-[me@lin
-
+```bash
+[me@linuxbox me]$ cd ~foo/bin
+[me@linuxbox foo/bin]$ pwd
+/home/foo/bin 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTA2OTA2NCwxMDkwODIxMjldfQ==
+eyJoaXN0b3J5IjpbNTYyMjkzMTQzLDEwOTA4MjEyOV19
 -->
