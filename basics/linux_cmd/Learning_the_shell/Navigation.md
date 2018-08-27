@@ -46,7 +46,8 @@ If you type cd followed by nothing, cd will change the working directory to your
 ```bash
 [me@linuxbox me]$ cd ~foo/bin
 [me@linuxbox foo/bin]$ pwd
-/home/foo/bin 
+/home/foo/bin
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMjkzMTQzLDEwOTA4MjEyOV19
+eyJoaXN0b3J5IjpbLTUwNDEzOTAyOSwxMDkwODIxMjldfQ==
 -->
