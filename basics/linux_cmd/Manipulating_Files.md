@@ -57,8 +57,8 @@ The **mkdir** command is used to create directories.
 [me@linuxbox me]$ mkdir directory...
 ```
 
-
+**You can use these commands with wildcards!!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg1MDg5MjJdfQ==
+eyJoaXN0b3J5IjpbLTg0MzgxMzg2Ml19
 -->
