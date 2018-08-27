@@ -33,9 +33,11 @@ echo ~foo
 ```
 
 ## Arithmetic Expansion
-The shell
+The shell allows arithmetic to be performed by expansion. This allows us to use the shell prompt as a calculator:
+```bash
+[me@linuxbox me]$ e
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ3MTUxNF19
+eyJoaXN0b3J5IjpbLTI5MTE4ODU3NF19
 -->
