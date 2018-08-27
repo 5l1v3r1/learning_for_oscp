@@ -32,7 +32,9 @@ For each of the directories listed below, do the following:
 	The man pages are kept here.
 /usr/src
 	Souce code files. If you installed the kernel source code package, you will find the entire Linux kernel source code here.
-|/usr/local|/usr/local and its subdirectories are used for the installation f
+|/usr/local|/usr/local and its subdirectories are used for the installation of software and other files for use on the local machine. What this really means is that software that is not part of the official distribution (which usually goes in /usr/bin) goes here.
+
+When you find interesting 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTk3Mjg1OF19
+eyJoaXN0b3J5IjpbODQ0MjEyMjJdfQ==
 -->
