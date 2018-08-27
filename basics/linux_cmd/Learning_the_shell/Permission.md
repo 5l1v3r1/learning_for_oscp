@@ -13,7 +13,11 @@ To see the permission settings for a file, we can use the **ls** command.
 ```bash
 [me@linuxbox me]$ ls -l /bin/bash
 
--rwxr-xr-x 1 root root 313334 Feb 27  
+-rwxr-xr-x 1 root root 313334 Feb 27 2000 /bin/bash
+```
+
+## chmod
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzI3NjQyNl19
+eyJoaXN0b3J5IjpbLTE2MjMxMDg2ODZdfQ==
 -->
