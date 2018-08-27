@@ -37,8 +37,11 @@ ps
 kill 1293
 ```
 
+## A little more about kill
+kill command can send a variety of signals to process 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTM3NzMwMCwtMjcwNzQ4MzMxXX0=
+eyJoaXN0b3J5IjpbNDA1NzcxMDkzLC0yNzA3NDgzMzFdfQ==
 -->
