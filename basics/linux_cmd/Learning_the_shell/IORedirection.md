@@ -12,7 +12,12 @@ If you want the new results to be appended to the file instead, use ">>" like th
 ```
 
 ## Standard Input
-Many commands can accept input from a facility called standard input. By defau
+Many commands can accept input from a facility called standard input. By default, standard input gets its contents from the keyboard, but like standard output, it can be redirected.
+```bash
+[me@linuxbox me]$ sort < file_list.txt
+```
+
+you can do 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjcxMjEzOF19
+eyJoaXN0b3J5IjpbODY0NzcxMzMxXX0=
 -->
