@@ -48,6 +48,8 @@ If you type cd followed by nothing, cd will change the working directory to your
 [me@linuxbox foo/bin]$ pwd
 /home/foo/bin
 ``` 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDEzOTAyOSwxMDkwODIxMjldfQ==
+eyJoaXN0b3J5IjpbLTE0MDc2ODQwMDcsLTUwNDEzOTAyOSwxMD
+kwODIxMjldfQ==
 -->
