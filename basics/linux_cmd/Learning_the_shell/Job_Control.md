@@ -8,8 +8,17 @@ There are several commands that can be used to control processes. They are:
 
 ## Putting a program in the background
 Now, we are going to launch the **xload** program in the background so that prompt will return.
-```ba
+```bash
+[me@linuxbox me]$ xload &
+```
+you can do the same thing using the **bg** command.
+```bash
+[me@linuxbox me]$ xload
+[me@linuxbox me]$ bg
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4ODM3NDFdfQ==
+eyJoaXN0b3J5IjpbLTEyNDYzMTg1OTRdfQ==
 -->
