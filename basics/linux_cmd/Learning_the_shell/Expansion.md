@@ -21,7 +21,10 @@ echo *s
 echo [[:upper:]]*
 ```
 
+## Tilde Expansion
+the tilde character ("~") has a special meaning. When used at the beginning of a word., it expands into the name of the home directory of the named use
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTI2MDNdfQ==
+eyJoaXN0b3J5IjpbNTIxNDc4NjkwXX0=
 -->
