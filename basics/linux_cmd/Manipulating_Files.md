@@ -51,6 +51,14 @@ The **rm** commands removes (deletes) files and directories.
 [me@linuxbox me]$ rm -r directory
 ```
 
+## mkdir 
+The **mkdir** command is used to create directories.
+```bash
+[me@linuxbox me]$ mkdir directory...
+```
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjczMTQyNF19
+eyJoaXN0b3J5IjpbLTE4Nzg1MDg5MjJdfQ==
 -->
