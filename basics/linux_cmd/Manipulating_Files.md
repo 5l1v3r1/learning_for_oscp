@@ -22,7 +22,14 @@ wildcards allow you to select filenames based on patterns of characters. The tab
 |:--|:--|
 
 ## cp
-The **cp** program cop
+The **cp** program copies files and directories. 
+```bash
+[me@linuxbox me]$ cp file1 file2
+```
+```bash
+[me@linuxbox me]$ cp file... directory
+```
+- i option is used for  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDY3OTQzN119
+eyJoaXN0b3J5IjpbODY5NTk0NzA2XX0=
 -->
