@@ -44,6 +44,12 @@ In some distributions, an alternate method is used. Rather than using su, these 
 Password:
 [me@linuxbox me]$
 ```
+
+## Changing File OwnerShip
+You can change the owner of a file by using the **chown** command. Notice that in order to change the owner of a file, you must be the superuser.
+```bash
+[me@linuxbox me]$ sudo chown you some_file
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTQwOTIwMCwyOTEzMDQ1NzBdfQ==
+eyJoaXN0b3J5IjpbMTY0ODM5NTI2NywyOTEzMDQ1NzBdfQ==
 -->
