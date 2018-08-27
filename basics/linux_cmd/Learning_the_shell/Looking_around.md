@@ -38,9 +38,14 @@ Here are some commands that **less** will accept:
 |:--|:--|
 |Page up or b|Scroll back one page|
 |Page down or space|Scroll forward one page|
-|G|
+|G|Go to the end of the text file|
+|1G|Go to the beginning of the text file|
+|/character|Search forward in the text file for an occurrence of the specified characters|
+|n|Repeat the previous search|
+|
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzA0NjgzXX0=
+eyJoaXN0b3J5IjpbMTg4MzIzNDMwOV19
 -->
