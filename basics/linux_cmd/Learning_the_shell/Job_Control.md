@@ -1,7 +1,5 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+# Job Control
+There are several 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTUwMDE4OTQ1M119
 -->
