@@ -45,7 +45,8 @@ When you find interesting programs to install on your system, they shou.d be ins
 |/home|/home is where users keep their personal work.|
 :--|:--|
 |/root|This is the superuser's home directory.
-|/tmp|/tmp is a direc
+|/tmp|/tmp is a directory in which programs can write their temporary files.|
+|/dev|The /dev directory is a special directory, since it does not really contain files in th usual sense. Rather, it contains devices that are available to the system
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk5NjMxMF19
+eyJoaXN0b3J5IjpbMTM5MzA0MTE0N119
 -->
