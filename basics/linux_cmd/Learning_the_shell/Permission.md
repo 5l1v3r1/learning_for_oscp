@@ -32,7 +32,13 @@ The chmod command can also be used to control the access permission for director
 ## Becoming the superuser for a short while
 It is often necessary to become the superuser to perform important system administration tasks. In those case, you can use the **su** command.
 ```bash
-[me@linuxbox me]$
+[me@linuxbox me]$ su
+Password:
+[root@linuxbox me]#
+```
+to exit the superuser session, type **exit** and you will return to your previous session.
+
+In some distributions, an alternate method is used. Rather than using su, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMDU5MDU2LDI5MTMwNDU3MF19
+eyJoaXN0b3J5IjpbLTEyOTg0MzM5MjgsMjkxMzA0NTcwXX0=
 -->
