@@ -13,6 +13,7 @@ Commands can be one of 4 different kinds:
 4. An alias
 
 ## Identifying Commands
+### type
 The **type** commands is a shell builtin that display the kind of commands the shell will execute, given a particular command name.
 ```bash
 type command
@@ -26,6 +27,11 @@ ls is aliased to 'ls --color=tty'
 
 [me@linuxbox me]$ type cp
 cp is /bin/cp
+```
+
+### which
+The **which** command is used to determine the exact location of a 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI2NjIwNjhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTcyMjU1NDhdfQ==
 -->
