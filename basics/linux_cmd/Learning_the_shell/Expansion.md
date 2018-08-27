@@ -84,9 +84,8 @@ Entire piplines can be used
 file $(ls /usr/bin* | grep bin/zip)
 ```
 
-## Quoting
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDY3NjEyMl19
+eyJoaXN0b3J5IjpbLTEzNjc3MjQwNDddfQ==
 -->
