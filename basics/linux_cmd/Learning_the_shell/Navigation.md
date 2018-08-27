@@ -13,7 +13,10 @@ The directory you are standing in is called the **working directory**. To find t
 When you first log on to a Linux system, the working directory is set to your home directory. On most systems, your home directory will be called /home/{your_username}
 
 ### ls
-To list the files in the working directory, 
+To list the files in the working directory, use the **ls** command.
+```bash
+[me@linuxbox me]$ ls
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY1OTc2NzJdfQ==
+eyJoaXN0b3J5IjpbMTYxODkzODQ1OF19
 -->
