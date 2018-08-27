@@ -18,9 +18,11 @@ wildcards allow you to select filenames based on patterns of characters. The tab
 	[:digit:]	Numerals
 	[:upper:]	Uppercase
 	[:lower:]	Lowercase
-	
-	|[!characters]|Matches any character that is not a member of the set characters|
-	|:--|:--|
+|[!characters]|Matches any character that is not a member of the set characters|
+|:--|:--|
+
+## cp
+The **cp** program cop
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4OTM0MjEwXX0=
+eyJoaXN0b3J5IjpbMTUyNDY3OTQzN119
 -->
