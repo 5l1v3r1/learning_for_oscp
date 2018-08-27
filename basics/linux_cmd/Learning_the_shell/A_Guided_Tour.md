@@ -18,7 +18,7 @@ For each of the directories listed below, do the following:
 	This file lists the network host names and IP address that are intrinsically known to the system
 /etc/init.d
 	This directory contains the script that start various system services typically at boot time.|
-|/bin, /usr/bin|These
+|/bin, /usr/bin|These|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5MjY1ODcxXX0=
+eyJoaXN0b3J5IjpbMjAyODc5NjI2NV19
 -->
