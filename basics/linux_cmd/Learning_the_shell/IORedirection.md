@@ -29,8 +29,13 @@ me@linuxbox me]$ ls -l | less
 ```
 
 ## Filter
-One kind of program frequently used in pipelines is called filters. Filters take standard input and perform an operation upon it and send the results to standard output. In this way, they can be combined to process information 
+One kind of program frequently used in pipelines is called filters. Filters take standard input and perform an operation upon it and send the results to standard output. In this way, they can be combined to process information in powerful ways. 
 
+Common filter commands
+|**program**|What it does|
+|:--|:--|
+|sort|Sorts standard input then outputs the sorted result on standard output|
+|uniq|Given a sorted stream of data from standard 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDY5NTg4OF19
+eyJoaXN0b3J5IjpbMTAyMDk1NDU2OV19
 -->
