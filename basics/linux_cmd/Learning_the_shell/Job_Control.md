@@ -27,9 +27,9 @@ To display a list of the processes we have launched, we can use either the **job
 ```
 
 ## Killing a process
-
+When you wish to get rid of a program that become unresponsive, you can use the **kill** command. First, you need to identify the process you want to kill. You can use either **jobs** or **ps**, to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDc0ODMzMV19
+eyJoaXN0b3J5IjpbMTIwMDEwODk5NiwtMjcwNzQ4MzMxXX0=
 -->
