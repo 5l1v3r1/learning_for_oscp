@@ -8,8 +8,13 @@ you need to know some commands that will come in handy during you learning about
 ## ls
 This command is used to list the contents of a directory.
 
-| **Command**|**Res
+| **Command**|**Result**|
+|:--|:--|
+|ls|List the files in the working directory|
+|ls /bin|List the files in the /bin directory|
+|ls -l|List the files in the working directory in long format|
+|ls -l /etc/bin|List the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTg3OTE0M119
+eyJoaXN0b3J5IjpbMTc4MTU3NDgyN119
 -->
