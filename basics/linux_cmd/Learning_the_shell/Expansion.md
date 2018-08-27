@@ -22,9 +22,20 @@ echo [[:upper:]]*
 ```
 
 ## Tilde Expansion
-the tilde character ("~") has a special meaning. When used at the beginning of a word., it expands into the name of the home directory of the named use
+the tilde character ("~") has a special meaning. When used at the beginning of a word., it expands into the name of the home directory of the named user.
+```bash
+echo ~
+/home/me
+```
+```bash
+echo ~foo
+/home/foo
+```
+
+## Arithmetic Expansion
+The shell
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNDc4NjkwXX0=
+eyJoaXN0b3J5IjpbLTE5NjQ3MTUxNF19
 -->
