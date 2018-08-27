@@ -25,7 +25,12 @@ The **chmod** command is used to change the permission of a file or directory. T
 
 ## Directory Permission
 The chmod command can also be used to control the access permission for directories.
-- **r** - Allows the contents of the directory to be listed if the x attribute
+- **r** - Allows the contents of the directory to be listed if the x attribute is also set.
+- **w** - Allows files within the directory to be created, deleted, or renamed if the x attribute is also set.
+- **x** - Allows a directory to be entered
+
+## Becoming the superuser for a short while
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzQ4NDE2NSwyOTEzMDQ1NzBdfQ==
+eyJoaXN0b3J5IjpbNTQ1MTI2NywyOTEzMDQ1NzBdfQ==
 -->
