@@ -6,8 +6,10 @@ There are several commands that can be used to control processes. They are:
 - **bg** - put a process in the background
 - **fg** - put a process in the forground
 
-## A Practical Example
+## Putting a program in the background
+Now, we are going to launch the **xload** program in the background so that prompt will return.
+```ba
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUyMTUxMTRdfQ==
+eyJoaXN0b3J5IjpbNTI4ODM3NDFdfQ==
 -->
