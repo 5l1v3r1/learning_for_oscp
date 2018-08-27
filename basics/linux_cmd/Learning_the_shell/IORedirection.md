@@ -42,7 +42,9 @@ Common filter commands
 |head|Outputs the first few lines of its input. Useful for getting the header of a file.|
 |tail|Outputs the last few lines of its input. Useful for things like getting the most recent entries from a log file.|
 |tr|Translates characters. Can be used to perform tasks such as upper/lowercase conversions or changing line termination characters from one type to another.|
-|
+|sed|Stream editor. Can perform more sophisticated text translations than tr.|
+|awk|An entire programming language designed for constructing filters. Extremely powerful.|
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzI0NDI2MV19
+eyJoaXN0b3J5IjpbMTM4MDU2MjU1M119
 -->
