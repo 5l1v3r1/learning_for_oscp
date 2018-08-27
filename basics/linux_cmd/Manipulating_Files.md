@@ -34,7 +34,7 @@ if you specified i option and the file you want to make exists, the user is prom
 if you want to copy directory, you should specify R option
 
 ## mv
-the mv commands moves or rename files and directories.
+the **mv** commands moves or rename files and directories.
 ```bash
 [me@linuxbox me]$ mv filename1 filename2
 ```
@@ -42,6 +42,15 @@ the mv commands moves or rename files and directories.
 [me@linuxbox me]$ mv file... directory
 ```
 
+## rm
+The **rm** commands removes (deletes) files and directories.
+```bash
+[me@linuxbox me]$ rm file...
+```
+```bash
+[me@linuxbox me]$ rm -r directory
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4MjI2OTc2XX0=
+eyJoaXN0b3J5IjpbMTg3MjczMTQyNF19
 -->
