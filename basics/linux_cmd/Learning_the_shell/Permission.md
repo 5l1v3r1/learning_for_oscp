@@ -19,7 +19,11 @@ To see the permission settings for a file, we can use the **ls** command.
 ## chmod
 The **chmod** command is used to change the permission of a file or directory. To use it, you specify the desired permission settings and the file or files that you wish to modify.
 
+```bash
+[me@linuxbox me]$ chmod 600 bar
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzM2NTIwN119
+eyJoaXN0b3J5IjpbLTQ3NjU3NzM4OF19
 -->
