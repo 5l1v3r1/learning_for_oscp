@@ -6,8 +6,22 @@ Example of Expansion:
 ```
 
 ## Pathname Expansion
-The mechanism by which wildcards work is called **pathname expansion**. I
+The mechanism by which wildcards work is called **pathname expansion**. 
+we can carry out following expansion:
+```bash
+ls
+```
+```bash
+echo D*
+```
+```bash
+echo *s
+```
+```bash
+echo [[:upper:]]*
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI0NjY4MzZdfQ==
+eyJoaXN0b3J5IjpbMTc0OTI2MDNdfQ==
 -->
