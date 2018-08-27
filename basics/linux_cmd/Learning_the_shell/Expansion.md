@@ -65,7 +65,7 @@ mkdir {2007..2009}-0{1..9} {2007..2009}-{10..12}
 ```
 
 ## Parameter Expansion
-
+variables can expand 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODg5ODYwXX0=
+eyJoaXN0b3J5IjpbMjI4MDg2NjM1XX0=
 -->
