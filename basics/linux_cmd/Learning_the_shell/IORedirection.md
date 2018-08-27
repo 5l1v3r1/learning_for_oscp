@@ -23,7 +23,11 @@ you can use "<" and ">" at same time.
 ```
 
 ## Pipelines
-You can connect multiple commands together with what are called 
+You can connect multiple commands together with what are called **pipelines**
+```
+me@linuxbox me]$ ls -l | less
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg5OTMyNl19
+eyJoaXN0b3J5IjpbMTc0ODIzMzc4NF19
 -->
