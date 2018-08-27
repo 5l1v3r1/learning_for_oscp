@@ -46,8 +46,11 @@ Many executable programs support a "--help" option that displays a description o
 ### man
 A special pagin program called **man** is used to view man page.
 ``` bash
-man program
+[me@linuxbox me]$ man ls
 ```
+
+### README And other documentation files
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTMzOTU4OF19
+eyJoaXN0b3J5IjpbLTE4NDYwMTMzOTddfQ==
 -->
