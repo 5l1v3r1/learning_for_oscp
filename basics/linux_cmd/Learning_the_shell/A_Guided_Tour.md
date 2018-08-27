@@ -23,6 +23,11 @@ For each of the directories listed below, do the following:
 |/sbin, /usr/sbin|The sbin directory contain programs for system administration, mostly for use by the superuser.|
 |/usr|The /usr direcotry contains a variety of things that support user applications. Some highlights:
 /usr/share/x11
+	Support files for the X window system
+/usr/share/dict
+	Dictionaries for the spelling checker. Bet you didn't know that Linux had a spelling checker. See look and aspell.
+/usr/share/doc
+	Various documentation files in a varie
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MDc3MzY4XX0=
+eyJoaXN0b3J5IjpbLTc5MDA4ODQ3NF19
 -->
