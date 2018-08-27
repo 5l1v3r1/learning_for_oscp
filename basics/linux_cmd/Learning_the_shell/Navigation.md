@@ -10,7 +10,10 @@ The directory you are standing in is called the **working directory**. To find t
 [me@linuxbox me]]$ pwd
 /home/me
 ```
-When you first log on to a Linux system, the working directory is set
+When you first log on to a Linux system, the working directory is set to your home directory. On most systems, your home directory will be called /home/{your_username}
+
+### ls
+To list the files in the working directory, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA0OTQwMDNdfQ==
+eyJoaXN0b3J5IjpbLTE3ODY1OTc2NzJdfQ==
 -->
