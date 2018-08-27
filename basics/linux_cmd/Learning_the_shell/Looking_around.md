@@ -15,8 +15,18 @@ This command is used to list the contents of a directory.
 |ls -l|List the files in the working directory in long format|
 |ls -l /etc/bin|List the files in the /bin directory and the /etc/directory in long format|
 |ls -la ..|List all files in the parent of the working directory in long format|
-If you use ls with l option, you will get a file listing that contains a wealth of information  
+If you use ls with l option, you will get a file listing that contains a wealth of information
+
+- File Name
+- Modification Time
+- Size
+- Group
+- Owner
+- File Permission
+
+## less  
+**less** is a program that lets you view text files. This is very handy since many of the fi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MTM4ODM3XX0=
+eyJoaXN0b3J5IjpbLTkxNzU5Nzc5OV19
 -->
