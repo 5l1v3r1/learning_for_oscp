@@ -51,7 +51,7 @@ A special pagin program called **man** is used to view man page.
 
 ### README And other documentation files
 Many software packages installed on your system have documentation files residing in the /usr/share/doc directory.
-use **less** or **zless** to view text and compressed text and use web-browser  
+use **less** or **zless** to view text and compressed text and use web-browser to view html 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5NDIxNDY3XX0=
+eyJoaXN0b3J5IjpbMjc3NTY2OTA4XX0=
 -->
