@@ -42,10 +42,15 @@ Here are some commands that **less** will accept:
 |1G|Go to the beginning of the text file|
 |/character|Search forward in the text file for an occurrence of the specified characters|
 |n|Repeat the previous search|
-|
+|h|Display a complete list less commands and options|
+|q|Quit|
+
+## file
+It is helpful to determine what kind of data a file contains before you try to view it.
+To use the **file** program, just type:
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzIzNDMwOV19
+eyJoaXN0b3J5IjpbMTA3Njk0OTk5MF19
 -->
