@@ -45,6 +45,7 @@ Common filter commands
 |sed|Stream editor. Can perform more sophisticated text translations than tr.|
 |awk|An entire programming language designed for constructing filters. Extremely powerful.|
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDU2MjU1M119
+eyJoaXN0b3J5IjpbMTYwOTMwNDY3OV19
 -->
