@@ -55,10 +55,15 @@ file name_of_file
 The **file** program can recognize most type of files, such as:
 |**File Type**|**Description**|**Viewable as text**|
 |:--|:--|:--|
-|Ascii textt
+|Ascii text|The name says it all|yes|
+|Bounce-Again shell script|A bash script|yes|
+|ELF 32-bit LSB core file|A core dump file(a program will create this when it crashes)|no|
+|ELF 32-bit LSB shared objectA shared library
+
+no
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY2MjcyN119
+eyJoaXN0b3J5IjpbLTIzMTEzMDY3N119
 -->
