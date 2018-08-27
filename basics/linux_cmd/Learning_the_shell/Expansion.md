@@ -44,9 +44,12 @@ The shell allows arithmetic to be performed by expansion. This allows us to use 
 ```
 
 ## Brace Expansion
-With brace expansion, you can crate multiple text strings for
+With brace expansion, you can crate multiple text strings from a pattern containing braces. Here's an example:
+```bash
+echo Front-{A,B,C}-Back
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NjQzMDI1XX0=
+eyJoaXN0b3J5IjpbMTcyODE1MTc3NV19
 -->
