@@ -35,7 +35,9 @@ Common filter commands
 |**program**|What it does|
 |:--|:--|
 |sort|Sorts standard input then outputs the sorted result on standard output|
-|uniq|Given a sorted stream of data from standard 
+|uniq|Given a sorted stream of data from standard input, it removes duplicate lines of data|
+|grep|Examines each line of data it receives from standard input and outputs every line that contains a specified pattern of characters.|
+|fmt|Reads text
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDk1NDU2OV19
+eyJoaXN0b3J5IjpbLTcwNjgwMjA5OV19
 -->
