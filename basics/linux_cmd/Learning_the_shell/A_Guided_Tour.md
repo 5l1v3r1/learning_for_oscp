@@ -37,7 +37,11 @@ For each of the directories listed below, do the following:
 When you find interesting programs to install on your system, they shou.d be installed in one of the /usr/local directories. Most often, directory of choice is /usr/local/bin
 |/lib|The shared libraries (similar to DLLs in that other operating system) are kept here.|
 |:--|:--|
-|/var|The /v
+|/var|The /var directory contains files that changes as the system is running. This includes:
+/var/log
+	Directory that contains log files
+/var/spool
+	This directory is used to hold files that are queued for some process, such as mail messages and print jobs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3OTMzNDI3XX0=
+eyJoaXN0b3J5IjpbLTU2NzYxMzgzN119
 -->
