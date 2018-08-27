@@ -61,10 +61,24 @@ The **file** program can recognize most type of files, such as:
 |ELF 32-bit LSB shared object|A shared library|no|
 |GNU tar archive|A tape archive file. A common way of storing groups of files.|no, use  tar tvf  to view listing.|
 |ELF 32-bit LSB executable|An executable binary program|no|
-|gzip compressed data|An archive compressed with  gzip|no
+|gzip compressed data|An archive compressed with gzip|no|
+|HTML document text|A web page|yes|
+|JPEG image data|A compressed JPEG image|no|
+|PostScript document text|A PostScript file|yes|
 
+RPM
+
+A Red Hat Package Manager archive
+
+no, use  rpm -q  to examine contents.
+
+Zip archive data
+
+An archive compressed with  zip
+
+no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODE0MDI1OF19
+eyJoaXN0b3J5IjpbMjAyNjAyOTkwNl19
 -->
