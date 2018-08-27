@@ -30,8 +30,15 @@ cp is /bin/cp
 ```
 
 ### which
-The **which** command is used to determine the exact location of a 
+The **which** command is used to determine the exact location of a given executable.
+```bash
+[me@linuxbox me]$ which ls
+/bin/ls
+```
+
+## Getting Command Documentation
+### help
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcyMjU1NDhdfQ==
+eyJoaXN0b3J5IjpbLTE3MTMwMTc0ODVdfQ==
 -->
