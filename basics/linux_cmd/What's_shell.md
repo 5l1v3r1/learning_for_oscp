@@ -14,7 +14,8 @@ You should see a shell prompt that contains your username and the name of the ma
 ```
 me@linuxbox me $
 ```
+you can type
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTU4NjkyXX0=
+eyJoaXN0b3J5IjpbLTEwMjAxNDcyNTddfQ==
 -->
