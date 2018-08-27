@@ -17,7 +17,13 @@ Many commands can accept input from a facility called standard input. By default
 [me@linuxbox me]$ sort < file_list.txt
 ```
 
-you can do 
+you can use "<" and ">" at same time.
+```bash
+[me@linuxbox me]$ sort < file_list.txt > sorted_file_list.txt
+```
+
+## Pipelines
+You can connect multiple commands together with what are called 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0NzcxMzMxXX0=
+eyJoaXN0b3J5IjpbLTE5Mzg5OTMyNl19
 -->
