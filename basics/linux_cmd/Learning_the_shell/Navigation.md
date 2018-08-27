@@ -27,8 +27,13 @@ You can use absolute pathnames.
 [me@linuxbox bin]$ pwd
 /usr/bin
 ```
-You can also use relative pathnames
+You can also use relative pathnames.
+```bash
+[me@linuxbox bin]$ cd ..
+[me@linuxbox usr]$ pwd
+/usr
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Mzc0NDQ1XX0=
+eyJoaXN0b3J5IjpbMTc1ODk3OTc5M119
 -->
