@@ -39,8 +39,10 @@ Common filter commands
 |grep|Examines each line of data it receives from standard input and outputs every line that contains a specified pattern of characters.|
 |fmt|Reads text from standard input, then outputs formatted tet on standard output.|
 |pr|Takes text input from standard input and splits the data into pages with page breaks, headers and footers in preparation for printing.|
-|head|Outputs the first few lines of its input. Useful for getting the header of a file.
-
+|head|Outputs the first few lines of its input. Useful for getting the header of a file.|
+|tail|Outputs the last few lines of its input. Useful for things like getting the most recent entries from a log file.|
+|tr|Translates characters. Can be used to perform tasks such as upper/lowercase conversions or changing line termination characters from one type to another.|
+|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM0NTE2OF19
+eyJoaXN0b3J5IjpbLTQxMzI0NDI2MV19
 -->
