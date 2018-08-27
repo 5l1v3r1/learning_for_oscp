@@ -50,7 +50,7 @@ When you find interesting programs to install on your system, they shou.d be ins
 |/proc|The /proc directory is also special. This directory does not contain files. In fact, this directory does not really exist at all. It is entirely virtual. The /proc directory contains little peep holes into the kernel itself. There are a group of numbered entries in this directory that correspond to all the processed running on the system. In addition, there are a number of named entries that permit access to the current configuration of the system. Many of these entries can be viewed. /proc/cpuinfo tell you what the kernel thinks of your CPU.|
 |/media, /mnt|Finally, we come to /media, a normal directory which is used in a special way. The /media directory is used for mount points. the different physical storage devices are attached to the file system tree in various places. This process of attaching a device to the tree is called **mounting**. For a device to be available, It must first be mounted.
 
-When your system boots, it reads a list of mounting instructions in the file /etc/fstab, which describes which device is mounted at which mount point in the d
+When your system boots, it reads a list of mounting instructions in the file /etc/fstab, which describes which device is mounted at which mount point in the directory tree. This takes care of the hard drives, but you may also have devices that are considered temporary, such as CD-ROMs, thumb derives, and floppy disks. Since these are removable, they do not stay mounted all the time, The 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMjgzOTE5XX0=
+eyJoaXN0b3J5IjpbMjU4MDkzOTQ0XX0=
 -->
