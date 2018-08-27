@@ -18,9 +18,18 @@ you can do the same thing using the **bg** command.
 ```
 
 ## Listing your process
-To display a list of the processes we have launched
+To display a list of the processes we have launched, we can use either the **jobs** command or the more powerful **ps** command.
+```bash
+[me@linuxbox me]$ jobs
+```
+```bash
+[me@linuxbox me]$ ps
+```
+
+## Killing a process
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM5MTcxNDNdfQ==
+eyJoaXN0b3J5IjpbLTI3MDc0ODMzMV19
 -->
