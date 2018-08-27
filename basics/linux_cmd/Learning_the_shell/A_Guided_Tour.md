@@ -47,7 +47,8 @@ When you find interesting programs to install on your system, they shou.d be ins
 |/root|This is the superuser's home directory.
 |/tmp|/tmp is a directory in which programs can write their temporary files.|
 |/dev|The /dev directory is a special directory, since it does not really contain files in th usual sense. Rather, it contains devices that are available to the system. In Linux (like Unix), devices as though they were files. For example /dev/fd0 is the first floppy disk drive, /dev/sda (/dev/hda on older system) is the first hard drive. All th devices that the kernel understands are represented here.|
-|/proc|The /proc directory is also special. This directory does not contain files. In fact, this directory does not really exist at all. It is entirely virtual. The /proc directory contains little peep holes into the kernel itself. There are a group of numbered entries in this directory that correspond to all the processed running on the system 
+|/proc|The /proc directory is also special. This directory does not contain files. In fact, this directory does not really exist at all. It is entirely virtual. The /proc directory contains little peep holes into the kernel itself. There are a group of numbered entries in this directory that correspond to all the processed running on the system. In addition, there are a number of named entries that permit access to the current configuration of the system. Many of these entries can be viewed. /proc/cpuinfo tell you what the kernel thinks of your CPU.|
+|/media, /mnt|Finally, we come  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTM3Mjc2MV19
+eyJoaXN0b3J5IjpbLTE2NzU0NzQ0MTFdfQ==
 -->
