@@ -30,10 +30,14 @@ You can use absolute pathnames.
 You can also use relative pathnames.
 ```bash
 [me@linuxbox bin]$ cd ..
-[me@linuxbox usr]$ pwd
-/usr
+[me@linuxbox usr]$ cd bin
+[me@linuxbox bin]$ pwd
+/usr/bin
 ```
 
+### A Few Shortcuts
+If you type cd fol
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDgyMTI5XX0=
+eyJoaXN0b3J5IjpbMzk0MDU0NjYwLDEwOTA4MjEyOV19
 -->
