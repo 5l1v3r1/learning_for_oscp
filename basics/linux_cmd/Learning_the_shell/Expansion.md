@@ -35,9 +35,15 @@ echo ~foo
 ## Arithmetic Expansion
 The shell allows arithmetic to be performed by expansion. This allows us to use the shell prompt as a calculator:
 ```bash
-[me@linuxbox me]$ e
+[me@linuxbox me]$ echo $((2 + 2))
+4
+```
+```bash
+[me@linuxbox me]$ echo $(($((5**2)) * 3))
+75
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTE4ODU3NF19
+eyJoaXN0b3J5IjpbOTk4MzUwNjc3XX0=
 -->
