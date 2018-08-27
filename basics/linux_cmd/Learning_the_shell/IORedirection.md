@@ -45,7 +45,14 @@ Common filter commands
 |sed|Stream editor. Can perform more sophisticated text translations than tr.|
 |awk|An entire programming language designed for constructing filters. Extremely powerful.|
 
-
+you can print text formatted with pipelines.
+```bash
+cat foo.txt | fmt | pr | lpr
+```
+you can view the contents of tar files 
+```bash
+tar tzvf bar.tar.gz | less
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTMwNDY3OV19
+eyJoaXN0b3J5IjpbLTIwNDM0MTY5MTFdfQ==
 -->
