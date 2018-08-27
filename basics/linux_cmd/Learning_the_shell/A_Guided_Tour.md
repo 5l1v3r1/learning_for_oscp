@@ -9,7 +9,9 @@ For each of the directories listed below, do the following:
 |:--|:--|
 |/|The root directory where the file system begins. In most cases the root directory only contains subdirectories.|
 |/boot|This is where the Linux Kernel and boot loader files are kept. The kernel is a file called vmlinux.|
-|/etc|The /etc directory contains the configuration files for tht
+|/etc|The /etc directory contains the configuration files for the system. All of the files in /etc should be text files. Points of interest:
+/etc/passwd
+	T
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjA1MDE0N119
+eyJoaXN0b3J5IjpbLTczNTM0MTA3MV19
 -->
