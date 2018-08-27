@@ -2,7 +2,9 @@
 this lesson will introduce you to the following commands:
 - **cp** - copy files and directories
 - **mv** - move or rename files and directories
-- **rm** - remov
+- **rm** - remove files and directories
+- **mkdir** - create directories
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAyODQwMjldfQ==
+eyJoaXN0b3J5IjpbLTY1NTM4OTQxMF19
 -->
