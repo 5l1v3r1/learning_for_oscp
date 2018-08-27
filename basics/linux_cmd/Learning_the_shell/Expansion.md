@@ -48,8 +48,18 @@ With brace expansion, you can crate multiple text strings from a pattern contain
 ```bash
 echo Front-{A,B,C}-Back
 ```
+Here is an example using a range of integers:
+```bash
+echo Number_{1..5}
+```
+A range of letters in reverse order:
+```bash
+echo {Z..A}
+```
+Brace expansion may be nested:
+echo a{A{1,2},B{3,4}}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODE1MTc3NV19
+eyJoaXN0b3J5IjpbMTc0MTEzNzYyNF19
 -->
