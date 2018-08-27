@@ -1,5 +1,5 @@
 # Expansion
-The process befo
+The process before shell carries out your command is called **expansion**. With expansion, you type something and it is expanded into something else before the shell acts upon it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzY1Nzk5Ml19
+eyJoaXN0b3J5IjpbMTE5NjI3MDIwXX0=
 -->
