@@ -26,7 +26,15 @@ If you use ls with l option, you will get a file listing that contains a wealth 
 
 ## less  
 **less** is a program that lets you view text files. This is very handy since many of the files used to control and configure Linux are human readable.
+The less program is invoked by simply typing:
+```bash
+less text_file
+```
+
+### Controlling less
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIxNDY4NjJdfQ==
+eyJoaXN0b3J5IjpbNDkxMTgyMTAyXX0=
 -->
