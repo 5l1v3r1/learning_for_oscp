@@ -34,7 +34,14 @@ if you specified i option and the file you want to make exists, the user is prom
 if you want to copy directory, you should specify R option
 
 ## mv
+the mv commands moves or rename files and directories.
+```bash
+[me@linuxbox me]$ mv filename1 filename2
+```
+```bash
+[me@linuxbox me]$ mv file... directory
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDM5MTc0Ml19
+eyJoaXN0b3J5IjpbODQ4MjI2OTc2XX0=
 -->
