@@ -39,6 +39,12 @@ The **which** command is used to determine the exact location of a given executa
 ## Getting Command Documentation
 ### help
 bash has a built-in help facility available for each of the shell builtins. To use it, type "help" followed by the name of shell builtin. Optionally, you may add the -m option to change the format of the output.
+
+### --help
+Many executable programs support a "--help" option that displays a description of the commands supported syntax and options.
+
+### man
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY2Nzg0MjhdfQ==
+eyJoaXN0b3J5IjpbMTc1NzMxNTc0NF19
 -->
