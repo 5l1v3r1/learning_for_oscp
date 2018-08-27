@@ -30,7 +30,9 @@ The chmod command can also be used to control the access permission for director
 - **x** - Allows a directory to be entered
 
 ## Becoming the superuser for a short while
-
+It is often necessary to become the superuser to perform important system administration tasks. In those case, you can use the **su** command.
+```bash
+[me@linuxbox me]$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1MTI2NywyOTEzMDQ1NzBdfQ==
+eyJoaXN0b3J5IjpbNzUwMDU5MDU2LDI5MTMwNDU3MF19
 -->
