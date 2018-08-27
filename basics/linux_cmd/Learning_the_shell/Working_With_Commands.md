@@ -13,7 +13,19 @@ Commands can be one of 4 different kinds:
 4. An alias
 
 ## Identifying Commands
-The **type** commands is a shell builtin that display the kind of commands the shell will execute, given a par
+The **type** commands is a shell builtin that display the kind of commands the shell will execute, given a particular command name.
+```bash
+type command
+```
+```bash
+[me@linuxbox me]$ type type
+type is a shell builtin
+
+[me@linuxbox me]$ type ls
+ls is aliased to 'ls --color=tty'
+
+[me@linuxbox me]$ type cp
+cp is /bin/cp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MjE0MDQ2XX0=
+eyJoaXN0b3J5IjpbLTE1ODI2NjIwNjhdfQ==
 -->
