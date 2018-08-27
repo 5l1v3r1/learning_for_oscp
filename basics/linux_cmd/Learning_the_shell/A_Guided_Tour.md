@@ -17,8 +17,10 @@ For each of the directories listed below, do the following:
 /etc/hosts/
 	This file lists the network host names and IP address that are intrinsically known to the system
 /etc/init.d
-	This directory contains the script that start various system services typically at boot time.|
-|/bin, /usr/bin|These|
+	This directory contains the script that start various system services typically at boot time.
+|/bin, /usr/bin|These two directories contain most of the programs for the system. The /bin directory has the essential programs that the system requires to operate, while /usr/bin contains application for the system's users.|
+|:--|:--|
+|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODc5NjI2NV19
+eyJoaXN0b3J5IjpbLTEzNTEzOTgzNjddfQ==
 -->
