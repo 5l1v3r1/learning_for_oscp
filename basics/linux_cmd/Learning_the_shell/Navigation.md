@@ -16,7 +16,11 @@ When you first log on to a Linux system, the working directory is set to your ho
 To list the files in the working directory, use the **ls** command.
 ```bash
 [me@linuxbox me]$ ls
+//files and directories in the current directory will be shown here.
+```
 
+### cd
+To change your working directory (where you are standing i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODkzODQ1OF19
+eyJoaXN0b3J5IjpbLTE5OTAzNjc5NDBdfQ==
 -->
