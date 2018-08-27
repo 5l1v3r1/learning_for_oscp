@@ -6,7 +6,13 @@ Standard output directs its contents to the display. To redirect standard output
 ```bash
 [me@linuxbox me]$ ls > file_list.txt
 ```
+If you want the new results to be appended to the file instead, use ">>" like this:
+```bash
+[me@linuxbox me]$ ls >> file_list.txt
+```
 
+## Standard Input
+Many commands can accept input from a facility called standard input. By defau
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0MzE1Mzk3XX0=
+eyJoaXN0b3J5IjpbLTMxNjcxMjEzOF19
 -->
