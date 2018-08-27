@@ -12,7 +12,13 @@ wildcards allow you to select filenames based on patterns of characters. The tab
 |:--|:--|
 |*|Matches any characters|
 |?|Matches any single characters|
-|[character]|Mathces any character that is a member of the set characters. you can use POSIX character class ins
+|[character]|Mathces any character that is a member of the set characters. you can use POSIX character class instead.
+[:alnum:]	Alphanumeric characters
+[:alpha:]	Alphabetic characters
+[:digit:]	Numerals
+[:upper:]	Uppercase
+[:lower:]	Lowercase
+|[!characters]|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTIwNTY1NzVdfQ==
+eyJoaXN0b3J5IjpbLTYwNTM0NTU1NV19
 -->
