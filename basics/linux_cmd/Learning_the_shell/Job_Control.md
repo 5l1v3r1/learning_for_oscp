@@ -40,8 +40,13 @@ kill 1293
 ## A little more about kill
 kill command can send a variety of signals to process. Typing `kill -l` will give you a list of the signals it supports.
 
+|Signal|Name|Description|
+|:--|:--|:--|
+|1|SIGHUP|Hang up signal. Programs can listen for this signal and act upon it. This signal is sent to processed running in a terminal when you close the terminal.|
+|2||SIG
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyMTM1NDUyLC0yNzA3NDgzMzFdfQ==
+eyJoaXN0b3J5IjpbLTIwMzM1NTUzODUsLTI3MDc0ODMzMV19
 -->
