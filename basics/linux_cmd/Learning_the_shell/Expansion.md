@@ -57,9 +57,9 @@ A range of letters in reverse order:
 echo {Z..A}
 ```
 Brace expansion may be nested:
-echo a{A{1,2},B{3,4}}
+echo a{A{1,2},B{3,4}}b
 
-
+This expansion is used to make lists of files or directories to be created.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTEzNzYyNF19
+eyJoaXN0b3J5IjpbLTEyNzY3MTY4MzZdfQ==
 -->
