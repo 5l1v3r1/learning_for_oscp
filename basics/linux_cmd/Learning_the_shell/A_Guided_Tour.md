@@ -27,7 +27,12 @@ For each of the directories listed below, do the following:
 /usr/share/dict
 	Dictionaries for the spelling checker. Bet you didn't know that Linux had a spelling checker. See look and aspell.
 /usr/share/doc
-	Various documentation files in a varie
+	Various documentation files in a variety of formats.
+/usr/share/man
+	The man pages are kept here.
+/usr/src
+	Souce code files. If you installed the kernel source code package, you will find the entire Linux kernel source code here.
+|/usr/local|/usr/local and its subdirectories are used for the installation f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDA4ODQ3NF19
+eyJoaXN0b3J5IjpbMTYyNTk3Mjg1OF19
 -->
