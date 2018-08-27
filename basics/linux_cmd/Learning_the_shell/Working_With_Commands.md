@@ -12,7 +12,8 @@ Commands can be one of 4 different kinds:
 3. A shell function
 4. An alias
 
-## Identif
+## Identifying Commands
+The **type** commands is a shell builtin that display the kind of commands the shell will execute, given a par
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTk4NjUxOF19
+eyJoaXN0b3J5IjpbNzU0MjE0MDQ2XX0=
 -->
