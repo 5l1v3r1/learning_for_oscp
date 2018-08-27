@@ -36,8 +36,12 @@ You can also use relative pathnames.
 ```
 
 ### A Few Shortcuts
-If you type cd fol
+If you type cd followed by nothing, cd will change the working directory to your home directory.
+~ means user. So you can use like this
+```
+[me@linuxbox bin]$ cd ~/bin
+[me@lin
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0MDU0NjYwLDEwOTA4MjEyOV19
+eyJoaXN0b3J5IjpbMTY5MTA2OTA2NCwxMDkwODIxMjldfQ==
 -->
