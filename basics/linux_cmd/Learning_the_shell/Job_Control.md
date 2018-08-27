@@ -17,8 +17,10 @@ you can do the same thing using the **bg** command.
 [me@linuxbox me]$ bg
 ```
 
+## Listing your process
+To display a list of the processes we have launched
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYzMTg1OTRdfQ==
+eyJoaXN0b3J5IjpbLTEwMTM5MTcxNDNdfQ==
 -->
