@@ -15,7 +15,10 @@ For each of the directories listed below, do the following:
 /etc/fstab
 	The fstab file contains a table of device that get mounted when your system boots. This file defines your disk drives.
 /etc/hosts/
-	This file lists the network host names and IP address that are intrinsically known
+	This file lists the network host names and IP address that are intrinsically known to the system
+/etc/init.d
+	This directory contains the script that start various system services typically at boot time.|
+|/bin, /usr/bin|These
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTQ5ODk3OF19
+eyJoaXN0b3J5IjpbOTA5MjY1ODcxXX0=
 -->
