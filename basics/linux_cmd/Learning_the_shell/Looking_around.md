@@ -13,8 +13,9 @@ This command is used to list the contents of a directory.
 |ls|List the files in the working directory|
 |ls /bin|List the files in the /bin directory|
 |ls -l|List the files in the working directory in long format|
-|ls -l /etc/bin|List the 
+|ls -l /etc/bin|List the files in the /bin directory and the /etc/directory in long format|
+|ls -la ..|List all files in the parent of the working directory in long format|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTU3NDgyN119
+eyJoaXN0b3J5IjpbLTExNDM3MTMzOTFdfQ==
 -->
