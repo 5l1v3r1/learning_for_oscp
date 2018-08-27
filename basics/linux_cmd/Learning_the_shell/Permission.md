@@ -50,6 +50,12 @@ You can change the owner of a file by using the **chown** command. Notice that i
 ```bash
 [me@linuxbox me]$ sudo chown you some_file
 ```
+
+## Changin Group OwnerShip
+The group ownership of a file or directory may be changed with **chgrp**
+```bash
+[me@linuxbox me]$ chgrp new_group some_file
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODM5NTI2NywyOTEzMDQ1NzBdfQ==
+eyJoaXN0b3J5IjpbMTIzNTU5MTY5NiwyOTEzMDQ1NzBdfQ==
 -->
