@@ -38,10 +38,10 @@ kill 1293
 ```
 
 ## A little more about kill
-kill command can send a variety of signals to process 
+kill command can send a variety of signals to process. Typing `kill -l` will give you a list of the signals it supports.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NzcxMDkzLC0yNzA3NDgzMzFdfQ==
+eyJoaXN0b3J5IjpbNTkyMTM1NDUyLC0yNzA3NDgzMzFdfQ==
 -->
