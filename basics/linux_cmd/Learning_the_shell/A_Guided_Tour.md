@@ -34,7 +34,10 @@ For each of the directories listed below, do the following:
 	Souce code files. If you installed the kernel source code package, you will find the entire Linux kernel source code here.
 |/usr/local|/usr/local and its subdirectories are used for the installation of software and other files for use on the local machine. What this really means is that software that is not part of the official distribution (which usually goes in /usr/bin) goes here.
 
-When you find interesting programs to install on your system, they shou.d be installed in one of the /usr/local directories. Most
+When you find interesting programs to install on your system, they shou.d be installed in one of the /usr/local directories. Most often, directory of choice is /usr/local/bin
+|/lib|The shared libraries (similar to DLLs in that other operating system) are kept here.|
+|:--|:--|
+|/var|The /v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzQ5ODE4Ml19
+eyJoaXN0b3J5IjpbMjU3OTMzNDI3XX0=
 -->
