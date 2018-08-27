@@ -5,6 +5,9 @@ Example of Expansion:
 [me@linuxbox me]$ echo *
 ```
 
+## Pathname Expansion
+The mechanism by which wildcards work is called **pathname expansion**. I
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUzMjk1MTJdfQ==
+eyJoaXN0b3J5IjpbLTE1MzI0NjY4MzZdfQ==
 -->
