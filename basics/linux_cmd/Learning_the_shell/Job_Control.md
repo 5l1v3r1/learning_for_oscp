@@ -27,9 +27,18 @@ To display a list of the processes we have launched, we can use either the **job
 ```
 
 ## Killing a process
-When you wish to get rid of a program that become unresponsive, you can use the **kill** command. First, you need to identify the process you want to kill. You can use either **jobs** or **ps**, to
+When you wish to get rid of a program that become unresponsive, you can use the **kill** command. First, you need to identify the process you want to kill. You can use either **jobs** or **ps**, to do this. If ou use **jobs** you will get back a job number. With **ps**, you are given a process id
+```bash
+xload &
+jobs
+kill %1
+xload &
+ps
+kill 1293
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDEwODk5NiwtMjcwNzQ4MzMxXX0=
+eyJoaXN0b3J5IjpbMjA0MTM3NzMwMCwtMjcwNzQ4MzMxXX0=
 -->
