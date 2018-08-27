@@ -20,7 +20,9 @@ For each of the directories listed below, do the following:
 	This directory contains the script that start various system services typically at boot time.
 |/bin, /usr/bin|These two directories contain most of the programs for the system. The /bin directory has the essential programs that the system requires to operate, while /usr/bin contains application for the system's users.|
 |:--|:--|
-|
+|/sbin, /usr/sbin|The sbin directory contain programs for system administration, mostly for use by the superuser.|
+|/usr|The /usr direcotry contains a variety of things that support user applications. Some highlights:
+/usr/share/x11
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEzOTgzNjddfQ==
+eyJoaXN0b3J5IjpbODY5MDc3MzY4XX0=
 -->
