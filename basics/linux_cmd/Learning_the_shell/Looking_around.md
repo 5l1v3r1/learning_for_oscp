@@ -48,9 +48,17 @@ Here are some commands that **less** will accept:
 ## file
 It is helpful to determine what kind of data a file contains before you try to view it.
 To use the **file** program, just type:
+```bash
+file name_of_file
+```
+
+The **file** program can recognize most type of files, such as:
+|**File Type**|**Description**|**Viewable as text**|
+|:--|:--|:--|
+|Ascii textt
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Njk0OTk5MF19
+eyJoaXN0b3J5IjpbLTIxMzY2MjcyN119
 -->
