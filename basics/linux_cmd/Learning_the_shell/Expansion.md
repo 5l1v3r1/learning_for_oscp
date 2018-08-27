@@ -69,7 +69,13 @@ it can expands variables. For example, the variable named "USER" contains your u
 ```bash
 echo $USER
 ```
-To see 
+To see a list of available variables, try this:
+```bash
+printenv | less
+```
+
+## Command Substitu
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzAzNDgzMDBdfQ==
+eyJoaXN0b3J5IjpbMTY5MTEwODY3Nl19
 -->
