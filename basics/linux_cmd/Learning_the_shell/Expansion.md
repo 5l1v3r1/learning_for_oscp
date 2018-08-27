@@ -65,7 +65,11 @@ mkdir {2007..2009}-0{1..9} {2007..2009}-{10..12}
 ```
 
 ## Parameter Expansion
-variables can expand 
+it can expands variables. For example, the variable named "USER" contains your username. To invoke parameter expansion and reveal the contents of USER you would do this:
+```bash
+echo $USER
+```
+To see 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4MDg2NjM1XX0=
+eyJoaXN0b3J5IjpbLTExNzAzNDgzMDBdfQ==
 -->
