@@ -65,20 +65,10 @@ The **file** program can recognize most type of files, such as:
 |HTML document text|A web page|yes|
 |JPEG image data|A compressed JPEG image|no|
 |PostScript document text|A PostScript file|yes|
-
-RPM
-
-A Red Hat Package Manager archive
-
-no, use  rpm -q  to examine contents.
-
-Zip archive data
-
-An archive compressed with  zip
-
-no
+|RPM|A Red Hat Package Manager archive|no, use  rpm -q  to examine contents.|
+|Zip archive data|An archive compressed with  zip|no|
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjAyOTkwNl19
+eyJoaXN0b3J5IjpbLTE4OTUwNjY4MzhdfQ==
 -->
