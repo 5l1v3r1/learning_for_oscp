@@ -6,7 +6,11 @@ this lesson will introduce you to the following commands:
 - **mkdir** - create directories
 
 ## Wildcards
-Special characters to help you rapidly specify groups of filenames. 
+Special characters to help you rapidly specify groups of filenames is called wildcards.
+wildcards allow you to select filenames based on patterns of characters. The table below list the wildcards and what they select:
+|**Wildcard**|**Meaning**|
+|:--|:--|
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk2ODkxMDFdfQ==
+eyJoaXN0b3J5IjpbLTEyODc3NzE2NDFdfQ==
 -->
