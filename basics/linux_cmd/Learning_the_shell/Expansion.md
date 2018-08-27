@@ -43,7 +43,10 @@ The shell allows arithmetic to be performed by expansion. This allows us to use 
 75
 ```
 
+## Brace Expansion
+With brace expansion, you can crate multiple text strings for
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4MzUwNjc3XX0=
+eyJoaXN0b3J5IjpbNTU2NjQzMDI1XX0=
 -->
