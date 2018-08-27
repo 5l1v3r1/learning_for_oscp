@@ -20,7 +20,8 @@ To list the files in the working directory, use the **ls** command.
 ```
 
 ### cd
-To change your working directory (where you are standing i
+To change your working directory (where you are standing) you use the **cd** command. To do this, type cd followed by the passname of the desired working directory.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTAzNjc5NDBdfQ==
+eyJoaXN0b3J5IjpbLTY0OTIzNjM3Nl19
 -->
