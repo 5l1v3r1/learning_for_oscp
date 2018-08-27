@@ -14,8 +14,12 @@ You should see a shell prompt that contains your username and the name of the ma
 ```
 me@linuxbox me $
 ```
-you can type
+Now, you can type command!
 
+## Using The Mouse
+Even though the shell is a command line interface, the mouse is still handy.
+you can scroll the contents of terminal window, copy text
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjAxNDcyNTddfQ==
+eyJoaXN0b3J5IjpbNzIwODc0NTU2XX0=
 -->
