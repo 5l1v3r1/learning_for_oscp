@@ -44,7 +44,10 @@ bash has a built-in help facility available for each of the shell builtins. To u
 Many executable programs support a "--help" option that displays a description of the commands supported syntax and options.
 
 ### man
-
+A special pagin program called **man** is used to view man page.
+``` bash
+man program
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzMxNTc0NF19
+eyJoaXN0b3J5IjpbMTc4MTMzOTU4OF19
 -->
