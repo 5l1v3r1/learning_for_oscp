@@ -37,7 +37,10 @@ Common filter commands
 |sort|Sorts standard input then outputs the sorted result on standard output|
 |uniq|Given a sorted stream of data from standard input, it removes duplicate lines of data|
 |grep|Examines each line of data it receives from standard input and outputs every line that contains a specified pattern of characters.|
-|fmt|Reads text
+|fmt|Reads text from standard input, then outputs formatted tet on standard output.|
+|pr|Takes text input from standard input and splits the data into pages with page breaks, headers and footers in preparation for printing.|
+|head|Outputs the first few lines of its input. Useful for getting the header of a file.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjgwMjA5OV19
+eyJoaXN0b3J5IjpbLTE4NzM0NTE2OF19
 -->
