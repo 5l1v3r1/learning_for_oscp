@@ -42,6 +42,10 @@ When you find interesting programs to install on your system, they shou.d be ins
 	Directory that contains log files
 /var/spool
 	This directory is used to hold files that are queued for some process, such as mail messages and print jobs.
+|/home|/home is where users keep their personal work.|
+:--|:--|
+|/root|This is the superuser's home directory.
+|/tmp|/tmp is a direc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzYxMzgzN119
+eyJoaXN0b3J5IjpbLTEwNTk5NjMxMF19
 -->
