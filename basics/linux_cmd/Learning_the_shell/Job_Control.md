@@ -43,10 +43,11 @@ kill command can send a variety of signals to process. Typing `kill -l` will giv
 |Signal|Name|Description|
 |:--|:--|:--|
 |1|SIGHUP|Hang up signal. Programs can listen for this signal and act upon it. This signal is sent to processed running in a terminal when you close the terminal.|
-|2||SIG
+|2||SIGINT|Interrupt signal. This signal is given to processes to interrupt them. Programs can process this signal and act upon it. You can also issue this signal directly by typing Ctrl-C in the terminal window where the program is running.|
+|15|SIGTERM
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM1NTUzODUsLTI3MDc0ODMzMV19
+eyJoaXN0b3J5IjpbMTAzMjg0NzkzMCwtMjcwNzQ4MzMxXX0=
 -->
