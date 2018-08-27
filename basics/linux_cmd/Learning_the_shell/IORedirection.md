@@ -28,6 +28,9 @@ You can connect multiple commands together with what are called **pipelines**
 me@linuxbox me]$ ls -l | less
 ```
 
+## Filter
+One kind of program frequently used in pipelines is called filters. Filters take standard input and perform an operation upon it and send the results to standard output. In this way, they can be combined to process information 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODIzMzc4NF19
+eyJoaXN0b3J5IjpbMTU1NDY5NTg4OF19
 -->
