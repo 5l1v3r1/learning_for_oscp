@@ -23,8 +23,12 @@ To list the files in the working directory, use the **ls** command.
 To change your working directory (where you are standing) you use the **cd** command. To do this, type cd followed by the passname of the desired working directory.
 You can use absolute pathnames.
 ```bash
-[me@linuxbox me]$ cd /use/bi
+[me@linuxbox me]$ cd /usr/bin
+[me@linuxbox bin]$ pwd
+/usr/bin
+```
+You can also use relative pathnames
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE2MDY1ODRdfQ==
+eyJoaXN0b3J5IjpbMTE1Mzc0NDQ1XX0=
 -->
