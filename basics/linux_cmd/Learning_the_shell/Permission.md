@@ -7,7 +7,13 @@ This lession will cover the following commands:
 - **chgrp** - change a file's group ownership
 
 ## File Permission
-On a Linux system, each file and directory is assigned access rights for the owner of the file, the member
+On a Linux system, each file and directory is assigned access rights for the owner of the file, the members of a group of related users, and everybody else.
+
+To see the permission settings for a file, we can use the **ls** command.
+```bash
+[me@linuxbox me]$ ls -l /bin/bash
+
+-rwxr-xr-x 1 root root 313334 Feb 27  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODcxOTM0NF19
+eyJoaXN0b3J5IjpbMjEyMzI3NjQyNl19
 -->
