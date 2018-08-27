@@ -25,8 +25,8 @@ If you use ls with l option, you will get a file listing that contains a wealth 
 - File Permission
 
 ## less  
-**less** is a program that lets you view text files. This is very handy since many of the fi
+**less** is a program that lets you view text files. This is very handy since many of the files used to control and configure Linux are human readable.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzU5Nzc5OV19
+eyJoaXN0b3J5IjpbLTE0ODIxNDY4NjJdfQ==
 -->
