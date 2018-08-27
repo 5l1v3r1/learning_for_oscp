@@ -29,7 +29,12 @@ The **cp** program copies files and directories.
 ```bash
 [me@linuxbox me]$ cp file... directory
 ```
-if you specified i option and the file you want to make exists, the user is prompted
+if you specified i option and the file you want to make exists, the user is prompted before it is overwritten with the ocntents of original file.
+
+if you want to copy directory, you should specify R option
+
+## mv
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODc4NDE2Nl19
+eyJoaXN0b3J5IjpbMTc5MDM5MTc0Ml19
 -->
