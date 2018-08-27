@@ -32,9 +32,15 @@ less text_file
 ```
 
 ### Controlling less
+Here are some commands that **less** will accept:
 
+|**Command**|**Action**|
+|:--|:--|
+|Page up or b|Scroll back one page|
+|Page down or space|Scroll forward one page|
+|G|
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxMTgyMTAyXX0=
+eyJoaXN0b3J5IjpbLTcwMzA0NjgzXX0=
 -->
