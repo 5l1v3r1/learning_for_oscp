@@ -45,10 +45,12 @@ kill command can send a variety of signals to process. Typing `kill -l` will giv
 |1|SIGHUP|Hang up signal. Programs can listen for this signal and act upon it. This signal is sent to processed running in a terminal when you close the terminal.|
 |2||SIGINT|Interrupt signal. This signal is given to processes to interrupt them. Programs can process this signal and act upon it. You can also issue this signal directly by typing Ctrl-C in the terminal window where the program is running.|
 |15|SIGTERM|Termination signal. This signal is given to processes to terminate them. Again, programs can process this signal and act upon it. This is the default signal sent by the kill command if no signal is specified.|
-|9|SIGKILL|Kill signal. This signal causes the immediate termination of the process by the linux kernel. Programs cannot listen for 
+|9|SIGKILL|Kill signal. This signal causes the immediate termination of the process by the linux kernel. Programs cannot listen for this signal.|
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNTk1ODQyLC0yNzA3NDgzMzFdfQ==
+eyJoaXN0b3J5IjpbLTIwOTAwODY3MTAsLTI3MDc0ODMzMV19
 -->
