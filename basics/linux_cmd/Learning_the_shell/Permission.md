@@ -23,7 +23,9 @@ The **chmod** command is used to change the permission of a file or directory. T
 [me@linuxbox me]$ chmod 600 bar
 ```
 
+## 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjU3NzM4OF19
+eyJoaXN0b3J5IjpbMTgzMTk3MTU0OF19
 -->
