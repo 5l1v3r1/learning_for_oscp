@@ -25,7 +25,21 @@ So with everything we know, our program looks like this:
 ```bash
 #!/bin/bash
 
-# sysinfo_page - A script 
+# sysinfo_page - A script to produce an HTML file
+
+title="System Information for $HOSTNAME"
+RIGHT_NOW=$(date +"%x %r %Z")
+TIME_STAMP="Updated on $RIGHT_NOW by $USER"
+
+cat <<- _EOF_
+	<html>
+	<head>
+		<title>
+		$title
+		</title>
+	</head>
+	<body>
+		<h1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjU1NTI3MiwtNDEwMDM0NTExXX0=
+eyJoaXN0b3J5IjpbLTEzMzcwNjI2NiwtNDEwMDM0NTExXX0=
 -->
