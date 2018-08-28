@@ -48,6 +48,62 @@ cat <<- _EOF_
   </html>
 _EOF_
 ```
+While there are no commands that do exactly what we need, we can create them using shell functions. To ad the shell functions to our script, we change it so:
+```bash
+#!/bin/bash
+
+# sysinfo_page - A script to produce an system information HTML file
+
+##### Constants
+
+TITLE="System Information for $HOSTNAME"
+RIGHT_NOW=$(date +"%x %r %Z")
+TIME_STAMP="Updated on $RIGHT_NOW by $USER"
+
+##### Functions
+
+system_info()
+{
+
+}
+
+
+show_uptime()
+{
+
+}
+
+
+drive_space()
+{
+
+}
+
+
+home_space()
+{
+
+}
+
+##### Main
+
+cat <<- _EOF_
+  <html>
+  <head>
+      <title>$TITLE</title>
+  </head>
+
+  <body>
+      <h1>$TITLE</h1>
+      <p>$TIME_STAMP</p>
+      $(system_info)
+      $(show_uptime)
+      $(drive_space)
+      $(home_space)
+  </body>
+  </html>
+_EOF_
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTM0MzkwNl19
+eyJoaXN0b3J5IjpbMTI0Njk0Mzg4OF19
 -->
