@@ -82,9 +82,16 @@ cat <<- _EOF_
 	<head>
 		<title>
 		The title of your page
-		</
+		</title>
+	</head>
+	<body>
+		Your page content goes here.
+	</body>
+	</html>
+_EOF_
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjcxODgzNywtMTk1MjEzMzY0LDY2MT
-I1OTU3OSwxNzI1NTk1NDgsMzgzMTgyMzMxXX0=
+eyJoaXN0b3J5IjpbLTE2MjQ2Mjk1MzYsLTE5NTIxMzM2NCw2Nj
+EyNTk1NzksMTcyNTU5NTQ4LDM4MzE4MjMzMV19
 -->
