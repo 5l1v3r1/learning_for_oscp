@@ -56,8 +56,14 @@ if [ -f .bash_profile ]; then
 else
 	echo "Yikes! You have no .bash_profile!"
 fi
-``
+```
+
+Here is a partial list of the conditions that test can evaluate.
+|Expression|Description|
+|:--|:--|
+|-d file|True if file is a directory|
+|-e file|True if file exits
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQwMjQzOTksODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTU1NjE0Mzg4Nyw4NDUzMzg5MjhdfQ==
 -->
