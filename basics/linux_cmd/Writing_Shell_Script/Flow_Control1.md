@@ -42,7 +42,7 @@ if false; then echo "It's true."; fi
 ```
 
 ## test
-
+The **test** command is used most often with the **if** command to perform true/false decisions. The command is unusual in that it has two different syntactic forms
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjkyMjY1Nyw4NDUzMzg5MjhdfQ==
+eyJoaXN0b3J5IjpbODA0NzQzMTE1LDg0NTMzODkyOF19
 -->
