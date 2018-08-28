@@ -5,6 +5,7 @@ a number of facts about the world in its memory that the system is holding is ca
 
 ## How is the Environment Established?
 
+When you log on to the system, the bash program starts, and reads a series of configuration scripts called **startup files**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTIwNjAwMF19
+eyJoaXN0b3J5IjpbLTYxOTY1ODkxN119
 -->
