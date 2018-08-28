@@ -24,7 +24,8 @@ Non-login shell sessions read the following startup files:
 |/etc/bash.bashrc|A global configuration script that applies to all users.|
 |~/.bashrc|A user's personal startup file. Can be used to extend or override settings in the global configuration script.|
 
-Non-login shells inherit the environment from the
+Non-login shells inherit the environment from their parent process, usually a login shell.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzMTM3NDMxXX0=
+eyJoaXN0b3J5IjpbLTg4NzIwMjU1OF19
 -->
