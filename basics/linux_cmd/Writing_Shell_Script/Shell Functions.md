@@ -105,7 +105,10 @@ cat <<- _EOF_
 _EOF_
 ```
 
-A couple of important points about functions: First, they must appear before you attempt to use them. Second, the function body must contain at least one valid command.
+A couple of important points about functions: First, they must appear before you attempt to use them. Second, the function body must contain at least one valid command. After you place a **return** statement in each function body, our script will execute successfully.
+
+## Keep Your Script Working
+As you a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTU4OTQ0N119
+eyJoaXN0b3J5IjpbMjEzNDIxNDM5Ml19
 -->
