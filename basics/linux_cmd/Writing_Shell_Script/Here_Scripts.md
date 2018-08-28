@@ -1,5 +1,8 @@
 # Here Scripts
-Beginning with this lesson, we will construct a useful application. This application will produce an HTML document that contains information about your system.
+Beginning with this lesson, we will construct a useful application. This application will produce an HTML document that contains information about your system. As we construct our script, we will discover step by step the tools needed to solve the problem at hand.
+
+## Writing An HTML File With A Script
+With we already know, we could write a script to produce the HTML content
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDQ0OTAzMF19
+eyJoaXN0b3J5IjpbMTAxNDU0NDMyNF19
 -->
