@@ -89,7 +89,12 @@ fi
 
 if [ -f .bash_profile ]
 then echo "You have a .bash_profile. Things are fine."
-else echo "Yikes! You 
+else echo "Yikes! You have no .bash_profile!"
+fi
+```
+
+## exit
+In order to be good script writers, we must set the exit status when our scripts finish. To do this, use the **exit** command. The **exit** command causes the script to terminate immediately and set the exit 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzAyNTM0MDksODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTIxMTg1MDc0NDMsODQ1MzM4OTI4XX0=
 -->
