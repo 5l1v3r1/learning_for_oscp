@@ -19,7 +19,7 @@ right_now=$(date +"%x %r %Z")
 time_stamp="Updated on $right_now by $USER"
 
 ## Constants
-
+values that, once set, should never be changed is called **constants**. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDIxMzE1MCwtNDEwMDM0NTExXX0=
+eyJoaXN0b3J5IjpbMTY0OTQ0NDE2MiwtNDEwMDM0NTExXX0=
 -->
