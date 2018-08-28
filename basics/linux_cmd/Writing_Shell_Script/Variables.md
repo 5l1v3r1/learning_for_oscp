@@ -26,7 +26,13 @@ We added a line to the beginning of the script and replaced the two occurences o
 Variables are areas of memory that can be used to store information and are referred to by a name.
 
 ## How to create a variable
-To create a variable, put a line in your script that contains the name of the variable followed immediately 
+To create a variable, put a line in your script that contains the name of the variable followed immediately by an equal sign. After the equal sign, assign the information you wish to store.
+
+## Where Do Variable Names come from?
+There are a few rules to choose the names for your variables.
+
+1. N 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTc1Nzc1NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjMxNDQzNDU0LC0yMDg4NzQ2NjEyXX0=
 -->
