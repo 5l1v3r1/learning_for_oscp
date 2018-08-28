@@ -77,7 +77,19 @@ Here is a partial list of the conditions that test can evaluate.
 
 You can write if statement like this
 ```bash
-#Al
+#Alternate form
+if [ -f .bash_profile ]
+then
+	echo "You have a .bash_profile. Things are fine."
+else
+	echo "Yikes! You have no .bash_profile!"
+fi
+
+#Another alternate form
+
+if [ -f .bash_profile ]
+then echo "You have a .bash_profile. Things are fine."
+else echo "Yikes! You 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzkzNDIwOSw4NDUzMzg5MjhdfQ==
+eyJoaXN0b3J5IjpbLTE4NzAyNTM0MDksODQ1MzM4OTI4XX0=
 -->
