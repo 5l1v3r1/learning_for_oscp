@@ -42,9 +42,19 @@ echo "<html>
 </html>"
 ```
 
-While this is certainly an improvement, we need to esca
+While this is certainly an improvement, we need to escape quotation mark when you want to use it. In order to avoid the additional typing, we need to look for a better way to produce our text.
+```bash
+#!/bin/bash
+
+# sysinfo_page - A script to produce an HTML file
+
+cat << _EOF_
+<html>
+<head>
+	<title>
+	Y
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5MTg1MDIwLDE3MjU1OTU0OCwzODMxOD
+eyJoaXN0b3J5IjpbMTA0NTkzNTUyLDE3MjU1OTU0OCwzODMxOD
 IzMzFdfQ==
 -->
