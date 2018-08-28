@@ -42,7 +42,15 @@ if false; then echo "It's true."; fi
 ```
 
 ## test
-The **test** command is used most often with the **if** command to perform true/false decisions. The command is unusual in that it has two different syntactic forms
+The **test** command is used most often with the **if** command to perform true/false decisions. The command is unusual in that it has two different syntactic forms.
+```bash
+# first form
+test *expression*
+# second form
+[ expression ]
+```
+The test command works simply. If the given expression is true, test exits with a status
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NzQzMTE1LDg0NTMzODkyOF19
+eyJoaXN0b3J5IjpbMTM5MjUzMTI0Miw4NDUzMzg5MjhdfQ==
 -->
