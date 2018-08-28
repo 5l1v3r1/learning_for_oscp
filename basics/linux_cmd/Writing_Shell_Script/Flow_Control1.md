@@ -49,8 +49,15 @@ test *expression*
 # second form
 [ expression ]
 ```
-The test command works simply. If the given expression is true, test exits with a status
+The test command works simply. If the given expression is true, test exits with a status of zero; otherwise it exits with a status of 1. The neat feature of test is the variety of expressions you can create.
+```bash
+if [ -f .bash_profile ]; then
+	echo "You have a .bash_profile. Things are fine."
+else
+	echo "Yikes! You have no .bash_profile!"
+fi
+``
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjUzMTI0Miw4NDUzMzg5MjhdfQ==
+eyJoaXN0b3J5IjpbLTE5NjQwMjQzOTksODQ1MzM4OTI4XX0=
 -->
