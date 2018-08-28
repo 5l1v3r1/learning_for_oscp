@@ -49,7 +49,11 @@ Using your favorite text editor, open the file .bashrc and add this line to the 
 ```bash
 alias l='ls -l'
 ```
+Here is another one for you to try:
+```bash
+alias today='date +"%A, %B -%-d, %Y"'
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MTA2NzczXX0=
+eyJoaXN0b3J5IjpbLTEyOTgxMzgyMDddfQ==
 -->
