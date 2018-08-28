@@ -62,8 +62,13 @@ Here is a partial list of the conditions that test can evaluate.
 |Expression|Description|
 |:--|:--|
 |-d file|True if file is a directory|
-|-e file|True if file exits
+|-e file|True if file exists.|
+|-f file|True if file exists and is a regular file.|
+|-L file|True if file is a symbolic link.|
+|-r file|True if file is a file readable by you|
+|-w file|True if file is a file writable by you|
+|-x file|True if file is a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjE0Mzg4Nyw4NDUzMzg5MjhdfQ==
+eyJoaXN0b3J5IjpbMTc2NDczNjcsODQ1MzM4OTI4XX0=
 -->
