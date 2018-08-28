@@ -97,7 +97,7 @@ fi
 In order to be good script writers, we must set the exit status when our scripts finish. To do this, use the **exit** command. The **exit** command causes the script to terminate immediately and set the exit status to whatever value is given as an argument.
 
 ## Testing For Root
-What 
+What if we could put something in the script to stop it if a regular user attempts to run it? The **id** command can tell us who the current user is. When executed with the "-u" option, it print the numeric user id of the current user. I the superuser execut
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3Njk1MzUzLDg0NTMzODkyOF19
+eyJoaXN0b3J5IjpbNTIxMTAyNjI0LDg0NTMzODkyOF19
 -->
