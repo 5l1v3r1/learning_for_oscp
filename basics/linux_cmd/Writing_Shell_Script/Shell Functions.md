@@ -104,6 +104,8 @@ cat <<- _EOF_
   </html>
 _EOF_
 ```
+
+A couple of important points about functions: First, they must appear before you attempt to use them. Second, the function body must contain at least one valid command.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Njk0Mzg4OF19
+eyJoaXN0b3J5IjpbMTQ5NTU4OTQ0N119
 -->
