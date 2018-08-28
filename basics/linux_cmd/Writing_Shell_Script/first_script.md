@@ -20,6 +20,10 @@ We have to give the shell permission to execute your script.
 [me@linuxbox me]$ chmod 755 hello_world
 ```
 
+## Putting it in your path
+Try this:
+```bash
+[me@linuxbox me]$ ./hello
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU1MDQ4NzEsODg4MDEzN119
+eyJoaXN0b3J5IjpbMTkzMjkyMzgwMSw4ODgwMTM3XX0=
 -->
