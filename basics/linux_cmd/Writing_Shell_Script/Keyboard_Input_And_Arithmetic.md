@@ -6,7 +6,9 @@ To get input from the keyboard, you use the **read** command. It takes input fro
 ```bash
 echo -n "Enter some text-> "
 read text
-echo "You 
+echo "You entered: $text"
+```
+If you don't give it the name of a variable to assign its input, it will use the environment variable 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDUwMTU0OTJdfQ==
+eyJoaXN0b3J5IjpbMTAxMTM0OTUxOF19
 -->
