@@ -26,6 +26,11 @@ Non-login shell sessions read the following startup files:
 
 Non-login shells inherit the environment from their parent process, usually a login shell.
 
+**.bash_profile** looks something like this:
+```bash
+# .bash_profile
+# Get the alia 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzIwMjU1OF19
+eyJoaXN0b3J5IjpbMTE3MzI1NzEzN119
 -->
