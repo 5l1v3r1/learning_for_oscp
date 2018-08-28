@@ -29,8 +29,19 @@ Non-login shells inherit the environment from their parent process, usually a lo
 **.bash_profile** looks something like this:
 ```bash
 # .bash_profile
-# Get the alia 
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+PATH=$PATH:$HOME/bin
+export PATH
+``` 
+
+## Aliases
+An alias is an easy way
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzI1NzEzN119
+eyJoaXN0b3J5IjpbLTYwNzEwNTQ3MV19
 -->
