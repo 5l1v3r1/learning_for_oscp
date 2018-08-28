@@ -36,7 +36,10 @@ There are a few rules to choose the names for your variables.
 3. You cannot use punctuation marks.
 
 ## How does this increase Our  Laziness?
-First, it will reduce the amount of typing we have to do. and 
+First, it will reduce the amount of typing we have to do. and more importantly, it makes our script easier to maintain.
+
+## Environment Variables
+When you start your shell session, some variables are already set by the startup file we looked
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjM0MzAxOCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTczMDgwOTc0NiwtMjA4ODc0NjYxMl19
 -->
