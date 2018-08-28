@@ -25,10 +25,18 @@ drive_space()
 	df
 	echo "</pre>"
 }
+```
 
 ## home_space
-The home_space function will display the amount of space each 
+The home_space function will display the amount of space each user is using in his/her home directory. It will display this as a list, sorted in descending order by the amount of space used.
+```bash
+home_space()
+{
+	echo "<h2>Home directory space by user</h2>"
+	echo "<pre>"
+	echo "Bytes Directory"
+	du -s /home* | sort -nr
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTA5Mzg4MThdfQ==
+eyJoaXN0b3J5IjpbLTEzNTM3NTE0OTddfQ==
 -->
