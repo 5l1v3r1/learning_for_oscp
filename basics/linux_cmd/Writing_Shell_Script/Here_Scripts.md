@@ -28,7 +28,19 @@ The first improvement to this script will be to replace the repeated use of the 
 ````bash
 #!/bin/bash
 
-# sysinfo_pa
+# sysinfo_page - A script to produce an HTML file
+
+echo "<html>
+<head>
+	<title>
+	The title of your page
+	</title>
+</head>
+<body>
+	Your page content goes here.
+</body>
+</html>"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzY3OTYwMiwzODMxODIzMzFdfQ==
+eyJoaXN0b3J5IjpbMTcyNTU5NTQ4LDM4MzE4MjMzMV19
 -->
