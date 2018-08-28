@@ -75,6 +75,9 @@ Here is a partial list of the conditions that test can evaluate.
 |string1 = string2|True if string1 equals string2|
 |string1 != string2|True if string1 does not equal string2|
 
+You can write if statement like this
+```bash
+#Al
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDY0NDAxOCw4NDUzMzg5MjhdfQ==
+eyJoaXN0b3J5IjpbMTE1NzkzNDIwOSw4NDUzMzg5MjhdfQ==
 -->
