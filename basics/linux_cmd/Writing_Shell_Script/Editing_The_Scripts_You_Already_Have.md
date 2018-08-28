@@ -5,7 +5,8 @@ a number of facts about the world in its memory that the system is holding is ca
 
 ## How is the Environment Established?
 
-When you log on to the system, the bash program starts, and reads a series of configuration scripts called **startup files**
+When you log on to the system, the bash program starts, and reads a series of configuration scripts called **startup files**. These define the default environment shared by all user. These sequence depends on the type of shell session being started. There are two kinds:
+- a login sh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTY1ODkxN119
+eyJoaXN0b3J5IjpbLTE3MDY2NjkxMzddfQ==
 -->
