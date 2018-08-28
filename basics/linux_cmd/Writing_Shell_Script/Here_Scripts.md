@@ -41,6 +41,10 @@ echo "<html>
 </body>
 </html>"
 ```
+
+While this is certainly an improvement, we need to esca
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTU5NTQ4LDM4MzE4MjMzMV19
+eyJoaXN0b3J5IjpbNTY5MTg1MDIwLDE3MjU1OTU0OCwzODMxOD
+IzMzFdfQ==
 -->
