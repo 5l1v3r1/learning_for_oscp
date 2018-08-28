@@ -8,7 +8,15 @@ The shell provides several commands that we can use to control the flow of execu
 
 ## if
 It makes a decision based on the exit status of a command. The if command's syntax looks like this:
-```bas
+```bash
+if commands; then
+commands
+[elif commands; then
+commands...]
+[else
+commands]
+fi
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0NDgzMjk1XX0=
+eyJoaXN0b3J5IjpbODQ1MzM4OTI4XX0=
 -->
