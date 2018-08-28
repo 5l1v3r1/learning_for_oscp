@@ -110,7 +110,69 @@ A couple of important points about functions: First, they must appear before you
 ## Keep Your Script Working
 When you are developing a program, it is often a good practice to add a small amount of code, run the script, add some more code, run the script, and so on.
 
-As you add functions to your script, you can use a technique called **stubbing** which means inserting the **echo** command in unfinished functions 
+As you add functions to your script, you can use a technique called **stubbing** which means inserting the **echo** command in unfinished functions to get some feedback from the script to indicate that the functions are begin executed.
+
+Let's go ahead and write stubs for our new functions and keep the script working.
+```bash
+#!/bin/bash
+
+# sysinfo_page - A script to produce an system information HTML file
+
+##### Constants
+
+TITLE="System Information for $HOSTNAME"
+RIGHT_NOW=$(date +"%x %r %Z")
+TIME_STAMP="Updated on $RIGHT_NOW by $USER"
+
+##### Functions
+
+system_info()
+{
+    # Temporary function stub
+    echo "function system_info"
+}
+
+
+show_uptime()
+{
+    # Temporary function stub
+    echo "function show_uptime"
+}
+
+
+drive_space()
+{
+    # Temporary function stub
+    echo "function drive_space"
+}
+
+
+home_space()
+{
+    # Temporary function stub
+    echo "function home_space"
+}
+
+
+##### Main
+
+cat <<- _EOF_
+  <html>
+  <head>
+      <title>$TITLE</title>
+  </head>
+
+  <body>
+      <h1>$TITLE</h1>
+      <p>$TIME_STAMP</p>
+      $(system_info)
+      $(show_uptime)
+      $(drive_space)
+      $(home_space)
+  </body>
+  </html>
+_EOF_
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg5Nzk0NDZdfQ==
+eyJoaXN0b3J5IjpbNDE1NzAwNjAyXX0=
 -->
