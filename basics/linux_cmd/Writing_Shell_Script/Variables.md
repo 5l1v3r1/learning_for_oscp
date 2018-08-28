@@ -20,6 +20,10 @@ cat <<- _EOF_
 	</html>
 _EOF_
 ```
+We added a line to the beginning of the script and replaced the two occurences of the phrase "My System Information" with $title.
+
+## Variables
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODQwNjY4MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTI2ODU3MzU1MCwtMjA4ODc0NjYxMl19
 -->
