@@ -19,7 +19,12 @@ fi
 ```
 
 ## Exit status
-Commands issue a value to the system when they terminate, called an exit status. This
+Commands issue a value to the system when they terminate, called an exit status. This value, which is an integer in the range of 0 to 255, indicates the success or failure of the command's execution. By convention, a value of zero indicates success and any other value indicates failure. The shell provides a parameter that we can use to examine the exit status. Here we see it in action:
+```bash
+ls -d /usr/bin
+/usr/bin
+echo $?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk5NDE2NDUsODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTE3OTkyNjcwMzYsODQ1MzM4OTI4XX0=
 -->
