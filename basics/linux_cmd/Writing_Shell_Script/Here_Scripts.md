@@ -61,9 +61,15 @@ cat << _EOF_
 </html>
 _EOF_
 ```
+In this script, the standard input of the *cat* command was given a stream of text from our script.
+
+A here script is constructed like this:
+```bash
+command << token
+content to be used 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxMjU5NTc5LDE3MjU1OTU0OCwzODMxOD
-IzMzFdfQ==
+eyJoaXN0b3J5IjpbLTE5ODE5Mjg0MDMsNjYxMjU5NTc5LDE3Mj
+U1OTU0OCwzODMxODIzMzFdfQ==
 -->
