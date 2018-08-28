@@ -11,7 +11,10 @@ When you log on to the system, the bash program starts, and reads a series of co
 Login shells read one or more startup files as shown below:
 |File|Contents|
 |:--|:--|
-|/etc/profile|A global configuration script that applies to all users.
+|/etc/profile|A global configuration script that applies to all users.|
+|~/.bash_profile|A user's personal startup file. Can be used to extend or override settings in the global configuration script.|
+|~/.bash_login|If ~/.bash_profile is not found, bash attempts to read this script.|
+|~/.profile|If neither ~/.bash_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTQ0NjM0Ml19
+eyJoaXN0b3J5IjpbMzgxMzQ3NDY3XX0=
 -->
