@@ -44,8 +44,12 @@ An alias is an easy way to create a new command which acts as an abbreviation fo
 ```bash
 alias name=value
 ```
-Let make an alias 
+Let create an alias called "l" and make it an abbreviation for the command "ls-l".
+Using your favorite text editor, open the file .bashrc and add this line to the end of the file:
+```bash
+alias l='ls -l'
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDQyOTcwOV19
+eyJoaXN0b3J5IjpbNTE3MTA2NzczXX0=
 -->
