@@ -12,7 +12,12 @@ echo "<html>"
 echo "<head>"
 echo "    <title>"
 echo "    The title of your page"
-echo "
+echo "</head>"
+echo ""
+echo "<body>"
+echo "    Your page content goes here."
+echo "</body>"
+echo "</html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTMwNzM5N119
+eyJoaXN0b3J5IjpbLTkwMTkxNTQ1MV19
 -->
