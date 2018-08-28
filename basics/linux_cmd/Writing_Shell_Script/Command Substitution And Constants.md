@@ -19,7 +19,13 @@ right_now=$(date +"%x %r %Z")
 time_stamp="Updated on $right_now by $USER"
 
 ## Constants
-values that, once set, should never be changed is called **constants**. 
+values that, once set, should never be changed is called **constants**. If a value is intended to be a constant, it is given an uppercase name to remind the programmer that it should be considered a constant.
+
+So with everything we know, our program looks like this:
+```bash
+#!/bin/bash
+
+# sysinfo_page - A script 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTQ0NDE2MiwtNDEwMDM0NTExXX0=
+eyJoaXN0b3J5IjpbMTI0NjU1NTI3MiwtNDEwMDM0NTExXX0=
 -->
