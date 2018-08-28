@@ -10,7 +10,16 @@ title="My System Information"
 cat <<- _EOF_
 	<html>
 	<head>
-		
+		<title>
+			$title
+		</title>
+	</head>
+	<body>
+	<h1>$title</h1>
+	</body>
+	</html>
+_EOF_
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU2NTA5MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTQ1ODQwNjY4MCwtMjA4ODc0NjYxMl19
 -->
