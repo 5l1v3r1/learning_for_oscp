@@ -24,7 +24,15 @@ Commands issue a value to the system when they terminate, called an exit status.
 ls -d /usr/bin
 /usr/bin
 echo $?
+0
+ls -d /bin/usr
+ls: cannot access /bin/usr: No such file or directory
+echo $?
+2
+```
+Man page often include a section entitled "Exit status," describing what codes are used. a zero always indicates success.
 
+The shell provides to
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkyNjcwMzYsODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTEwODUxNjU1MTAsODQ1MzM4OTI4XX0=
 -->
