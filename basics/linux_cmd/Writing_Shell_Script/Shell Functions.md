@@ -17,7 +17,37 @@ If we look at our script's top-level tasks, we find the following list:
 12. Close body section
 13. Close page
 
- If there were commands that performed these additional tasks, we could us
+ If there were commands that performed these tasks, we could use command substitution to place them in our script like so:
+```bash
+#!/bin/bash
+
+# sysinfo_page - A script to produce a system information HTML file
+
+##### Constants
+
+TITLE="System Information for $HOSTNAME"
+RIGHT_NOW=$(date +"%x %r %Z")
+TIME_STAMP="Updated on $RIGHT_NOW by $USER"
+
+##### Main
+
+cat <<- _EOF_
+  <html>
+  <head>
+      <title>$TITLE</title>
+  </head>
+
+  <body>
+      <h1>$TITLE</h1>
+      <p>$TIME_STAMP</p>
+      $(system_info)
+      $(show_uptime)
+      $(drive_space)
+      $(home_space)
+  </body>
+  </html>
+_EOF_
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjA0ODA3Ml19
+eyJoaXN0b3J5IjpbMTE2MTM0MzkwNl19
 -->
