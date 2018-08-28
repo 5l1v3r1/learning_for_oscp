@@ -94,7 +94,10 @@ fi
 ```
 
 ## exit
-In order to be good script writers, we must set the exit status when our scripts finish. To do this, use the **exit** command. The **exit** command causes the script to terminate immediately and set the exit 
+In order to be good script writers, we must set the exit status when our scripts finish. To do this, use the **exit** command. The **exit** command causes the script to terminate immediately and set the exit status to whatever value is given as an argument.
+
+## Testing For Root
+What 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg1MDc0NDMsODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbNjc3Njk1MzUzLDg0NTMzODkyOF19
 -->
