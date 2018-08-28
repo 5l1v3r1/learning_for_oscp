@@ -40,8 +40,12 @@ export PATH
 ``` 
 
 ## Aliases
-An alias is an easy way
+An alias is an easy way to create a new command which acts as an abbreviation for a longer one. I has the following syntax:
+```bash
+alias name=value
+```
+Let make an alias 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzEwNTQ3MV19
+eyJoaXN0b3J5IjpbMTUzNDQyOTcwOV19
 -->
