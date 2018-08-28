@@ -43,8 +43,8 @@ Most Linux distribution encourage a practice in which each user has a specific d
 [me@linuxbox me]$ mkdir bin
 [me@linuxbox me]$ hello_world
 ```
-
+You will need to open a new terminal session before your newly created bin directory will be recognized.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzA1MjM0NSwtNTM5Nzk5NjU4LDg4OD
-AxMzddfQ==
+eyJoaXN0b3J5IjpbLTEwNTAxMzY2ODQsLTUzOTc5OTY1OCw4OD
+gwMTM3XX0=
 -->
