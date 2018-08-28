@@ -72,8 +72,9 @@ Here is a partial list of the conditions that test can evaluate.
 |file1 -ot file2|True if file1 is older than file2|
 |-z string|True if string is empty|
 |-n string|True if string is not empty|
-|string1 = string2|True if string1 
+|string1 = string2|True if string1 equals string2|
+|string1 != string2|True if string1 does not equal string2|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODQxMzUyNSw4NDUzMzg5MjhdfQ==
+eyJoaXN0b3J5IjpbMTU1MDY0NDAxOCw4NDUzMzg5MjhdfQ==
 -->
