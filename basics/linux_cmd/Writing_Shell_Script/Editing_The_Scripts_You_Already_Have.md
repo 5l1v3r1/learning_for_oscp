@@ -9,12 +9,18 @@ When you log on to the system, the bash program starts, and reads a series of co
 - a login shell session
 - a non-login shell session
 Login shells read one or more startup files as shown below:
+
 |File|Contents|
 |:--|:--|
 |/etc/profile|A global configuration script that applies to all users.|
 |~/.bash_profile|A user's personal startup file. Can be used to extend or override settings in the global configuration script.|
 |~/.bash_login|If ~/.bash_profile is not found, bash attempts to read this script.|
-|~/.profile|If neither ~/.bash_
+|~/.profile|If neither ~/.bash_profile nor ~/.bash_login is found, bash attempts to read this file.|
+
+Non-login shell sessions read the following startup files:
+
+|File|Contents|
+|/etc/bash.bashrc|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMzQ3NDY3XX0=
+eyJoaXN0b3J5IjpbLTg0MDY5MjUzNF19
 -->
