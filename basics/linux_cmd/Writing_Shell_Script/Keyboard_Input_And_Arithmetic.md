@@ -19,8 +19,8 @@ echo $((2+2))
 echo $(( 2+2 ))
 echo $(( 2 + 2 ))
 ```
-whitespac
-
+* whitespace is ignored
+* leading "$" is not needed to reference variables inside the arithmetic  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMDczMDk0XX0=
+eyJoaXN0b3J5IjpbLTIwMzEwODcyNzNdfQ==
 -->
