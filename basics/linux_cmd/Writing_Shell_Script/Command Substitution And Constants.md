@@ -13,8 +13,13 @@ You can also assign the results of a command to a variable:
 ```bash
 right_now=$(date +"%x %r %Z")
 ```
+You can even nest the variables (place one inside another), like this:
+```bash
+right_now=$(date +"%x %r %Z")
+time_stamp="Updated on $right_now by $USER"
 
-you can 
+## Constants
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTY0NjEwMSwtNDEwMDM0NTExXX0=
+eyJoaXN0b3J5IjpbMTkzMDIxMzE1MCwtNDEwMDM0NTExXX0=
 -->
