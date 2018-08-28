@@ -33,7 +33,10 @@ This list of directories is called your path. You can view the list of directori
 [me@linuxbox me]$ echo $PATH
 ```
 You can add directories to your path with the following command
-
+```bash
+[me@linuxbox me]$ export PATH=$PATH:directory
+```
+A better way would be to edit your .bash_profile or .profile file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTgzMjMzNSw4ODgwMTM3XX0=
+eyJoaXN0b3J5IjpbLTU1OTM0NzQ4MCw4ODgwMTM3XX0=
 -->
