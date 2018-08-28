@@ -7,6 +7,14 @@ The *date* command has many features and formatting options. To look at them all
 ```bash
 [me@linuxbox me]$ date --help | less
 ```
+
+## Assigning A Command's Result To A Variable
+You can also assign the results of a command to a variable:
+```bash
+right_now=$(date +"%x %r %Z")
+```
+
+you can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTExNzA5NiwtNDEwMDM0NTExXX0=
+eyJoaXN0b3J5IjpbMTkyOTY0NjEwMSwtNDEwMDM0NTExXX0=
 -->
