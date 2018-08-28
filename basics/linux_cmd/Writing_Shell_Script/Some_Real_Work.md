@@ -36,7 +36,10 @@ home_space()
 	echo "<pre>"
 	echo "Bytes Directory"
 	du -s /home* | sort -nr
+	echo "</pre>"
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM3NTE0OTddfQ==
+eyJoaXN0b3J5IjpbMTI0NjM0MzUzMV19
 -->
