@@ -21,7 +21,14 @@ echo "</html>"
 ```
 This script can be used as follows:
 ```bash
-[me@linuxbox me]$
+[me@linuxbox me]$ sysinfo_page > sysinfo_page.html
+```
+
+The first improvement to this script will be to replace the repeated use of the **echo** command with a single instance by using quotation more efficiently:
+````bash
+#!/bin/bash
+
+# sysinfo_pa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDc1MDc3NywzODMxODIzMzFdfQ==
+eyJoaXN0b3J5IjpbMTU1MzY3OTYwMiwzODMxODIzMzFdfQ==
 -->
