@@ -105,7 +105,16 @@ if [ $(id -u) != "0" ]; then
 fi
 ```
 Notice the ">&2" at the end of the echo command. This is another form of I/O direction. With this redirection, the message is sent to standard error. Since we are executing our script and redirecting its standard output to a file, we want the error messages separated from the normal output.
-Now, we can 
+Now, we can modify home_space function like this:
+```bash
+function home_space
+{
+	#Only the superuser can get this information
+	if [ "$(id -u)" = "0" ]; then
+		echo "<h2>Home directory space by user</h2>"
+		echo "<pre>"
+		echo "Bytes Directory"
+		du -s /home/* | sort
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA2NjQxNDUsODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTE4MzQ4OTE5ODIsODQ1MzM4OTI4XX0=
 -->
