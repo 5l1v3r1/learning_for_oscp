@@ -56,8 +56,13 @@ alias today='date +"%A, %B -%-d, %Y"'
 You can try these commands by closing your terminal and starting a new one.
 
 ## Shell functions
-If you want to create commands more complex, you should try **shell functions**. Let's try one. Ope
+If you want to create commands more complex, you should try **shell functions**. Let's try one. Open .bashrc with your text editor again and replace the alias for "today" with the following:
+```bash
+today() {
+	echo -n "Today's date is: "
+	date +"%A, %B %-d, %Y"
+}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ2Mzk3OTZdfQ==
+eyJoaXN0b3J5IjpbMTEyMjcxNjIxOV19
 -->
