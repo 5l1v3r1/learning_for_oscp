@@ -28,7 +28,12 @@ Try this:
 You should see "Hello World!" displayed.
 
 the shell maintains a list of directories where executable files are kept, and only search the directory in that list.
-This list of directories is called your path. You can view the list 
+This list of directories is called your path. You can view the list of directories with the following command
+```bash
+[me@linuxbox me]$ echo $PATH
+```
+You can add directories to your path with the following command
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzY5MDg1NCw4ODgwMTM3XX0=
+eyJoaXN0b3J5IjpbLTcxOTgzMjMzNSw4ODgwMTM3XX0=
 -->
