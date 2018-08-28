@@ -39,7 +39,10 @@ There are a few rules to choose the names for your variables.
 First, it will reduce the amount of typing we have to do. and more importantly, it makes our script easier to maintain.
 
 ## Environment Variables
-When you start your shell session, some variables are already set by the startup file we looked
+When you start your shell session, some variables are already set by the startup file. To see all the variables that are in your environment, use the **printenv** command.
+One variable in your environment contains the host name for your system. We will add this variable to our script like so:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDgwOTc0NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNTAxNzcyNDM5LC0yMDg4NzQ2NjEyXX0=
 -->
