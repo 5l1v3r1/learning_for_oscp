@@ -17,6 +17,7 @@ You can even nest the variables (place one inside another), like this:
 ```bash
 right_now=$(date +"%x %r %Z")
 time_stamp="Updated on $right_now by $USER"
+```
 
 ## Constants
 values that, once set, should never be changed is called **constants**. If a value is intended to be a constant, it is given an uppercase name to remind the programmer that it should be considered a constant.
@@ -39,7 +40,12 @@ cat <<- _EOF_
 		</title>
 	</head>
 	<body>
-		<h1
+		<h1>$title</h1>
+		<p>$TIME_STAMP</p>
+	</body>
+	</html>
+_EOF_
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzcwNjI2NiwtNDEwMDM0NTExXX0=
+eyJoaXN0b3J5IjpbMTcyOTkwMzEyMywtNDEwMDM0NTExXX0=
 -->
