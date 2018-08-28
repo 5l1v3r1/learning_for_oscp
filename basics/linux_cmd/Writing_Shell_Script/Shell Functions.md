@@ -110,7 +110,7 @@ A couple of important points about functions: First, they must appear before you
 ## Keep Your Script Working
 When you are developing a program, it is often a good practice to add a small amount of code, run the script, add some more code, run the script, and so on.
 
-As you add functions to your script, you can use a technique called **stubbing** which means inserting the **echo** command in unfinished functions to describe which function
+As you add functions to your script, you can use a technique called **stubbing** which means inserting the **echo** command in unfinished functions 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwMjU1MzkxXX0=
+eyJoaXN0b3J5IjpbLTE2NDg5Nzk0NDZdfQ==
 -->
