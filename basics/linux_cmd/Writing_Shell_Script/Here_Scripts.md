@@ -52,9 +52,18 @@ cat << _EOF_
 <html>
 <head>
 	<title>
-	Y
+	The title of your page
+	</title>
+</head>
+<body>
+	Your page content goes here.
+</body>
+</html>
+_EOF_
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTkzNTUyLDE3MjU1OTU0OCwzODMxOD
+eyJoaXN0b3J5IjpbNjYxMjU5NTc5LDE3MjU1OTU0OCwzODMxOD
 IzMzFdfQ==
 -->
