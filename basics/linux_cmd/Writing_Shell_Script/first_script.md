@@ -38,7 +38,7 @@ You can add directories to your path with the following command
 ```
 A better way would be to edit your .bash_profile or .profile file
 
-Most Linux distribution encourage a practice in which each user has a specific directory for the programs he/she personally uses. This dir
+Most Linux distribution encourage a practice in which each user has a specific directory for the programs he/she personally uses. This directory is called *bin* and is a subdirectory of your home directory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgzMDcxNjEsODg4MDEzN119
+eyJoaXN0b3J5IjpbLTUzOTc5OTY1OCw4ODgwMTM3XX0=
 -->
