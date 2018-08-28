@@ -12,7 +12,12 @@ show_uptime()
 	uptime
 	echo "</pre>"
 }
+```
+
+## drive_space
+The drive_space function will use **df** command to provide a summary of the space used by all of the mounted file systems.
+In terms of structure, the drive_space
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTQyMTgzMl19
+eyJoaXN0b3J5IjpbLTE2NDQzNDYyN119
 -->
