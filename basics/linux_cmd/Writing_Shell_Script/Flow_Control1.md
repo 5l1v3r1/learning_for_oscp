@@ -114,7 +114,11 @@ function home_space
 		echo "<h2>Home directory space by user</h2>"
 		echo "<pre>"
 		echo "Bytes Directory"
-		du -s /home/* | sort
+		du -s /home/* | sort -nr
+		echo "</pre>"
+	fi
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ4OTE5ODIsODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTI2OTcwNDk0NCw4NDUzMzg5MjhdfQ==
 -->
