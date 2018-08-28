@@ -13,7 +13,14 @@ If you don't give it the name of a variable to assign its input, it will use the
 The read command also takes some options. The -t option followed by a number of seconds provides an automatic timeout for the read command. The -s option caused the user's typing not to be displayed. This is useful when you are asking the user to type in a password or other confidential information.
 
 ## Arithmetic
+If you want to use the command line as a primitive calculator, You do it like this:
+```bash
+echo $((2+2))
+echo $(( 2+2 ))
+echo $(( 2 + 2 ))
+```
+whitespac
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjkyNDMzMl19
+eyJoaXN0b3J5IjpbNjUyMDczMDk0XX0=
 -->
