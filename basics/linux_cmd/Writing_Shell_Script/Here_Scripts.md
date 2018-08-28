@@ -19,6 +19,9 @@ echo "    Your page content goes here."
 echo "</body>"
 echo "</html>"
 ```
+This script can be used as follows:
+```bash
+[me@linuxbox me]$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMTgyMzMxXX0=
+eyJoaXN0b3J5IjpbLTQyMDc1MDc3NywzODMxODIzMzFdfQ==
 -->
