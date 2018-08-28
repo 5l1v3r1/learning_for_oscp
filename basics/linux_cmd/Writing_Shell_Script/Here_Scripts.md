@@ -70,9 +70,21 @@ content to be used as command's standard input
 **token**
 ```
 
-In this way, You can use indent to improve readability of this script
+In this way, You can use indent to improve readability of this script.
+Changing the "<<" to "<<-" causes bash to ignore the leading tabs.
+```bash
+#!/bin/bash
+
+# sysinfo_page - A script to produce an html file
+
+cat <<- _EOF_
+	<html>
+	<head>
+		<title>
+		The title of your page
+		</
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDg2NTU0MywtMTk1MjEzMzY0LDY2MT
+eyJoaXN0b3J5IjpbMjEwMjcxODgzNywtMTk1MjEzMzY0LDY2MT
 I1OTU3OSwxNzI1NTk1NDgsMzgzMTgyMzMxXX0=
 -->
