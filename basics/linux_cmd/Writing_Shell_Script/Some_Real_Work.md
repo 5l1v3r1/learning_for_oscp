@@ -16,8 +16,19 @@ show_uptime()
 
 ## drive_space
 The drive_space function will use **df** command to provide a summary of the space used by all of the mounted file systems.
-In terms of structure, the drive_space
+In terms of structure, the drive_space function is very similar to the show_uptime function:
+```bash
+drive_space()
+{
+	echo "<h2>Filesystem space</h2>"
+	echo "<pre>"
+	df
+	echo "</pre>"
+}
+
+## home_space
+The home_space function will display the amount of space each 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQzNDYyN119
+eyJoaXN0b3J5IjpbLTEwOTA5Mzg4MThdfQ==
 -->
