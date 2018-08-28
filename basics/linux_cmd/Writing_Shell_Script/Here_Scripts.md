@@ -70,9 +70,9 @@ content to be used as command's standard input
 **token**
 ```
 
-In this way, You can use indent.
+In this way, You can use indent to improve readability of this script
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIxMzM2NCw2NjEyNTk1NzksMTcyNT
-U5NTQ4LDM4MzE4MjMzMV19
+eyJoaXN0b3J5IjpbLTkyNDg2NTU0MywtMTk1MjEzMzY0LDY2MT
+I1OTU3OSwxNzI1NTk1NDgsMzgzMTgyMzMxXX0=
 -->
