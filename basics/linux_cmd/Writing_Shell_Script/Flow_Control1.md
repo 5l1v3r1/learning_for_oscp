@@ -17,6 +17,9 @@ commands...]
 commands]
 fi
 ```
+
+## Exit status
+Commands issue a value to the system when they terminate, called an exit status. This
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTE2NTk5NDE2NDUsODQ1MzM4OTI4XX0=
 -->
