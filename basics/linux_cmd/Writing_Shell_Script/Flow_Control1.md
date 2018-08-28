@@ -67,8 +67,13 @@ Here is a partial list of the conditions that test can evaluate.
 |-L file|True if file is a symbolic link.|
 |-r file|True if file is a file readable by you|
 |-w file|True if file is a file writable by you|
-|-x file|True if file is a 
+|-x file|True if file is a file executable by you|
+|file1 -nt file2|True if file1 is newer than file2|
+|file1 -ot file2|True if file1 is older than file2|
+|-z string|True if string is empty|
+|-n string|True if string is not empty|
+|string1 = string2|True if string1 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDczNjcsODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTU3ODQxMzUyNSw4NDUzMzg5MjhdfQ==
 -->
