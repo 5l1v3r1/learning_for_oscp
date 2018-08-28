@@ -33,8 +33,16 @@ echo $?
 Man page often include a section entitled "Exit status," describing what codes are used. a zero always indicates success.
 
 The shell provides two extremely simple builtin commands that do nothing except terminate with either a zero or one exit status. The **true** command always executes successfully and the **false** command always executes unsuccessfully
-We can use these commands to see how the **if** statement works. What the **if** 
+We can use these commands to see how the **if** statement works. What the **if** statement really does is evaluate the success or failure of commands:
+```bash
+if true; then echo "It's true."; fi
+It's true.
+if false; then echo "It's true."; fi
+
+```
+
+## test
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTEwMDkzNSw4NDUzMzg5MjhdfQ==
+eyJoaXN0b3J5IjpbMTM2NjkyMjY1Nyw4NDUzMzg5MjhdfQ==
 -->
