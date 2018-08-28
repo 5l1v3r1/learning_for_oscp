@@ -39,7 +39,11 @@ home_space()
 	echo "</pre>"
 }
 ```
+In order to execute this function successfully, the script must be run by the superuser, since the **du** command requires superuser privileges to examine the contents of the /home directory.
+
+## system_info
+We're not re 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjM0MzUzMV19
+eyJoaXN0b3J5IjpbLTEzMDI4MTA3OTNdfQ==
 -->
