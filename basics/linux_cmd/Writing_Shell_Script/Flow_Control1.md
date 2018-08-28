@@ -100,7 +100,11 @@ In order to be good script writers, we must set the exit status when our scripts
 What if we could put something in the script to stop it if a regular user attempts to run it? The **id** command can tell us who the current user is. When executed with the "-u" option, it print the numeric user id of the current user. I the superuser executes **id** -u, the command will output "0." This fact can be the basis of our test.
 ```bash
 if [ $(id -u) != "0" ]; then
-	echo "You must be the supre
+	echo "You must be the superuser to run this script" >&2
+	exit 1
+fi
+```
+Notice the ">&2" at the end of the echo command. This is another form of I/O direction. With this redirection, the message is sent to standard output
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk0NDI4NDYsODQ1MzM4OTI4XX0=
+eyJoaXN0b3J5IjpbLTk1NzYwNzg2MSw4NDUzMzg5MjhdfQ==
 -->
