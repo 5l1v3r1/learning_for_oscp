@@ -17,7 +17,9 @@ The second line is a comment.t
 ## Setting Permission
 We have to give the shell permission to execute your script.
 ```bash
-@m
+[me@linuxbox me]$ chmod 755 hello_world
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzA0MzU5Miw4ODgwMTM3XX0=
+eyJoaXN0b3J5IjpbLTE3MzU1MDQ4NzEsODg4MDEzN119
 -->
