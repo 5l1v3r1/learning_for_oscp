@@ -108,7 +108,10 @@ _EOF_
 A couple of important points about functions: First, they must appear before you attempt to use them. Second, the function body must contain at least one valid command. After you place a **return** statement in each function body, our script will execute successfully.
 
 ## Keep Your Script Working
-As you a
+When you are developing a program, it is often a good practice to add a small amount of code, run the script, add some more code, run the script, and so on.
+
+As you add functions to your script, you can use a technique called **stubbing**.
+Is is
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDIxNDM5Ml19
+eyJoaXN0b3J5IjpbLTE4NDE3Nzk5NzBdfQ==
 -->
