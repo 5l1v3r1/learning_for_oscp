@@ -53,8 +53,11 @@ Here is another one for you to try:
 ```bash
 alias today='date +"%A, %B -%-d, %Y"'
 ```
-You can try these commands by closing your terminal and star
+You can try these commands by closing your terminal and starting a new one.
+
+## Shell functions
+If you want to create commands more complex, you should try **shell functions**. Let's try one. Ope
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDgwNTM5MF19
+eyJoaXN0b3J5IjpbLTEwNjQ2Mzk3OTZdfQ==
 -->
