@@ -20,7 +20,11 @@ Login shells read one or more startup files as shown below:
 Non-login shell sessions read the following startup files:
 
 |File|Contents|
-|/etc/bash.bashrc|
+|:---|:--|
+|/etc/bash.bashrc|A global configuration script that applies to all users.|
+|~/.bashrc|A user's personal startup file. Can be used to extend or override settings in the global configuration script.|
+
+Non-login shells inherit the environment from the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDY5MjUzNF19
+eyJoaXN0b3J5IjpbMjgzMTM3NDMxXX0=
 -->
