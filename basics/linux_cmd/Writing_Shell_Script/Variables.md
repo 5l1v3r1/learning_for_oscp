@@ -41,8 +41,29 @@ First, it will reduce the amount of typing we have to do. and more importantly, 
 ## Environment Variables
 When you start your shell session, some variables are already set by the startup file. To see all the variables that are in your environment, use the **printenv** command.
 One variable in your environment contains the host name for your system. We will add this variable to our script like so:
+```bash
+#!/bin/bash
 
+# sysinfo_page - A script to produce an HTML file
+
+title="System Information for"
+
+cat <<- _EOF_
+    <html>
+    <head>
+        <title>
+        $title $HOSTNAME
+        </title>
+    </head>
+
+    <body>
+    <h1>$title $HOSTNAME</h1>
+    </body>
+    </html>
+_EOF_
+```
+Now our script will always include the name of the machine on which we are running. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxNzcyNDM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTg4MDcyNTc0MywtMjA4ODc0NjYxMl19
 -->
