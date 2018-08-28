@@ -42,8 +42,15 @@ home_space()
 In order to execute this function successfully, the script must be run by the superuser, since the **du** command requires superuser privileges to examine the contents of the /home directory.
 
 ## system_info
-We're not re 
+We're not ready to finish the system_info function yet. we will improve the stubbing code so it produces valid HTML
+```bash
+system_info()
+{
+	echo "<h2>System release info</h2>"
+	echo "<p>Function not yet implemented</p>"
+}
+```  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI4MTA3OTNdfQ==
+eyJoaXN0b3J5IjpbLTIwMzM2MDY5MDldfQ==
 -->
