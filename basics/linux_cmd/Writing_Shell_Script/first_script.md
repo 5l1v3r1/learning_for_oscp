@@ -12,7 +12,12 @@ Now, fire up your text editor and type in your first script as follows:
 echo "Hello world!"
 ```
 The first line of the script is called a shebang, given to the shell indicating what program is used to interpret the script.
-The second line is a comment.
+The second line is a comment.t
+
+## Setting Permission
+We have to give the shell permission to execute your script.
+```bash
+@m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDIxMDMzMzYsODg4MDEzN119
+eyJoaXN0b3J5IjpbLTUyMzA0MzU5Miw4ODgwMTM3XX0=
 -->
