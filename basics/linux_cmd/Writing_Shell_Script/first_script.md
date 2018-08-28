@@ -37,6 +37,8 @@ You can add directories to your path with the following command
 [me@linuxbox me]$ export PATH=$PATH:directory
 ```
 A better way would be to edit your .bash_profile or .profile file
+
+Most Linux distribution encourage a practice in which each user has a specific directory for the programs he/she personally uses. This dir
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTM0NzQ4MCw4ODgwMTM3XX0=
+eyJoaXN0b3J5IjpbLTEzNzgzMDcxNjEsODg4MDEzN119
 -->
