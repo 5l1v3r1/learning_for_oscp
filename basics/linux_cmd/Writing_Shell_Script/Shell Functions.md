@@ -9,7 +9,15 @@ If we look at our script's top-level tasks, we find the following list:
 4. Close head section
 5. Open body section
 6. Write title
-7. Write time stam
+7. Write time stamp
+8. Write system release info
+9. Write up-time
+10. Write drive space
+11. Write home space
+12. Close body section
+13. Close page
+
+ If there were commands that performed these additional tasks, we could us
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzYzMzU3NV19
+eyJoaXN0b3J5IjpbMjA1MjA0ODA3Ml19
 -->
