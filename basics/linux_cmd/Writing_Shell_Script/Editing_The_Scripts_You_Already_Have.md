@@ -6,7 +6,12 @@ a number of facts about the world in its memory that the system is holding is ca
 ## How is the Environment Established?
 
 When you log on to the system, the bash program starts, and reads a series of configuration scripts called **startup files**. These define the default environment shared by all user. These sequence depends on the type of shell session being started. There are two kinds:
-- a login sh
+- a login shell session
+- a non-login shell session
+Login shells read one or more startup files as shown below:
+|File|Contents|
+|:--|:--|
+|/etc/profile|A global configuration script that applies to all users.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY2NjkxMzddfQ==
+eyJoaXN0b3J5IjpbLTM0NTQ0NjM0Ml19
 -->
