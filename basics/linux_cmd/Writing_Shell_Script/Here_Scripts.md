@@ -65,11 +65,14 @@ In this script, the standard input of the *cat* command was given a stream of te
 
 A here script is constructed like this:
 ```bash
-command << token
-content to be used 
+command << **token**
+content to be used as command's standard input
+**token**
+```
 
+In this way, You can use indent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE5Mjg0MDMsNjYxMjU5NTc5LDE3Mj
-U1OTU0OCwzODMxODIzMzFdfQ==
+eyJoaXN0b3J5IjpbLTE5NTIxMzM2NCw2NjEyNTk1NzksMTcyNT
+U5NTQ4LDM4MzE4MjMzMV19
 -->
