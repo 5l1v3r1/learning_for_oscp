@@ -17,7 +17,11 @@ we could reach each item on the command line because the positional parameters c
 - $3 would contain "word3"
 
 ## Detecting Command line arguments
-Often, you will want to check to see if you have arguments on which to act. The
+Often, you will want to check to see if you have arguments on which to act. There are a couple of ways to do this. First, you could simply check to see if $1 contains anything. Second, the shell maintains a variable called $# that contains the number of items on the command line in addition to the name of the command ($0).
+```bash
+#!/bin/bash
+if [ $# -gt 0 ]; then
+	echo "Your co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NjkyMjg0XX0=
+eyJoaXN0b3J5IjpbNzUwMjU2MTk1XX0=
 -->
