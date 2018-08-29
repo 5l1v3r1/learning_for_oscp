@@ -44,7 +44,13 @@ for filename in "$@"; do
 		fi
 	fi
 	if [ -w "$filename" ]; then
-	
+		result="$result and it is writable"
+	else
+		result="$result and it is not writable"
+	fi
+	echo "$result"
+done
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NDU0MjQ4XX0=
+eyJoaXN0b3J5IjpbLTE4MDU2NDExMDVdfQ==
 -->
