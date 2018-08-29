@@ -19,7 +19,14 @@ we can construct the list of words using command substitution, all kinds of expa
 count=0
 for i in $(cat ~/.bash_profile); do
 	count=$((count + 1))
-	echo "Word $count ($i) contains $(echo 
+	echo "Word $count ($i) contains $(echo -n $i | wc -c) characters"
+done
+```
+So what's this got to do with positional parameters? Well, one of the features of **for** is that it can use the positional parameters as the list of words:
+```bash
+#!/bin/bash
+
+f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTM5NDIwNl19
+eyJoaXN0b3J5IjpbMTE3MDk2ODA3NV19
 -->
