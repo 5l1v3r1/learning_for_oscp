@@ -12,7 +12,12 @@ case $character in
 		  ;;
 	2 ) echo "You entered two."
 		  ;;
-	3 ) ec
+	3 ) echo "You entered three."
+		  ;;
+	* ) echo "You did not enter a number between 1 and 3."
+esac
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTM5MTQxOV19
+eyJoaXN0b3J5IjpbLTY3NTA3NjQ2NF19
 -->
