@@ -92,7 +92,16 @@ home_space()
 	echo "<pre>"
 	format="%8s%10s%10s	%-s\n"
 	printf "$format" "Dirs" "Files" "Blocks" "Directory"
-	printf "$format" "----" "-----" "----
+	printf "$format" "----" "-----" "------" "---------"
+	if [ $(id -u) = "0" ]; then
+		dir_list="/home/*"
+	else
+		dir_list=$HOME
+	fi
+	for home_dir in $dir_list; do
+		total_dirs=$(find $home_dir -type d | wc -l)
+		total_files=$(find 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDAyNjEzMiwtMTE5MDU4NDM1NV19
+eyJoaXN0b3J5IjpbLTIwNTY3MDc0MTksLTExOTA1ODQzNTVdfQ
+==
 -->
