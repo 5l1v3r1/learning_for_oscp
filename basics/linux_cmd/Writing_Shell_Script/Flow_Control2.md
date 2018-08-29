@@ -81,6 +81,7 @@ until [ "$selection" = "0" ]; do
 	esac
 done
 ```
+To make this program better looking when it runs, we can enhance it by adding a function that asks the user to press the Enter key after each selection has bee
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY5MTkyOTFdfQ==
+eyJoaXN0b3J5IjpbMjAyNTIwOTg2NF19
 -->
