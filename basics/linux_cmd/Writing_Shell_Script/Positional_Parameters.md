@@ -21,7 +21,15 @@ Often, you will want to check to see if you have arguments on which to act. Ther
 ```bash
 #!/bin/bash
 if [ $# -gt 0 ]; then
-	echo "Your co
+	echo "Your command line contains $# arguments"
+else
+	echo "Your command line contains no arguments"
+fi
+```
+
+## Command line options
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMjU2MTk1XX0=
+eyJoaXN0b3J5IjpbLTE4NDk4NjE3NDBdfQ==
 -->
