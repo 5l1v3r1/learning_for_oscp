@@ -59,7 +59,8 @@ echo "Example of error with line number and message"
 error_exit "$LINENO: An Error has occurred."
 ```
 
-You can surround a variable name with curly braces. ${1:-"Unknown Error"} means that if parameter 1($1) is undefined, substitute the string "Unknown Error" in its 
+You can surround a variable name with curly braces. ${1:-"Unknown Error"} means that if parameter 1($1) is undefined, substitute the string "Unknown Error" in its space.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Mjc3ODA2MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyODAxMTY4MjcsLTIwODg3NDY2MTJdfQ
+==
 -->
