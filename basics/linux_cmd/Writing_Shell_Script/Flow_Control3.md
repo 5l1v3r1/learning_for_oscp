@@ -5,6 +5,13 @@ for variable in words; do
 	commands
 done
 ```
+```bash
+#!/bin/bash
+
+for i in word1 word2 word3; do
+	echo $i
+done
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDU2NDQ2OF19
+eyJoaXN0b3J5IjpbMzg1MzAxNTYwXX0=
 -->
