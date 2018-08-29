@@ -52,7 +52,13 @@ The **until** command works exactly the same way, except the block of code is re
 
 number=0
 until [ "$number" -ge 10 ]; do
-	echo
+	echo "Number = $number"
+	number=$((number + 1))
+done
+```
+
+## Building a Menu
+Using the until command and the case command, you can build a simple menu driven applicati
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU0ODUxNDldfQ==
+eyJoaXN0b3J5IjpbLTE3MDI5NzMxMzJdfQ==
 -->
