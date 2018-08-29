@@ -17,9 +17,8 @@ Be warned. Use SIGKILL as a last resort.
 You had better create function in which multiple commands you want to execute when program is finished and pass it arg of the trap command.
 
 ## Create Safe Temporary Files
-
-
+You have to create temporary files in your home directory. A good file name will help you figure out what wrote the file, but will not be entirely predictable.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDE4ODUsLTY5NjA3MzIzOV19
+eyJoaXN0b3J5IjpbLTE4ODQ1MDU4NzIsLTY5NjA3MzIzOV19
 -->
