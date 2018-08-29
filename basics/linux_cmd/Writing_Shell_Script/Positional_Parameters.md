@@ -47,8 +47,9 @@ while [ "$1" != "" ]; do
 	shift
 done
 ```
-**shift** is a shell builtin that operates on the positional parameters. It shifts al
+**shift** is a shell builtin that operates on the positional parameters. It shifts all the positional parameters down by one.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTgzMjg3XX0=
+eyJoaXN0b3J5IjpbMTc3NTQ3NjUzXX0=
 -->
