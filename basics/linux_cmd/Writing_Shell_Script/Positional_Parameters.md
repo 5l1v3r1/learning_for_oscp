@@ -28,8 +28,14 @@ fi
 ```
 
 ## Command line options
-
+Now, we will implement -h or --help option.
+```bash
+interactive=
+filename=~/sysinfo_page.html
+while [ "$1" != "" ]; do
+	case $1 in
+		-f | --fi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDk4NjE3NDBdfQ==
+eyJoaXN0b3J5IjpbOTA0OTYzNDY1XX0=
 -->
