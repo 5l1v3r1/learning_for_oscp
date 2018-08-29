@@ -10,8 +10,12 @@ The **trap** command allows you to execute a command when a signal is received b
 trap arg signals
 ```
 arg is a command to execute when one of the signals is received.
-There is one signal that you cannot trap: SIGKILL or signal 9. The kernel immediately terminates any process sent this signal and no signal handling is performed. Despite its apparent ease, you must remem
+There is one signal that you cannot trap: SIGKILL or signal 9. The kernel immediately terminates any process sent this signal and no signal handling is performed. Despite its apparent ease, you must remember that when you send this signal, no processing is done by the application.
+Be warned. Use SIGKILL as a last resort.
+
+## A clean_up Function
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjQ3MzI5LC02OTYwNzMyMzldfQ==
+eyJoaXN0b3J5IjpbMTMyNjE2MzE0MCwtNjk2MDczMjM5XX0=
 -->
