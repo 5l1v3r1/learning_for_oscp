@@ -31,6 +31,9 @@ case $character in
 	* ) echo "You did not type a letter or a digit"
 esac
 ```
+
+## Loops
+Looping is repeatedly executing a section of your program based on the exit status of a command. The shell provides three commands for looping: **while**, **untill**, **for**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDk3MTExMV19
+eyJoaXN0b3J5IjpbMTY5MzUxOTAxMV19
 -->
