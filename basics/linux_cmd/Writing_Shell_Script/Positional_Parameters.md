@@ -49,7 +49,12 @@ done
 ```
 **shift** is a shell builtin that operates on the positional parameters. It shifts all the positional parameters down by one.
 
+In this script, we have to check the content of *filename* to make sure it is valid.
+
+## Integrating The Command Line Processor Into The script.
+We will have to move a few things around and add a usage function to get this new routine in
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTQ3NjUzXX0=
+eyJoaXN0b3J5IjpbMTU4NTkwODI3OF19
 -->
