@@ -81,7 +81,21 @@ until [ "$selection" = "0" ]; do
 	esac
 done
 ```
-To make this program better looking when it runs, we can enhance it by adding a function that asks the user to press the Enter key after each selection has bee
+To make this program better looking when it runs, we can enhance it by adding a function that asks the user to press the Enter key after each selection has been completed, and clear the screen before the menu is displayed again.
+```bash
+#!/bin/bash
+
+press_enter()
+{
+	echo -en "\nPress Enter to continue"
+	read
+	clear
+}
+
+selection=
+until [ "$selection" = "0" ]; do
+	echo "
+	PROG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTIwOTg2NF19
+eyJoaXN0b3J5IjpbNzY0NDY4NzBdfQ==
 -->
