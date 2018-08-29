@@ -110,8 +110,20 @@ home_space()
 This improved version introduces a new command **printf**, which is used to produce formatted output according to the contents of a format string.
 We also introduce the **find** command. find is used to search for files or directories that meet specific criteria. In the *home_space* function, we use find to list the directories and regular files in each home directory. Using the wc command, we count the number of files and directories found.
 
-Another function that can use a **for** loop is our 
+Another function that can use a **for** loop is our unfinished *system_info* function. We can build it like this:
+```bash
+system_info()
+{
+	if ls /etc/*release 1>/dev/null 2>&1; then
+		echo "<h2>System release info</h2>"
+		echo "<pre>"
+		for i in /etc/*release; do
+			head -n 1 $i
+		done
+		uname -orp
+		echo "</pre>"
+	fi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQwMTc3MDUsLTM5NjgyOTMxNiwtMT
-E5MDU4NDM1NV19
+eyJoaXN0b3J5IjpbLTc5Nzc0OTQsLTM5NjgyOTMxNiwtMTE5MD
+U4NDM1NV19
 -->
