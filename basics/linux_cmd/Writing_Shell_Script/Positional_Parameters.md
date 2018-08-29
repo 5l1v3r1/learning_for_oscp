@@ -174,10 +174,18 @@ echo "output file = $filename"
 ## Adding Interactive Mode
 The interactive mode is implemented with the following code:
 ```bash
-if [ "$interac
+if [ "$interactive" = "1" ]; then
+	response=
+	echo -n "Enter name of output file [$filename] > "
+	read response
+	if [ -n "$response" ]; then
+		filename=$response
+	fi
+	if [ -f $filename ]; then
+		echo -n "Output file exists. Overwirte
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjIyMzE1XX0=
+eyJoaXN0b3J5IjpbMzc1ODQxODkxXX0=
 -->
