@@ -26,7 +26,11 @@ So what's this got to do with positional parameters? Well, one of the features o
 ```bash
 #!/bin/bash
 
-f
+for i in "$@"; do
+	echo $i
+done
+```
+The shell variables "$@" contains the list of command line arguments. This technique is often used to process a list of files on the command line. Here is another 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDk2ODA3NV19
+eyJoaXN0b3J5IjpbLTY1NTUxNTU3Nl19
 -->
