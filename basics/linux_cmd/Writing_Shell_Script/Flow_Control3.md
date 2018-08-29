@@ -51,6 +51,7 @@ for filename in "$@"; do
 	echo "$result"
 done
 ```
+Here is another example script. This one compares the files in two directories and lists which files in the first dire
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU2NDExMDVdfQ==
+eyJoaXN0b3J5IjpbMTU4MDk4NTUxNV19
 -->
