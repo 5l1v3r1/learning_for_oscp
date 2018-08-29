@@ -88,15 +88,7 @@ We are going to improve the *home_space* function in our script to output more i
 ```bash
 home_space()
 {
-	#Only the superuser can get this information
-	if [ "$(id -u)" = "0" ]; then
-	echo "<h2>Home directory space by user</h2>
-	echo "<pre>"
-	echo "Bytes Directory"
-	du -s /home/* | sort -nr
-	echo "</pre>"
-	fi
-	}
+	echo "<h2>Home directory 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjQ4MDg0MywtMTE5MDU4NDM1NV19
+eyJoaXN0b3J5IjpbMTQ3MzkwOTQ3NSwtMTE5MDU4NDM1NV19
 -->
