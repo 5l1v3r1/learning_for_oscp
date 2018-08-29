@@ -88,7 +88,11 @@ We are going to improve the *home_space* function in our script to output more i
 ```bash
 home_space()
 {
-	echo "<h2>Home directory 
+	echo "<h2>Home directory space by user</h2>"
+	echo "<pre>"
+	format="%8s%10s%10s	%-s\n"
+	printf "$format" "Dirs" "Files" "Blocks" "Directory"
+	printf "$format" "----" "-----" "----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzkwOTQ3NSwtMTE5MDU4NDM1NV19
+eyJoaXN0b3J5IjpbMTg0NDAyNjEzMiwtMTE5MDU4NDM1NV19
 -->
