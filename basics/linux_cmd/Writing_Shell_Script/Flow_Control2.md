@@ -17,7 +17,7 @@ case $character in
 	* ) echo "You did not enter a number between 1 and 3."
 esac
 ```
-
+Patterns can be literal text or wildcards. Here is a more advanced example to show what I mean.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTA3NjQ2NF19
+eyJoaXN0b3J5IjpbMTI5NTUwMjIxMF19
 -->
