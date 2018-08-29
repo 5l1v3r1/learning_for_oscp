@@ -47,7 +47,15 @@ You had better include the name of the program in the error message to make clea
 #holds the name of the program being run. You can get this
 #value from the first item on the command line
 
-PROGNAME
+PROGNAME=$(basename $0)
+
+error_exit()
+{
+	echo "${PROGNAME}: $(1:-"Unknown Error"}" 1>&2
+	exit 1
+}
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNDQ4NzY4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTYwMzI4MTMzMywtMjA4ODc0NjYxMl19
 -->
