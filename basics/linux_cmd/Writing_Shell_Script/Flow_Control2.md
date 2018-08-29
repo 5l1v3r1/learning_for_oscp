@@ -58,7 +58,19 @@ done
 ```
 
 ## Building a Menu
-Using the until command and the case command, you can build a simple menu driven applicati
+Using the until command and the case command, you can build a simple menu driven application:
+```bash
+#!/bin/bash
+
+selection=
+until [ "$selection" = "0" ]; do
+	echo "
+	PROGRAM MENU
+	1 - Display free disk space
+	2 - Display free memory
+	0 - exit program
+	
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI5NzMxMzJdfQ==
+eyJoaXN0b3J5IjpbLTc0NDQyNDU0Nl19
 -->
