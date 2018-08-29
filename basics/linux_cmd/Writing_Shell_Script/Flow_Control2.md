@@ -17,7 +17,15 @@ case $character in
 	* ) echo "You did not enter a number between 1 and 3."
 esac
 ```
-Patterns can be literal text or wildcards. Here is a more advanced example to show what I mean.
+Patterns can be literal text or wildcards. Here is a more advanced example.
+```bash
+#!/bin/bash
+
+echo -n "Type a digit or a letter > "
+read character
+case $character in
+	[[:lower:] | [:upper:]] ) echo "You typed the letter $character"
+	;;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTUwMjIxMF19
+eyJoaXN0b3J5IjpbLTExOTQ5MTMzMDJdfQ==
 -->
