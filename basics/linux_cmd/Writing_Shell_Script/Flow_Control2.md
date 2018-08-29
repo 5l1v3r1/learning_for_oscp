@@ -34,6 +34,15 @@ esac
 
 ## Loops
 Looping is repeatedly executing a section of your program based on the exit status of a command. The shell provides three commands for looping: **while**, **untill**, **for**.
+
+Here is a simple example of a program that counts from zero to nine:
+```bash
+#!/bin/bash
+
+number=0
+while [ "$number" - lt 10 ]; do
+	echo "Number = $number"
+	number=$((number + 1))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzUxOTAxMV19
+eyJoaXN0b3J5IjpbMTc0NzAyODQ1MF19
 -->
