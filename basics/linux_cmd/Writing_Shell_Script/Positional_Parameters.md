@@ -12,7 +12,12 @@ Let's imagine the following command line:
 ```
 we could reach each item on the command line because the positional parameters contains the followingl:
 - $0 would contain "some_program"
-- $1 would con
+- $1 would contain "word1"
+- $2 would contain "word2"
+- $3 would contain "word3"
+
+## Detecting Command line arguments
+Often, you will want to check to see if you have arguments on which to act. The
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1Mzk3NTUxXX0=
+eyJoaXN0b3J5IjpbNjE2NjkyMjg0XX0=
 -->
