@@ -171,7 +171,13 @@ echo "output file = $filename"
 # write_page > $filename
 ```
 
+## Adding Interactive Mode
+The interactive mode is implemented with the following code:
+```bash
+if [ "$interac
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzAwMDAxMl19
+eyJoaXN0b3J5IjpbLTI4MjIyMzE1XX0=
 -->
