@@ -84,7 +84,16 @@ for filename in $1/*; do
 	fi
 done
 ```
-We a
+We are going to improve the *home_space* function in our script to output more information.
+```bash
+home_space()
+{
+	#Only the superuser can get this information
+	if [ "$(id -u)" = "0" ]; then
+	echo "<h2>Home directory space by user</h2>
+	echo "<pre>"
+	echo "Bytes Directory"
+	du -s 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzMzAyMzk2LC0xMTkwNTg0MzU1XX0=
+eyJoaXN0b3J5IjpbMTc0NzE1MDM1MiwtMTE5MDU4NDM1NV19
 -->
