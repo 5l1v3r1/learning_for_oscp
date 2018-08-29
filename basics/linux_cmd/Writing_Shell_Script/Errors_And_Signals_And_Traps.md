@@ -38,7 +38,16 @@ rm *
 ```
 
 ## Improving The Error Exit Function
-You had better include the name of the program in the error message to make clear where the error is coming from. Also, note the inclusion of the LINENO environment variable which will help you identify the exact linewith
+You had better include the name of the program in the error message to make clear where the error is coming from. Also, note the inclusion of the LINENO environment variable which will help you identify the exact line within your script where the error occurred.
+```bash
+#!/bin/bash
+#A slicker error handling routine
+
+#I put a variable in my scripts named PROGNAME which
+#holds the name of the program being run. You can get this
+#value from the first item on the command line
+
+PROGNAME
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTIzOTM3OSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbODQwNDQ4NzY4LC0yMDg4NzQ2NjEyXX0=
 -->
