@@ -52,9 +52,12 @@ done
 In this script, we have to check the content of *filename* to make sure it is valid.
 
 ## Integrating The Command Line Processor Into The script.
-We will have to move a few things around and add a usage function to get this new routine in
+We will have to move a few things around and add a usage function to get this new routine integrated into our script. We'll also add some test code to verify that the command line processor is working correctly. Our script now looks like this:
+```bash
+
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTkwODI3OF19
+eyJoaXN0b3J5IjpbNDk3NDQyNjQ0XX0=
 -->
