@@ -108,8 +108,10 @@ home_space()
 }
 ```
 This improved version introduces a new command **printf**, which is used to produce formatted output according to the contents of a format string.
-We also introduce the **find** command. find is used to search for files or directories that meet specific criteria
+We also introduce the **find** command. find is used to search for files or directories that meet specific criteria. In the *home_space* function, we use find to list the directories and regular files in each home directory. Using the wc command, we count the number of files and directories found.
+
+Another function that can use a **for** loop is our 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc5NTEyODQsLTM5NjgyOTMxNiwtMT
+eyJoaXN0b3J5IjpbLTE0MjQwMTc3MDUsLTM5NjgyOTMxNiwtMT
 E5MDU4NDM1NV19
 -->
