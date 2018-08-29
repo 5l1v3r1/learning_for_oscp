@@ -10,6 +10,21 @@ You can examine the contents of the $? environment variable to get and respond t
 
 ## An Error Exit Function
 It makes sense to write a function that will display error message. This will save more typing and promote laziness.
+```bash
+error_exit()
+{
+	echo "$1" 1>&2
+	exit 1
+}
+
+if cd $some_directory; then
+	rm *
+else
+	error_exit "Cannot change directory! Aborting."
+fi
+
+## AND And OR List
+You can simplify our script by using the AND and O
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTQxMTQzOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTQ3MzAyMzkzLC0yMDg4NzQ2NjEyXX0=
 -->
