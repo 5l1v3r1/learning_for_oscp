@@ -37,7 +37,8 @@ cd $some_directory || error_exit "Cannot change directory! Aborting"
 rm *
 ```
 
-## Improving The 
+## Improving The Error Exit Function
+You had better include the name of the program in the error message to make clear where the error is coming from. Also, note the inclusion of the LINENO environment variable which will help you identify the exact linewith
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDc1NDg0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTU5NTIzOTM3OSwtMjA4ODc0NjYxMl19
 -->
