@@ -18,7 +18,9 @@ You had better create function in which multiple commands you want to execute wh
 
 ## Create Safe Temporary Files
 You have to create temporary files in your home directory. A good file name will help you figure out what wrote the file, but will not be entirely predictable.
+you can choose good file name like this:
+`printfile(program
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ1MDU4NzIsLTY5NjA3MzIzOV19
+eyJoaXN0b3J5IjpbMTI2MjYwOTk0NCwtNjk2MDczMjM5XX0=
 -->
