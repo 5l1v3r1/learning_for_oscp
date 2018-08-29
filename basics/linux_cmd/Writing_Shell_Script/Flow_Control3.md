@@ -62,7 +62,19 @@ if [ $# -ne 2 ]; then
 	exit 1
 fi
 
+#Make sure both arguments are directories
+if [ ! -d $1 ]; then
+	echo "$1 is not a directory!" 1>&2
+	exit 1
+fi
+if [ ! -d $2 ]; then
+	echo "$2 is not a directory!" 1>&2
+	exit 1
+fi
 
+#Process each file in directtory_1, comparing it to directory_2
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTAzNDI5Nl19
+eyJoaXN0b3J5IjpbLTEzMjExNDQzN119
 -->
