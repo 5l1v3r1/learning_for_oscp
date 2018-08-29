@@ -73,8 +73,17 @@ if [ ! -d $2 ]; then
 fi
 
 #Process each file in directtory_1, comparing it to directory_2
-
+missing=0
+for filename in $1/*; do
+	fn=$(basename "$filename")
+	if [ -f "$filename" ]; then
+		if [ ! -f "$2/$fn" ]; then
+			echo "$fn is missing from $2"
+			missing=$((missing + 1))
+		fi
+	fi
+done
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjExNDQzN119
+eyJoaXN0b3J5IjpbLTExOTA1ODQzNTVdfQ==
 -->
