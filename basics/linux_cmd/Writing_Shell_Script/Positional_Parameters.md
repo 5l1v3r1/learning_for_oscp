@@ -42,9 +42,13 @@ while [ "$1" != "" ]; do
 							exit
 							;;
 		* ) usage
-		* exit 1
-		
+			 exit 1
+	esac
+	shift
+done
+```
+**shift** is a shell builtin that operates on the positional parameters. It shifts al
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA5MjU0MDRdfQ==
+eyJoaXN0b3J5IjpbMTQ0OTgzMjg3XX0=
 -->
