@@ -5,8 +5,12 @@ You have to be concerned with signals.
 A signal can come along and make your script terminate. In some cases it will matter. If the user types ctrl-c after making temporary file and before deleting it, It wont be deleted. So, we need a way to respond to signals such as SIGINT when th Ctrl-c key is typed.
 
 ## trap
-The **trap** command allows you to execute a command when a signal
+The **trap** command allows you to execute a command when a signal is received by your script. It works like this:
+```bash
+trap arg signals
+```
+arg is a command to execute when one of the signals is received.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NTM0Mzk5LC02OTYwNzMyMzldfQ==
+eyJoaXN0b3J5IjpbODAwNDg0MzMsLTY5NjA3MzIzOV19
 -->
