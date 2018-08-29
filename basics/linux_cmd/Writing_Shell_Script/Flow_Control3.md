@@ -51,7 +51,18 @@ for filename in "$@"; do
 	echo "$result"
 done
 ```
-Here is another example script. This one compares the files in two directories and lists which files in the first dire
+Here is another example script. This one compares the files in two directories and lists which files in the first directory are missing from the second.
+```bash
+#!/bin/bash
+
+#cmp_dir - program to compare two directories
+#check for required arguments
+if [ $# -ne 2 ]; then
+	echo "usage: $0 directory_1 directory_2" 1>&2
+	exit 1
+fi
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDk4NTUxNV19
+eyJoaXN0b3J5IjpbMTgyNTAzNDI5Nl19
 -->
