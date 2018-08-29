@@ -46,7 +46,13 @@ while [ "$number" - lt 10 ]; do
 done
 ```
 
-The **until** command works exactly the same way, except the block of code is repeated 
+The **until** command works exactly the same way, except the block of code is repeated as long as the specified command's exit status is false.
+```bash
+#!/bin/bash
+
+number=0
+until [ "$number" -ge 10 ]; do
+	echo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTg5MjM2NV19
+eyJoaXN0b3J5IjpbLTE0NzU0ODUxNDldfQ==
 -->
