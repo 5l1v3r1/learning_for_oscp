@@ -25,7 +25,12 @@ echo -n "Type a digit or a letter > "
 read character
 case $character in
 	[[:lower:] | [:upper:]] ) echo "You typed the letter $character"
-	;;
+		;;
+	[0-9] ) echo "You typed the digit $character"
+		;;
+	* ) echo "You did not type a letter or a digit"
+esac
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ5MTMzMDJdfQ==
+eyJoaXN0b3J5IjpbLTg4NDk3MTExMV19
 -->
