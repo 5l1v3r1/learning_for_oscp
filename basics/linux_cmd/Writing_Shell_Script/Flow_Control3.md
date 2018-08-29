@@ -93,7 +93,10 @@ home_space()
 	echo "<h2>Home directory space by user</h2>
 	echo "<pre>"
 	echo "Bytes Directory"
-	du -s 
+	du -s /home/* | sort -nr
+	echo "</pre>"
+	fi
+	}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzE1MDM1MiwtMTE5MDU4NDM1NV19
+eyJoaXN0b3J5IjpbMTQzMjQ4MDg0MywtMTE5MDU4NDM1NV19
 -->
