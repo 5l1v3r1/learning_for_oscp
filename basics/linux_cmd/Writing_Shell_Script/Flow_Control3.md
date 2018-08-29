@@ -100,8 +100,12 @@ home_space()
 	fi
 	for home_dir in $dir_list; do
 		total_dirs=$(find $home_dir -type d | wc -l)
-		total_files=$(find 
+		total_files=$(find $home_dir -type f | wc -l)
+		total_blocks=$(du -s $home_dir)
+		printf "$format" $total_dirs $total_files $total_blocks
+	done
+	echo "</pre>"
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY3MDc0MTksLTExOTA1ODQzNTVdfQ
-==
+eyJoaXN0b3J5IjpbLTM5NjgyOTMxNiwtMTE5MDU4NDM1NV19
 -->
