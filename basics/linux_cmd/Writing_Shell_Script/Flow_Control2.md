@@ -69,8 +69,18 @@ until [ "$selection" = "0" ]; do
 	1 - Display free disk space
 	2 - Display free memory
 	0 - exit program
-	
-
+"
+	echo -n "Enter selection: "
+	read selection
+	echo ""
+	case $selection in
+		1 ) df ;;
+		2 ) free ;;
+		0 ) exit ;;
+		* ) echo "Please enter 1, 2, 0"
+	esac
+done
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDQyNDU0Nl19
+eyJoaXN0b3J5IjpbLTEwNjY5MTkyOTFdfQ==
 -->
