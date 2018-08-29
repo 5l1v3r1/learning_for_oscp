@@ -43,6 +43,10 @@ number=0
 while [ "$number" - lt 10 ]; do
 	echo "Number = $number"
 	number=$((number + 1))
+done
+```
+
+The **until** command works exactly the same way, except the block of code is repeated 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzAyODQ1MF19
+eyJoaXN0b3J5IjpbMTMwMTg5MjM2NV19
 -->
