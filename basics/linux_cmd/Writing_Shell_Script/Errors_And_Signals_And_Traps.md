@@ -55,7 +55,11 @@ error_exit()
 	exit 1
 }
 
+echo "Example of error with line number and message"
+error_exit "$LINENO: An Error has occurred."
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzI4MTMzMywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTQwNzI5MzUzNCwtMjA4ODc0NjYxMl19
 -->
