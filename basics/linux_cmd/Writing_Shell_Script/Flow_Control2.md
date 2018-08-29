@@ -107,7 +107,10 @@ until [ "$selection" = "0" ]; do
 		1 ) df ; press_enter ;;
 		2 ) free ; press_enter ;;
 		0 ) exit ;;
-		* ) echo "Please enter 1, 2, or 0 
+		* ) echo "Please enter 1, 2, or 0"; press_enter
+	esac
+done
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk1OTUxNjNdfQ==
+eyJoaXN0b3J5IjpbLTExMjY4NzkwODRdfQ==
 -->
