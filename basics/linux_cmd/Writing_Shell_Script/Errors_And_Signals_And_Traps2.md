@@ -14,9 +14,9 @@ There is one signal that you cannot trap: SIGKILL or signal 9. The kernel immedi
 Be warned. Use SIGKILL as a last resort.
 
 ## A clean_up Function
-You had better create function that you want to do when program is finished.
+You had better create function in which multiple commands you want to execute when program is finished and pass it arg of The tra
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI0MjQyNzQsLTY5NjA3MzIzOV19
+eyJoaXN0b3J5IjpbLTEzNzIwMTA1MSwtNjk2MDczMjM5XX0=
 -->
