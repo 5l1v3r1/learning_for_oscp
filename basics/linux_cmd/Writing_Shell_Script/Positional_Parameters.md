@@ -182,10 +182,17 @@ if [ "$interactive" = "1" ]; then
 		filename=$response
 	fi
 	if [ -f $filename ]; then
-		echo -n "Output file exists. Overwirte
+		echo -n "Output file exists. Overwrite? (y/n) > "
+		read response
+		if [ "$response" != "y" ]; then
+			echo "Existing program."
+			exit 1
+		fi
+	fi
+fi
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1ODQxODkxXX0=
+eyJoaXN0b3J5IjpbMzg3NjUwNzQ3XX0=
 -->
