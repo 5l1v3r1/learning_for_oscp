@@ -30,7 +30,21 @@ for i in "$@"; do
 	echo $i
 done
 ```
-The shell variables "$@" contains the list of command line arguments. This technique is often used to process a list of files on the command line. Here is another 
+The shell variables "$@" contains the list of command line arguments. This technique is often used to process a list of files on the command line. Here is another example:
+```bash
+#!/bin/bash
+
+for filename in "$@"; do
+	result=
+	if [ -f "$filename" ]; then
+		result="$filename is a regular file"
+	else
+		if [ -d "$filename" ]; then
+			result="$filename is a directory"
+		fi
+	fi
+	if [ -w "$filename" ]; then
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTUxNTU3Nl19
+eyJoaXN0b3J5IjpbNTE1NDU0MjQ4XX0=
 -->
