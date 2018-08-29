@@ -4,6 +4,9 @@ The difference between a good program and a poor one is often measured in terms 
 
 ## Exit status
 It is very important to check the exit status of programs you call in your scripts. It is also important that your scripts return a meaningful exit status when they finish.
+
+## Checking the exit status
+You can examine the contents of the $? environment variable to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzY4Mzk0MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE1MTkwNzg4OCwtMjA4ODc0NjYxMl19
 -->
