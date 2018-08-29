@@ -7,6 +7,9 @@ It is very important to check the exit status of programs you call in your scrip
 
 ## Checking the exit status
 You can examine the contents of the $? environment variable to get and respond to the exit status of a program. It will contain the exit status of the last command executed.
+
+## An Error Exit Function
+It makes sense to write a function that will display error message. This will save more typing and promote laziness.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDMzOTk2MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTUzOTQxMTQzOSwtMjA4ODc0NjYxMl19
 -->
