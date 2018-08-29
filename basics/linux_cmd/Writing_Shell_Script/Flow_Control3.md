@@ -123,7 +123,10 @@ system_info()
 		uname -orp
 		echo "</pre>"
 	fi
+}
+```
+We use the **uname** command with the "o", "r", "p", options to obtain some additional information from the system.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Nzc0OTQsLTM5NjgyOTMxNiwtMTE5MD
-U4NDM1NV19
+eyJoaXN0b3J5IjpbLTE1NzU4Mzk1LC0zOTY4MjkzMTYsLTExOT
+A1ODQzNTVdfQ==
 -->
