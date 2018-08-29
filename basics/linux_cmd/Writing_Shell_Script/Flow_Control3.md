@@ -107,8 +107,9 @@ home_space()
 	echo "</pre>"
 }
 ```
-
+This improved version introduces a new command **printf**, which is used to produce formatted output according to the contents of a format string.
+We also introduce the **find** command. find is used to search for files or directories that meet specific criteria
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzA2MzIyNCwtMzk2ODI5MzE2LC0xMT
-kwNTg0MzU1XX0=
+eyJoaXN0b3J5IjpbLTE0ODc5NTEyODQsLTM5NjgyOTMxNiwtMT
+E5MDU4NDM1NV19
 -->
