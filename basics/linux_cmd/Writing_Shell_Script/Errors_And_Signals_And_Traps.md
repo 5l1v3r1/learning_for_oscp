@@ -22,6 +22,7 @@ if cd $some_directory; then
 else
 	error_exit "Cannot change directory! Aborting."
 fi
+```
 
 ## AND And OR List
 You can simplify our script by using the AND and OR control operators.
@@ -34,6 +35,9 @@ Using this technique, we can write an even simpler version
 ```bash
 cd $some_directory || error_exit "Cannot change directory! Aborting"
 rm *
+```
+
+## Improving The 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjY4NzA2NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTQwMDc1NDg0LC0yMDg4NzQ2NjEyXX0=
 -->
