@@ -28,7 +28,12 @@ You can simplify our script by using the AND and OR control operators.
 `command1 && command2`
 command2 is executed if, and only if, command1 returns an exit status of zero.
 `command1 || command2`
-command2 is executed if, and only if, command1 returns 
+command2 is executed if, and only if, command1 returns a non-zero exit status.
+
+Using this technique, we can write an even simpler version
+```bash
+cd $some_directory || error_exit "Cannot change directory! Aborting"
+rm *
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTYzNTE1NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjExMjY4NzA2NiwtMjA4ODc0NjYxMl19
 -->
