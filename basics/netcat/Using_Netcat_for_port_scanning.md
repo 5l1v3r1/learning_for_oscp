@@ -20,13 +20,13 @@ Here is another example: you will use UDP protocol instead of the TCP protocol.
 ### Using Netcat for banner grabbing
 Another neat usage of Netcat is for banner grabbing(technique to glean information of the system on the Internet)
 `# nc -v -n 192.168.1.69 80
-GET HTTP`
+GET / HTTP/1.1\n\n`
 Once connected above you simply issued the command: GET HTTP
 
 ### Combining both port scan and banner identification
 Now we will combine both Port Scan and banner identification.
 ```bash
-# echo GET HTTP | nc -v -n 216.58.199.228 80
+# echo -en "GET / HTTP/1.1\n\n" | nc -v -n 216.58.199.228 80
 ```
 
 ### Using Netcat to transfer files
@@ -44,6 +44,7 @@ on the compromised windows host:
 on the local host:
 `# nc [remote host] 80`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzQwMTQ4MSw1Nzg1OTM4NDIsMTE5OT
-I1Mzk3MCw5NDYwMjIzMjMsMTM3Mjk4NjIwMF19
+eyJoaXN0b3J5IjpbLTIwMzM4MjkyMywtMzE3NDAxNDgxLDU3OD
+U5Mzg0MiwxMTk5MjUzOTcwLDk0NjAyMjMyMywxMzcyOTg2MjAw
+XX0=
 -->
