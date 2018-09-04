@@ -31,7 +31,9 @@ Now we will combine both Port Scan and banner identification.
 
 ### Using Netcat to transfer files
 Netcat can be used as well to transfer files between two hosts. It can be a very effective tool to transfer the files that you need in order to escalate your privileges on a remote host.
+Let's suppose we have the following scenario. You have a Windows host that you successfully compromised and you wish to transfer additional tools to it in order to escalate your privileges.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTgzNjE3OSw1Nzg1OTM4NDIsMTE5OT
-I1Mzk3MCw5NDYwMjIzMjMsMTM3Mjk4NjIwMF19
+eyJoaXN0b3J5IjpbNTUzMjM1MDYxLDU3ODU5Mzg0MiwxMTk5Mj
+UzOTcwLDk0NjAyMjMyMywxMzcyOTg2MjAwXX0=
 -->
