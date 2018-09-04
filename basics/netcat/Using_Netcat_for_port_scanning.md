@@ -13,6 +13,7 @@ A typical command to perform port scanning would be:
 The first portion of the command line that says: nc -v -w 3 which simply tells Netcat to give us more verbose feedback and to timeout after 3 seconds if no connections could be established.
 
 The -z switch prevent Netcat from sending any data to a TCP connection and it will only send very limited data to a UDP connection.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mjk4NjIwMF19
+eyJoaXN0b3J5IjpbLTEzNzY2MDMyNTgsMTM3Mjk4NjIwMF19
 -->
