@@ -19,7 +19,8 @@ Here is another example: you will use UDP protocol instead of the TCP protocol.
 
 ### Using Netcat for banner grabbing
 Another neat usage of Netcat is for banner grabbing(technique to glean information of the system on the Internet)
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTI1Mzk3MCw5NDYwMjIzMjMsMTM3Mj
-k4NjIwMF19
+eyJoaXN0b3J5IjpbODk2MDU4OTk2LDExOTkyNTM5NzAsOTQ2MD
+IyMzIzLDEzNzI5ODYyMDBdfQ==
 -->
