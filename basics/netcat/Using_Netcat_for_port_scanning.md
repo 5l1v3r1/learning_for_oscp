@@ -49,9 +49,14 @@ on the local host:
 First you must setup a listener on the host that will receive the files. After issuing the 
 `nc -l 134 | tar xvfp -` command. it seems like no activity is taking place. As soon as the transfer is initiated on the remote side you will set a list of files as they are sent across the Netcat pipe.
 on the remote host:
-```ba
+```bash
+nc -l -p 1234 | tar xvfp -
+```
+on the local host:
+```bash
+tar cfp -
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjcyMzA1NSwxNDU2MDQxNjE1LC0yMD
+eyJoaXN0b3J5IjpbMTI5Nzc5NjkyNywxNDU2MDQxNjE1LC0yMD
 MzODI5MjMsLTMxNzQwMTQ4MSw1Nzg1OTM4NDIsMTE5OTI1Mzk3
 MCw5NDYwMjIzMjMsMTM3Mjk4NjIwMF19
 -->
