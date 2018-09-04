@@ -54,9 +54,10 @@ nc -l -p 1234 | tar xvfp -
 ```
 on the local host:
 ```bash
-tar cfp -
+tar cfp - * | nc -w 3 [remotehost]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Nzc5NjkyNywxNDU2MDQxNjE1LC0yMD
-MzODI5MjMsLTMxNzQwMTQ4MSw1Nzg1OTM4NDIsMTE5OTI1Mzk3
-MCw5NDYwMjIzMjMsMTM3Mjk4NjIwMF19
+eyJoaXN0b3J5IjpbLTk4MDk2NTg1LDE0NTYwNDE2MTUsLTIwMz
+M4MjkyMywtMzE3NDAxNDgxLDU3ODU5Mzg0MiwxMTk5MjUzOTcw
+LDk0NjAyMjMyMywxMzcyOTg2MjAwXX0=
 -->
