@@ -28,7 +28,10 @@ Now we will combine both Port Scan and banner identification.
 ```bash
 # echo GET HTTP | nc -v -n 216.58.199.228 80
 ```
+
+### Using Netcat to transfer files
+Netcat can be used as well 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4NTkzODQyLDExOTkyNTM5NzAsOTQ2MD
-IyMzIzLDEzNzI5ODYyMDBdfQ==
+eyJoaXN0b3J5IjpbNDQ4MTg0ODE2LDU3ODU5Mzg0MiwxMTk5Mj
+UzOTcwLDk0NjAyMjMyMywxMzcyOTg2MjAwXX0=
 -->
