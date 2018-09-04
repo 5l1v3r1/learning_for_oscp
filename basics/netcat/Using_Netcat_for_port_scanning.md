@@ -26,8 +26,9 @@ Once connected above you simply issued the command: GET HTTP
 ### Combining both port scan and banner identification
 Now we will combine both Port Scan and banner identification.
 ```bash
-#echo GET HTTP | nc -v -n 216.58.199.228 80 
+# echo GET HTTP | nc -v -n 216.58.199.228 80
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwOTA5NzQsMTE5OTI1Mzk3MCw5NDYwMj
-IzMjMsMTM3Mjk4NjIwMF19
+eyJoaXN0b3J5IjpbNTc4NTkzODQyLDExOTkyNTM5NzAsOTQ2MD
+IyMzIzLDEzNzI5ODYyMDBdfQ==
 -->
