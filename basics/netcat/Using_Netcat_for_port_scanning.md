@@ -17,6 +17,9 @@ The -z switch prevent Netcat from sending any data to a TCP connection and it wi
 Here is another example: you will use UDP protocol instead of the TCP protocol.
 `# nc -v -w 3 -z -u 192.168.1.69 20-100`
 
+### Using Netcat for banner grabbing
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MDIyMzIzLDEzNzI5ODYyMDBdfQ==
+eyJoaXN0b3J5IjpbLTE3ODI1MjMxNDgsOTQ2MDIyMzIzLDEzNz
+I5ODYyMDBdfQ==
 -->
