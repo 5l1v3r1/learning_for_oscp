@@ -19,8 +19,13 @@ Here is another example: you will use UDP protocol instead of the TCP protocol.
 
 ### Using Netcat for banner grabbing
 Another neat usage of Netcat is for banner grabbing(technique to glean information of the system on the Internet)
-`
+`# nc -v -n 192.168.1.69 80
+GET HTTP`
+Once connected above you simply issued the command: GET HTTP
+
+### Combining both port scan and banner identification
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2MDU4OTk2LDExOTkyNTM5NzAsOTQ2MD
-IyMzIzLDEzNzI5ODYyMDBdfQ==
+eyJoaXN0b3J5IjpbMTY5ODQwMDk2OSwxMTk5MjUzOTcwLDk0Nj
+AyMjMyMywxMzcyOTg2MjAwXX0=
 -->
