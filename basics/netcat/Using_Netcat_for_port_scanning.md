@@ -18,8 +18,8 @@ Here is another example: you will use UDP protocol instead of the TCP protocol.
 `# nc -v -w 3 -z -u 192.168.1.69 20-100`
 
 ### Using Netcat for banner grabbing
-
+Another neat usage of Netcat is for banner grabbing(technique to glean information of the system on the Internet)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODI1MjMxNDgsOTQ2MDIyMzIzLDEzNz
-I5ODYyMDBdfQ==
+eyJoaXN0b3J5IjpbMTE5OTI1Mzk3MCw5NDYwMjIzMjMsMTM3Mj
+k4NjIwMF19
 -->
