@@ -46,9 +46,10 @@ on the local host:
 `ls`
 
 ### Creating a backup on a remote machine
-First you must setup a listener on the host that will receive the files. Af
+First you must setup a listener on the host that will receive the files. After issuing the 
+`nc -l 134 | tar xvfp -` command. it seems like no ac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjA0MTYxNSwtMjAzMzgyOTIzLC0zMT
-c0MDE0ODEsNTc4NTkzODQyLDExOTkyNTM5NzAsOTQ2MDIyMzIz
-LDEzNzI5ODYyMDBdfQ==
+eyJoaXN0b3J5IjpbLTYxMDM5NTk2OCwxNDU2MDQxNjE1LC0yMD
+MzODI5MjMsLTMxNzQwMTQ4MSw1Nzg1OTM4NDIsMTE5OTI1Mzk3
+MCw5NDYwMjIzMjMsMTM3Mjk4NjIwMF19
 -->
