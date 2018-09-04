@@ -15,7 +15,8 @@ The first portion of the command line that says: nc -v -w 3 which simply tells N
 The -z switch prevent Netcat from sending any data to a TCP connection and it will only send very limited data to a UDP connection.
 
 Here is another example: you will use UDP protocol instead of the TCP protocol.
-`# nc -v -w 3 -z -u 192.168
+`# nc -v -w 3 -z -u 192.168.1.69 20-100`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTUyMDg5MywxMzcyOTg2MjAwXX0=
+eyJoaXN0b3J5IjpbOTQ2MDIyMzIzLDEzNzI5ODYyMDBdfQ==
 -->
