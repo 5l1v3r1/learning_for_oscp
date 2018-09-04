@@ -10,7 +10,9 @@ A small tool that can do remote port scanning would be nice to have and Netcat c
 
 A typical command to perform port scanning would be:
 `# nc -v -w 3 -z 192.168.1.69 20-150`
-The first portion of the command line that says: nc -v -w 3 which simply tells Netcat to give us more verbose feedback
+The first portion of the command line that says: nc -v -w 3 which simply tells Netcat to give us more verbose feedback and to timeout after 3 seconds if no connections could be established.
+
+The -z switch prevent Netcat from sending any data to a TCP connection and it will only send very limited datat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDkzNDczODNdfQ==
+eyJoaXN0b3J5IjpbMTg0NzE1NDY0MV19
 -->
