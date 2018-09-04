@@ -36,7 +36,10 @@ on the remote host:
 `# nc -l -p 53 > toolkit.zip`
 on the local host:
 `# nc [remote host] 53 < toolkit.zip`
+
+### Setting up a backdoor
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4OTgwODAyLDU3ODU5Mzg0MiwxMTk5Mj
-UzOTcwLDk0NjAyMjMyMywxMzcyOTg2MjAwXX0=
+eyJoaXN0b3J5IjpbLTIxMDUyMjU5NjAsNTc4NTkzODQyLDExOT
+kyNTM5NzAsOTQ2MDIyMzIzLDEzNzI5ODYyMDBdfQ==
 -->
