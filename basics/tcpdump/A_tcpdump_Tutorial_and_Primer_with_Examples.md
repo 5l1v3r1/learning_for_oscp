@@ -1,7 +1,8 @@
 # A tcpdump Tutorial and Primer with Examples
 
 ## Index
-- [Why_
+- [Why_tcpdump](#whytcpdump)
+- [Basics](#basics)
 - [Basic Examples](#basicexamples)
 	- [Basic communication](#basiccommunication)
 	- [Find_Traffic_By_IP](#findtrafficbyip)
@@ -26,13 +27,16 @@
 	- [Find_Packets_With_Evil_Bit](#findpacketswithevilbit)
 	- [Summary](#summary)
 
-## Why tcpdump?
+## <a id="whytcpdump">Why tcpdump?</a>
 Tcpdump is the premier network analysis tool for information security professionals. Having a solid grasp of this uber-powerful application is mandatory for anyone desiring a thorough understanding of TCP/IP. Many prefer to use higher level analysis tools such as Wireshark, but I believe this to usually be a mistake.
 
 When using a tool that displays network traffic a more natural way the burden of analysis is placed directly on the human rather than the application. This approach cultivates continued and elevated understanding of the TCP/IP suite, and for this reason I strongly advocate using tcpdump instead of other tools whenever possible.
 
+## <a id="basics">Basics</a>
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ5Mzc1MjIsLTEwMzUxMjk4MSwxOT
+eyJoaXN0b3J5IjpbLTE0NTU1NDIzNTksLTEwMzUxMjk4MSwxOT
 Q3MjYzNDY2XX0=
 -->
