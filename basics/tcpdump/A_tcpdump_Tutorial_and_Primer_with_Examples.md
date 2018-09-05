@@ -57,9 +57,10 @@ Below are a few options you can use when configuring tcpdump. They're easy to fo
 - **-E**: Decrypt IPSEC traffic by providing an encryption key
 
 ### *Expressions*
+In tcpdump, Expressions allow you to trim out various types of traffic and find exactly what you're looking for. Mastering the expressions and learning to combine them creatively is what makes one truly powerful with tcpdump.
 
-
+There are three main types of expre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzODMxMDczLC0xMDM1MTI5ODEsMTk0Nz
-I2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTU1ODk1NjU2NCwtMTAzNTEyOTgxLDE5ND
+cyNjM0NjZdfQ==
 -->
