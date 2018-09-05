@@ -152,7 +152,13 @@ You can read PCAP files by using the **-r** switch. Note that you can use all th
 Now that we've seen what we can do with the basics through some examples, let's look at some more advanced stuff.
 
 ### *It's all about the combinations*
-Being able to do these various things individually is powerful, but the real magic of tcpdump comes from the
+Being able to do these various things individually is powerful, but the real magic of tcpdump comes from the ability to combine options in creative ways in order to isolate exactly what you're looking for. There are three ways to do combinations, and if you've studied programming at all they'll be pretty familiar to you.
+
+1. AND
+	and or &&
+2. OR
+	or or ||
+3. EX
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -165,6 +171,6 @@ Being able to do these various things individually is powerful, but the real mag
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM1ODY1NDIsLTE5MDYxNDAyNjIsLT
-EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbLTc3Mjg4ODc0MiwtMTkwNjE0MDI2MiwtMT
+AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
