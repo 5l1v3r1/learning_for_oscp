@@ -188,7 +188,11 @@ tcpdump -vv src mars and not dst port 22
 ```
 As you can see, you can build queries to find just above anything you need. The key is to first figure out precisely what you're looking for and then to build the syntax to isolate that specific type of traffic.
 
-Keep in mind that when you're building complex queries you might have to group your options using single quotes. Single quotes are used in order to tell tcpdump to ignore certain special characters - in this case below the "()" brackets. This same technique can be used to group using other expressions such as **host
+Keep in mind that when you're building complex queries you might have to group your options using single quotes. Single quotes are used in order to tell tcpdump to ignore certain special characters - in this case below the "()" brackets. This same technique can be used to group using other expressions such as **host**, **port**, **net**, etc.
+```bash
+# tcpdump 'src 10.0.2.4 and (dst port 3389 or 22)'
+```
+
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -201,6 +205,6 @@ Keep in mind that when you're building complex queries you might have to group y
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxOTExODc4LC0xOTA2MTQwMjYyLC0xMD
-M1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTE1MzUxOTY2MywtMTkwNjE0MDI2MiwtMT
+AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
