@@ -186,7 +186,9 @@ This will show us all traffic from a host that isn't SSH traffic
 ```bash
 tcpdump -vv src mars and not dst port 22
 ```
-As you can see,
+As you can see, you can build queries to find just above anything you need. The key is to first figure out precisely what you're looking for and then to build the syntax to isolate that specific type of traffic.
+
+
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -199,6 +201,6 @@ As you can see,
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMzgxMDQ3LC0xOTA2MTQwMjYyLC0xMD
-M1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbMzM5Mjg3NjQsLTE5MDYxNDAyNjIsLTEwMz
+UxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
