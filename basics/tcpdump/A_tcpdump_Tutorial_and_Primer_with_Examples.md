@@ -158,7 +158,13 @@ Being able to do these various things individually is powerful, but the real mag
 	and or &&
 2. OR
 	or or ||
-3. EX
+3. EXCEPT 
+	not or !
+
+Here are some examples of combined commands.
+
+### From specific IP and destined for a specific port
+Let's find all traffic from 10.5.2.3
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -171,6 +177,6 @@ Being able to do these various things individually is powerful, but the real mag
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Mjg4ODc0MiwtMTkwNjE0MDI2MiwtMT
+eyJoaXN0b3J5IjpbLTk5ODQwODcxOSwtMTkwNjE0MDI2MiwtMT
 AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
