@@ -181,7 +181,12 @@ This will show us all traffic to 192.168.0.2 that is not ICMP
 tcpdump dst 192.168.0.2 and src net and not icmp
 ```
 
-### Traffic from a host that isn't on a specific port 
+### Traffic from a host that isn't on a specific port
+This will show us all traffic from a host that isn't SSH traffic
+```bash
+tcpdump -vv src mars and not dst port 22
+```
+As you can see,
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -194,6 +199,6 @@ tcpdump dst 192.168.0.2 and src net and not icmp
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0OTI1NjAxLC0xOTA2MTQwMjYyLC0xMD
+eyJoaXN0b3J5IjpbMjkzMzgxMDQ3LC0xOTA2MTQwMjYyLC0xMD
 M1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
