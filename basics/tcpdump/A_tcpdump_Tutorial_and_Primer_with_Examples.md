@@ -62,8 +62,11 @@ In tcpdump, Expressions allow you to trim out various types of traffic and find 
 There are three main types of expression: ***type***, ***dir***, and ***proto***.
 - Type options are: **host**, **net**, **port**
 - Direction lets you do **src**, **dst**, and combinations thereof.
-- Proto(col) lets you designate: **tcp**, **udp**, **icmp**, 
+- Proto(col) lets you designate: **tcp**, **udp**, **icmp**, **ah**, and many more.
+
+## <a id="basicexamples">Examples</a>
+So, now that we've seen wah
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTM4ODMyNiwtMTAzNTEyOTgxLDE5ND
-cyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbLTE5MDUzNDM5NTMsLTEwMzUxMjk4MSwxOT
+Q3MjYzNDY2XX0=
 -->
