@@ -124,8 +124,14 @@ You can also find all IP6 traffic using the protocol option.
 # tcpdump ip6
 ```
 
-### <a id="findtrafficusingportranges">Find Traffic Using</a>
-### <a id="findtrafficbasedonpacketsize"></a>
+### <a id="findtrafficusingportranges">Find Traffic Using Port Range</a>
+You can also use a range of ports to find traffic.
+```bash
+# tcpdump portrange 21-23
+```
+
+### <a id="findtrafficbasedonpacketsize">Find Traffic based on packet size</a>
+If you're looking for packets of a particular size you can use these options. You can use less, greater, or their associated symbols 
 ### <a id="writingtofile"></a>
 ## <a id="advancedexamples"></a>
 ### <a id="findhttpuseragents"></a>
@@ -140,6 +146,6 @@ You can also find all IP6 traffic using the protocol option.
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTMxNzY2OCwtMTkwNjE0MDI2MiwtMT
-AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbOTEyNjUyODM2LC0xOTA2MTQwMjYyLC0xMD
+M1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
