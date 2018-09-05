@@ -26,10 +26,11 @@
 	- [Summary](#summary)
 
 ## <a id="basicexamples">Basic Examples</a>
+### Why tcpdump?
 Tcpdump is the premier network analysis tool for information security professionals. Having a solid grasp of this uber-powerful application is mandatory for anyone desiring a thorough understanding of TCP/IP. Many prefer to use higher level analysis tools such as Wireshark, but I believe this to usually be a mistake.
 
-When using a tool that displays net
+When using a tool that displays network traffic a more natural way the burden of analysis is placed directly on the human rather than the application. This approach cultivates continued and elevated understanding of the TC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTk2MDY1NywtMTAzNTEyOTgxLDE5ND
+eyJoaXN0b3J5IjpbMTg1NDU4MzkyMSwtMTAzNTEyOTgxLDE5ND
 cyNjM0NjZdfQ==
 -->
