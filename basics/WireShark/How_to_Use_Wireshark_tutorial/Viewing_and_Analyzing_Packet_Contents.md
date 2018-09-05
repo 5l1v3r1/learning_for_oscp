@@ -3,7 +3,9 @@ Now that you've recorded some network data it's time to take a look at the captu
 
 ## Packet List
 The packet list pane, located at the top of the window, shows all packets found in the active capture file. Each packet has its own row and corresponding number assigned to it, along with each of these data points.
-- Time: the timestamp of when the packet was captured is displayed in this column, with the default format being the number of seconds since this specific capture
+
+- **Time**: the timestamp of when the packet was captured is displayed in this column, with the default format being the number of seconds since this specific capture file was first created. To modify this format to something that may be a bit more useful, such as the actual time of day, select the Time Display Format option from Wireshark's view menu -located at the top of the main interface.
+- So
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTM1OTQ1NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTQwMTAxNTkwNiwtMjA4ODc0NjYxMl19
 -->
