@@ -237,6 +237,12 @@ Isolate TCP FIN flags.
 # tcpdump 'tcp[tcpflags] == tcp-fin'
 ```
 
+Finally, now that we the theory out of the way, here are a number of quick recipes you can use for catching various kinds of traffic.
+
+Both SYN and RST SET
+```bash
+# tcpdump 'tcp[13] = 6'
+```
 
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
@@ -250,6 +256,6 @@ Isolate TCP FIN flags.
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzE4NDY3MiwtMTUzNTE5NjYzLC0xOT
-A2MTQwMjYyLC0xMDM1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTEwMDgzMTMyMDEsLTE1MzUxOTY2MywtMT
+kwNjE0MDI2MiwtMTAzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
