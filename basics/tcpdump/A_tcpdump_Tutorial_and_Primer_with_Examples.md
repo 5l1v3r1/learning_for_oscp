@@ -65,8 +65,11 @@ There are three main types of expression: ***type***, ***dir***, and ***proto***
 - Proto(col) lets you designate: **tcp**, **udp**, **icmp**, **ah**, and many more.
 
 ## <a id="basicexamples">Examples</a>
-So, now that we've seen wah
+So, now that we've seen what our options are, let's look at some real-world examples that we're likely to see in our everyday work.
+
+### <a id="basiccommunication">Basic Communication</a>
+Just see what's going on, by looking at all interfaces.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUzNDM5NTMsLTEwMzUxMjk4MSwxOT
+eyJoaXN0b3J5IjpbLTE5MDYxNDAyNjIsLTEwMzUxMjk4MSwxOT
 Q3MjYzNDY2XX0=
 -->
