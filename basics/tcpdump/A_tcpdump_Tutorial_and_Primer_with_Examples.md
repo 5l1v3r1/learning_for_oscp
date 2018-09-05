@@ -287,11 +287,14 @@ This one works regardless of what port the connection comes in on, because it's 
 # tcpdump port http or port ftp or port smtp or port imap or port pop3 or port telnet -lA | egrep -i B5 'pass=|pwd=|log=|login=|user=|username=|pw=|passw=|passwd=|password=|pass:|user:|username:|password:|login:|pass|user'
 ```
 
-### <a id="findpacketswithevilbit"></a>
+### <a id="findpacketswithevilbit">Find traffic with evil bit</a>
+There's a bit in the IP header that never gets set by legitimate applications, which we call the ""Evil Bit". Here's a fun filter to find packet where it's been toggled. 
+```bash
+# tcpdump 'ip[6] & 127 
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTE3NzgxNCwtMTMwMzAwODcyMSwtMT
+eyJoaXN0b3J5IjpbLTM1Mzk4NTcxNywtMTMwMzAwODcyMSwtMT
 AwODMxMzIwMSwtMTUzNTE5NjYzLC0xOTA2MTQwMjYyLC0xMDM1
 MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
