@@ -109,8 +109,15 @@ It's quite easy to isolate traffic based on either source or destination using *
 ### <a id="showtrafficbyprotocol"></a>
 ### <a id="showipv6traffic"></a>
 ### <a id="findtrafficusingportranges"></a>
-### <a id="findtrafficbasedonpacket
+### <a id="findtrafficbasedonpacketsize"></a>
+### <a id="writingtofile"></a>
+## <a id="advancedexamples"></a>
+### <a id="findhttpuseragents"></a>
+### <a id="findcleartexthttpgets"></a>
+### <a id="findhttphosts"></a>
+### <a id="findhttpcookies"></a>
+#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjEwNDk2NiwtMTkwNjE0MDI2MiwtMT
-AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbOTQzODk1OTA3LC0xOTA2MTQwMjYyLC0xMD
+M1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
