@@ -216,8 +216,18 @@ Isolate packets that have both the SYN and ACK flags set.
 Isolate TCP URG flags.
 ```bash
 # tcpdump 'tcp[13] & 32!=0'
-# tcp
+# tcpdump 'tcp[tcpflags] == tcp-urg'
+```
 
+Isolate TCP ACK flags.
+```bash
+# tcpdump 'tcp[13] & 16!=0'
+# tcpdump 'tcp[tcpflags] == tcp-ack'
+```
+
+Isolate TCP PSH flags.
+```bash
+# tcpdump 'tcp[
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -230,6 +240,6 @@ Isolate TCP URG flags.
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk4MTM2MjAsLTE1MzUxOTY2MywtMT
-kwNjE0MDI2MiwtMTAzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbLTI0MjAzOTQxMCwtMTUzNTE5NjYzLC0xOT
+A2MTQwMjYyLC0xMDM1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
