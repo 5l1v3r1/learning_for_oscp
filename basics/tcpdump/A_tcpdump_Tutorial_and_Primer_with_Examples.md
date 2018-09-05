@@ -265,14 +265,20 @@ The **-l** switch lets you see the traffic as you're capturing it, and helps whe
 ### <a id="findsshconnections">Find ssh connections</a>
 This one works regardless of what port the connection comes in on, because it's getting the banner response
 ```bash
-# tcpdump 'tcp[(tcp[12]>>2):4] =
+# tcpdump 'tcp[(tcp[12]>>2):4] = 0x5353482D
+```
+### <a id="finddnstraffic">Find dns traffic</a>
+```bash
+# tcpdump -vvAs0 port 53
+```
+
 ### <a id="findftptraffic"></a>
 ### <a id="findcleartextpasswords"></a>
 ### <a id="findpacketswithevilbit"></a>
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTUxMzEyMCwtMTMwMzAwODcyMSwtMT
+eyJoaXN0b3J5IjpbMTgzMzczNTM1MiwtMTMwMzAwODcyMSwtMT
 AwODMxMzIwMSwtMTUzNTE5NjYzLC0xOTA2MTQwMjYyLC0xMDM1
 MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
