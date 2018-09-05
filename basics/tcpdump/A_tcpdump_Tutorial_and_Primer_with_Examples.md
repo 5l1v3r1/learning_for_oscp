@@ -290,11 +290,16 @@ This one works regardless of what port the connection comes in on, because it's 
 ### <a id="findpacketswithevilbit">Find traffic with evil bit</a>
 There's a bit in the IP header that never gets set by legitimate applications, which we call the ""Evil Bit". Here's a fun filter to find packet where it's been toggled. 
 ```bash
-# tcpdump 'ip[6] & 127 
-### <a id="summary"></a>
+# tcpdump 'ip[6] & 127 != 0'
+```
 
+### <a id="summary">Summary</a>
+Here are the takeaways.
+
+1. tcpdump is a valuable tool for anyone looking to get into networking or information security.
+2. The raw way it interfaces with traffic, combined with the precision it offers in inspecting packets make it the best possible tool for
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Mzk4NTcxNywtMTMwMzAwODcyMSwtMT
+eyJoaXN0b3J5IjpbMTE0MDY2OTY2OCwtMTMwMzAwODcyMSwtMT
 AwODMxMzIwMSwtMTUzNTE5NjYzLC0xOTA2MTQwMjYyLC0xMDM1
 MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
