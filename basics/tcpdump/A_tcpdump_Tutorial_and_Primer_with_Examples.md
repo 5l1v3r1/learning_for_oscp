@@ -116,8 +116,14 @@ It's quite easy to isolate traffic based on either source or destination using *
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
 ### <a id="findhttpcookies"></a>
-#
+### <a id="findsshconnections"></a>
+### <a id="finddnstraffic"></a>
+### <a id="findftptraffic"></a>
+### <a id="findcleartextpasswords"></a>
+### <a id="findpacketswithevilbit"></a>
+### <a id="summary"></a>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzODk1OTA3LC0xOTA2MTQwMjYyLC0xMD
-M1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTE5NDYyODkxMDUsLTE5MDYxNDAyNjIsLT
+EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
