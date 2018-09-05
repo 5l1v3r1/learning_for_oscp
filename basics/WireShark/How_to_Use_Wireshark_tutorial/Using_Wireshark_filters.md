@@ -7,8 +7,8 @@ Wireshark provides a large number of predefined filters by default, letting you 
 
 There are multiple ways to achieve this. If you already know the name of your filter, simply type it into the appropriate field. For example, if you only wanted to display TCP packets you would type tcp. Wireshark's autocompleting feature will show suggested names as you begin typing, making it easier to find the correct moniker for the filter you're seeking. 
 
-Another way to choose a filter is to click on the bookmark-li
+Another way to choose a filter is to click on the bookmark-like icon positioned on the left-hand side of the entry field. This will present a menu containing some of the most commonly-used filters as well as an option to Manage Capture Filters or Manage Display Filters. If you choose to manage either type an interface will appear
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwNDY2MDcyLDE3MzU4NzQxMTRdfQ==
+eyJoaXN0b3J5IjpbLTE4NzUzMDM1MjksMTczNTg3NDExNF19
 -->
