@@ -9,6 +9,8 @@ There are multiple ways to achieve this. If you already know the name of your fi
 
 Another way to choose a filter is to click on the bookmark-like icon positioned on the left-hand side of the entry field. This will present a menu containing some of the most commonly-used filters as well as an option to Manage Capture Filters or Manage Display Filters. If you choose to manage either type an interface will appear allowing you to add, remove or edit filters.
 
+You can access previously-used filters by selecting the down arrow
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODQ0ODQ3MSwxNzM1ODc0MTE0XX0=
+eyJoaXN0b3J5IjpbODMzNzY0MjEwLDE3MzU4NzQxMTRdfQ==
 -->
