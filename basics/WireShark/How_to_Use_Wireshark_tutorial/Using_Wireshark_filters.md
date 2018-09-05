@@ -9,8 +9,10 @@ There are multiple ways to achieve this. If you already know the name of your fi
 
 Another way to choose a filter is to click on the bookmark-like icon positioned on the left-hand side of the entry field. This will present a menu containing some of the most commonly-used filters as well as an option to Manage Capture Filters or Manage Display Filters. If you choose to manage either type an interface will appear allowing you to add, remove or edit filters.
 
-You can access previously-used filters by selecting the down arrow
+You can access previously-used filters by selecting the down arrow, located on the right-hand side of the entry field, which displays a history drop-down list.
+
+Once set, capture filters will be applied as soon as you begin recording network traffic. To apply a display filter, however, you'll need to click on the right arrow button found on the far-right hand side of en
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzNzY0MjEwLDE3MzU4NzQxMTRdfQ==
+eyJoaXN0b3J5IjpbODk5MTAwMDI3LDE3MzU4NzQxMTRdfQ==
 -->
