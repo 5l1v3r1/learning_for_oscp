@@ -104,8 +104,13 @@ It's quite easy to isolate traffic based on either source or destination using *
 # tcpdump dst 3.4.5.6
 ```
 
-### <a
+### <a id="showtrafficbynetwork"></a>
+### <a id="showtrafficbyport"></a>
+### <a id="showtrafficbyprotocol"></a>
+### <a id="showipv6traffic"></a>
+### <a id="findtrafficusingportranges"></a>
+### <a id="findtrafficbasedonpacket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzE2Mzc2OCwtMTkwNjE0MDI2MiwtMT
+eyJoaXN0b3J5IjpbMTEwMjEwNDk2NiwtMTkwNjE0MDI2MiwtMT
 AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
