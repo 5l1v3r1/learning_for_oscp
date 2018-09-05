@@ -197,7 +197,9 @@ Keep in mind that when you're building complex queries you might have to group y
 You can also use filters to isolate packets with specific TCP flags set.
 
 Isolate TCP RST flags.
-
+```bash
+# tcpdump 'tcp[13] & 4!=0'
+# tcpdump 'tcp[tcpflags] == tcp-rst'
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -210,6 +212,6 @@ Isolate TCP RST flags.
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMDkxNzgwLC0xNTM1MTk2NjMsLTE5MD
+eyJoaXN0b3J5IjpbODgxNTU3Mzc3LC0xNTM1MTk2NjMsLTE5MD
 YxNDAyNjIsLTEwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
