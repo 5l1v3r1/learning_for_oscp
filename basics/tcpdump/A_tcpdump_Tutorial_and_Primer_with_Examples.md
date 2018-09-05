@@ -104,7 +104,10 @@ It's quite easy to isolate traffic based on either source or destination using *
 # tcpdump dst 3.4.5.6
 ```
 
-### <a id="showtrafficbynetwork"></a>
+### <a id="showtrafficbynetwork">Finding packets by network</a>
+To find packets going to or from a particular network, use the **net** option. You can combine this with the **src** or **dst** options as well.
+```bash
+# tcpdump net 1.2.3.4/234
 ### <a id="showtrafficbyport"></a>
 ### <a id="showtrafficbyprotocol"></a>
 ### <a id="showipv6traffic"></a>
@@ -124,6 +127,6 @@ It's quite easy to isolate traffic based on either source or destination using *
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYyODkxMDUsLTE5MDYxNDAyNjIsLT
-EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbMTkzODAxNjcyOSwtMTkwNjE0MDI2MiwtMT
+AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
