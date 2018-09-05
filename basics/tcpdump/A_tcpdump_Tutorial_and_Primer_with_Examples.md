@@ -26,8 +26,8 @@
 	- [Summary](#summary)
 
 ## <a id="basicexamples">Basic Examples</a>
-
+Tcpdump is the premier network analysis tool for information security professionals. Having a solid grasp of this uber-powerful
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDcyNDY1NjIsLTEwMzUxMjk4MSwxOT
-Q3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbLTY0NDA1NTg4NSwtMTAzNTEyOTgxLDE5ND
+cyNjM0NjZdfQ==
 -->
