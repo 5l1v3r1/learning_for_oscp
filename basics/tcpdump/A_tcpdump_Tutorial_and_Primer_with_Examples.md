@@ -297,9 +297,10 @@ There's a bit in the IP header that never gets set by legitimate applications, w
 Here are the takeaways.
 
 1. tcpdump is a valuable tool for anyone looking to get into networking or information security.
-2. The raw way it interfaces with traffic, combined with the precision it offers in inspecting packets make it the best possible tool for
+2. The raw way it interfaces with traffic, combined with the precision it offers in inspecting packets make it the best possible tool for learning TCP/IP.
+3. Protocol Analyzers like Wireshark are great, but if you want to truly master packet-fu, you must become one with tcpdump first.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDY2OTY2OCwtMTMwMzAwODcyMSwtMT
-AwODMxMzIwMSwtMTUzNTE5NjYzLC0xOTA2MTQwMjYyLC0xMDM1
-MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTEyMzU0MDg4NjUsLTEzMDMwMDg3MjEsLT
+EwMDgzMTMyMDEsLTE1MzUxOTY2MywtMTkwNjE0MDI2MiwtMTAz
+NTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
