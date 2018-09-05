@@ -52,10 +52,14 @@ Below are a few options you can use when configuring tcpdump. They're easy to fo
 - **-c**: Only get x number of packets and then stop
 - **-s**: Define the snaplength (size) of the capture in bytes. Use -s0 to get everything, unless you are intentionally capturing less.
 - **-S**: Print absolute sequence numbers.
-- **-e**] Get the ethernet header as well.
-- 
+- **-e**: Get the ethernet header as well.
+- **-q**; Show less protocol information.
+- **-E**: Decrypt IPSEC traffic by providing an encryption key
+
+### *Expressions*
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzEyMDAyOTYsLTEwMzUxMjk4MSwxOT
-Q3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbNDkzODMxMDczLC0xMDM1MTI5ODEsMTk0Nz
+I2MzQ2Nl19
 -->
