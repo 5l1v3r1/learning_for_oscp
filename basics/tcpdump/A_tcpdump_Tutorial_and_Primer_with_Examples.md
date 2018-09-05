@@ -81,8 +81,17 @@ Basic view of what's happening on a particular interface.
 
 ### Raw Output View
 Verbose output, with no resolution of hostname or port numbers, absolute sequence numbers, and human-readable timestamps.
-```b
+```bash
+# tcpdump -ttttnnvvS
+```
+
+### <a id="findtrafficbyip">Find Traffic by IP</a>
+One of the most common queries, this will show you traffic from 1.2.3.4, whether it's the source or the destination.
+```bash
+# tcpdump host 1.2.3.4
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3MjQxMDIsLTE5MDYxNDAyNjIsLTEwMz
-UxMjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbLTQzNzUxOTA5NywtMTkwNjE0MDI2MiwtMT
+AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
