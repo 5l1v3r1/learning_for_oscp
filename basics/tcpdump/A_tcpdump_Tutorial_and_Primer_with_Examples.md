@@ -42,9 +42,13 @@ Below are a few options you can use when configuring tcpdump. They're easy to fo
 - **-l**: Line-readable output (for viewing as you save, or sending to other commands)
 - **-A**: Display output in ASCII
 - **-n**: Don't resolve hostname
-- **-nn**: Don't
+- **-nn**: Don't resolve hostname or port names.
+- **-q**: Be less verbose (more quiet) with your output.
+- **-t**: Give human-readable timestamp output.
+- **-tttt**: Give maximally human-readable timestamp output.
+- **-X**: Show 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjkzODIzNzQsLTEwMzUxMjk4MSwxOT
-Q3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbLTczODE4Nzg2NSwtMTAzNTEyOTgxLDE5ND
+cyNjM0NjZdfQ==
 -->
