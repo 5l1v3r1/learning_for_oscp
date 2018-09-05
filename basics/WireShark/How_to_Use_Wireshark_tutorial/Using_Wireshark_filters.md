@@ -11,8 +11,8 @@ Another way to choose a filter is to click on the bookmark-like icon positioned 
 
 You can access previously-used filters by selecting the down arrow, located on the right-hand side of the entry field, which displays a history drop-down list.
 
-Once set, capture filters will be applied as soon as you begin recording network traffic. To apply a display filter, however, you'll need to click on the right arrow button found on the far-right hand side of en
+Once set, capture filters will be applied as soon as you begin recording network traffic. To apply a display filter, however, you'll need to click on the right arrow button found on the far-right hand side of the entry field.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5MTAwMDI3LDE3MzU4NzQxMTRdfQ==
+eyJoaXN0b3J5IjpbLTExNDczMTM0MjEsMTczNTg3NDExNF19
 -->
