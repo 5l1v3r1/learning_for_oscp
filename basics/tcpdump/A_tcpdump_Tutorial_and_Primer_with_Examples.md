@@ -148,9 +148,10 @@ You can read PCAP files by using the **-r** switch. Note that you can use all th
 # tcpdump -r capture_file
 ```
 
-## <id="advancedexamples"></a>
+## <id="advancedexamples">Advanced</a>
 Now that we've seen what we can do with the basics through some examples, let's look at some more advanced stuff.
 
+### *It's all about the combinations*
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -163,6 +164,6 @@ Now that we've seen what we can do with the basics through some examples, let's 
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5ODIzNDQ4LC0xOTA2MTQwMjYyLC0xMD
+eyJoaXN0b3J5IjpbNTc2NjQ4MDU3LC0xOTA2MTQwMjYyLC0xMD
 M1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
