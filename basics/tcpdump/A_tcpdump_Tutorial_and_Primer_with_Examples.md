@@ -97,7 +97,9 @@ Hex output is useful when you want to see the content of the packets in question
 # tcpdump -nnvXSs 0 -c1 icmp
 ```
 
+### <a id="filterbysourceandordestination">Filtering by source and destination
+It's quite easy to isolate traffic based on either source or destination using sr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0ODg2ODI5LC0xOTA2MTQwMjYyLC0xMD
-M1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTE3NTg3MTUyMTYsLTE5MDYxNDAyNjIsLT
+EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
