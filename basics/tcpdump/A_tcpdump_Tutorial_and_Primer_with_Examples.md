@@ -255,8 +255,13 @@ The **-l** switch lets you see the traffic as you're capturing it, and helps whe
 # tcpdump -vvAls0 | grep 'GET'
 ```
 ### <a id="findhttphosts">Find http host header</a>
-
-### <a id="findhttpcookies"></a>
+```bash
+# tcpdump -vvAls0 | grep 'Host:'
+```
+### <a id="findhttpcookies">Find http cookies</a>
+```bash
+# tcpdump -vvAls0 | grep 'Set-Cookie|Host:|Cookie:'
+```
 ### <a id="findsshconnections"></a>
 ### <a id="finddnstraffic"></a>
 ### <a id="findftptraffic"></a>
@@ -265,7 +270,7 @@ The **-l** switch lets you see the traffic as you're capturing it, and helps whe
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTE2NzA2MywtMTMwMzAwODcyMSwtMT
+eyJoaXN0b3J5IjpbMTgxMzg3MTkxMCwtMTMwMzAwODcyMSwtMT
 AwODMxMzIwMSwtMTUzNTE5NjYzLC0xOTA2MTQwMjYyLC0xMDM1
 MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
