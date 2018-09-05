@@ -143,8 +143,14 @@ It's often useful to save packet captures into a file for analysis in the future
 ```bash
 # tcpdump port 80 -w capture_file
 ```
-You can read PCAP files by using the **-r** switch. Note that you can use all the regular commands within tcpdump while reading in a file; you're only limited by the fact tah
+You can read PCAP files by using the **-r** switch. Note that you can use all the regular commands within tcpdump while reading in a file; you're only limited by the fact that you can't capture and process what doesn't exist in the file already.
+```bash
+# tcpdump -r capture_file
+```
+
 ## <id="advancedexamples"></a>
+Now that we've seen what we can do with the basics through some examples, let's look at some more advanced stuff.
+
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -157,6 +163,6 @@ You can read PCAP files by using the **-r** switch. Note that you can use all th
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA5ODU2NzIsLTE5MDYxNDAyNjIsLT
-EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbOTM5ODIzNDQ4LC0xOTA2MTQwMjYyLC0xMD
+M1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
