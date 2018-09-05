@@ -168,6 +168,9 @@ Let's find all traffic from 10.5.2.3 going to any host on port 3389
 ```bash
 tcpdump -nnvvS src 10.5.2.3 and dst port 3389
 ```
+
+### From one network to another
+Let's look for all traffic coming from 192.168.x.x and going to the 10.x or 172.16.x.x networks, and we're showing hex output with no hostname 
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -180,6 +183,6 @@ tcpdump -nnvvS src 10.5.2.3 and dst port 3389
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA0OTI3MSwtMTkwNjE0MDI2MiwtMT
-AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbMzk1ODcwNjY4LC0xOTA2MTQwMjYyLC0xMD
+M1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
