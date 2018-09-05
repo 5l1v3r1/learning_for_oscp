@@ -13,6 +13,9 @@
 	- [Find_Traffic_Based_On_Packet_Size](#Find_Traffic_Based_On_Packet_Size)
 	- [Writing_To_A_File](#Writing_To_A_File)
 - [Advanced_Example](#Advanced_Example)
+	- [Isolate_Tcp_Flags](#Isolate_Tcp_Flags)
+	- [Find_Http_User_Agents](#Find_Http_User_Agents)
+	- [Find_Clear
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODYwMDE3MV19
+eyJoaXN0b3J5IjpbNDM5NTI0NjIwXX0=
 -->
