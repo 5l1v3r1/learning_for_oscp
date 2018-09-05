@@ -59,8 +59,11 @@ Below are a few options you can use when configuring tcpdump. They're easy to fo
 ### *Expressions*
 In tcpdump, Expressions allow you to trim out various types of traffic and find exactly what you're looking for. Mastering the expressions and learning to combine them creatively is what makes one truly powerful with tcpdump.
 
-There are three main types of expre
+There are three main types of expression: ***type***, ***dir***, and ***proto***.
+- Type options are: **host**, **net**, **port**
+- Direction lets you do **src**, **dst**, and combinations thereof.
+- Proto(col) lets you designate: **tcp**, **udp**, **icmp**, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODk1NjU2NCwtMTAzNTEyOTgxLDE5ND
+eyJoaXN0b3J5IjpbMTQwMTM4ODMyNiwtMTAzNTEyOTgxLDE5ND
 cyNjM0NjZdfQ==
 -->
