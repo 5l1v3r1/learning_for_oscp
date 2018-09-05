@@ -200,6 +200,16 @@ Isolate TCP RST flags.
 ```bash
 # tcpdump 'tcp[13] & 4!=0'
 # tcpdump 'tcp[tcpflags] == tcp-rst'
+```
+
+Isolate TCP SYN flags.
+```bash
+# tcpdump 'tcp[13] & 2!=0'
+# tcpdump 'tcp[tcpflags] == tcp-syn'
+```
+
+Isolate packets 
+
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -212,6 +222,6 @@ Isolate TCP RST flags.
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNTU3Mzc3LC0xNTM1MTk2NjMsLTE5MD
-YxNDAyNjIsLTEwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbMjAzMDEwNTA0MiwtMTUzNTE5NjYzLC0xOT
+A2MTQwMjYyLC0xMDM1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
