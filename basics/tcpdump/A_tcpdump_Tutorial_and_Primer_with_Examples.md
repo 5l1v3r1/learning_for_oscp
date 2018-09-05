@@ -245,7 +245,10 @@ Both SYN and RST SET
 ```
 
 ### <a id="findhttpuseragents">Find http User Agents</a>
-The **-l** switch lets you see the traffic as you're capturing it, and helps when 
+The **-l** switch lets you see the traffic as you're capturing it, and helps when sending to commands like grep.
+```bash
+# tcpdump -vvAls0 | grep 'User-Agent:'
+```
 # tcp
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -258,7 +261,7 @@ The **-l** switch lets you see the traffic as you're capturing it, and helps whe
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMzI1NTUxLC0xMzAzMDA4NzIxLC0xMD
-A4MzEzMjAxLC0xNTM1MTk2NjMsLTE5MDYxNDAyNjIsLTEwMzUx
-Mjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbMjAyNzIzMjM2OSwtMTMwMzAwODcyMSwtMT
+AwODMxMzIwMSwtMTUzNTE5NjYzLC0xOTA2MTQwMjYyLC0xMDM1
+MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
