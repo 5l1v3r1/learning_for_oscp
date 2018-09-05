@@ -19,7 +19,10 @@ The details pane, found in the middle, presents the protocols and protocol field
 ## Packet Bytes
 At the bottom is the packet bytes pane, which displays the raw data of the selected packet in a hexadecimal view. This hex dump contains 16 hexadecimal bytes and 16 ASCII bytes alongside the data offset.
 
-Selecting a specific portion of this data automatically highlights its corres
+Selecting a specific portion of this data automatically highlights its corresponding section in the packet details pane and vice versa. Any bytes that cannot be printed are instead represented by a period.
+
+You can choose to show this data
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjQ5OTY5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEwMTYwOTE2NDAsLTIwODg3NDY2MTJdfQ
+==
 -->
