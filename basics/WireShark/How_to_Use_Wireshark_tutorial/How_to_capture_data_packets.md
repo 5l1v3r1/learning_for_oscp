@@ -6,7 +6,9 @@ To begin capturing packets, first select one or more of these networks by clicki
 You can also initiate packet capturing via one of the following shortcuts.
 - keyboard: Press Ctrl + E
 - Mouse: To begin capturing packets from one particular network, simple double-click on its name
-- Toolbar: Click on the blue shark fin button, 
+- Toolbar: Click on the blue shark fin button, located on the far left-hand side of the Wireshark toolbar
+The live capture process will now begin, with packet details displayed in the Wireshark window as they are recorded. Perform one of the actions below to stop capturing.
+- K
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1NjQ4NjIwXX0=
+eyJoaXN0b3J5IjpbMTQwNjgwMzI0OV19
 -->
