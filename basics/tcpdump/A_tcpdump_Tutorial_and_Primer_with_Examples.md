@@ -50,9 +50,12 @@ Below are a few options you can use when configuring tcpdump. They're easy to fo
 - **-XX**: Same as -X, but also shows the ethernet header.
 - **-v, -vv, -vvv**: Increase the amount of packet information you get back
 - **-c**: Only get x number of packets and then stop
-- **-s**: Define the snaplength (size) of the capture in bytes. Use -s0 
+- **-s**: Define the snaplength (size) of the capture in bytes. Use -s0 to get everything, unless you are intentionally capturing less.
+- **-S**: Print absolute sequence numbers.
+- **-e**] Get the ethernet header as well.
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzU1MzA2NSwtMTAzNTEyOTgxLDE5ND
-cyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbLTE3MzEyMDAyOTYsLTEwMzUxMjk4MSwxOT
+Q3MjYzNDY2XX0=
 -->
