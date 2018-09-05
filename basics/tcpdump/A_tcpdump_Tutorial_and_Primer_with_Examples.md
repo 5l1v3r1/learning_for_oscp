@@ -80,8 +80,9 @@ Basic view of what's happening on a particular interface.
 ```
 
 ### Raw Output View
-Verbose
+Verbose output, with no resolution of hostname or port numbers, absolute sequence numbers, and human-readable timestamps.
+```b
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTQzMjM3MCwtMTkwNjE0MDI2MiwtMT
-AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbNzY3MjQxMDIsLTE5MDYxNDAyNjIsLTEwMz
+UxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
