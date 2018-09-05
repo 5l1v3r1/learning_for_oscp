@@ -277,16 +277,22 @@ This one works regardless of what port the connection comes in on, because it's 
 # tcpdump -vvAs0 port ftp or ftp-data
 ```
 
-### <a id="findcleartextpasswords">Find ntp traffic</a>
+### Find ntp traffic
 ```bash
 # tcpdump -vvAs0 port 123
+```
+
+### <a id="findcleartextpasswords">Find Cleartext passwords</a>
+```bash
+# tcpdump port http or port ftp or port smtp or port imap or port 
+
 ```
 
 ### <a id="findpacketswithevilbit"></a>
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYxNzQ5MDQsLTEzMDMwMDg3MjEsLT
-EwMDgzMTMyMDEsLTE1MzUxOTY2MywtMTkwNjE0MDI2MiwtMTAz
-NTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbOTIzMTIwNjUyLC0xMzAzMDA4NzIxLC0xMD
+A4MzEzMjAxLC0xNTM1MTk2NjMsLTE5MDYxNDAyNjIsLTEwMzUx
+Mjk4MSwxOTQ3MjYzNDY2XX0=
 -->
