@@ -11,8 +11,11 @@ The packet list pane, located at the top of the window, shows all packets found 
 - **Length**: the packet length, in bytes, is displayed in this column.
 - **Info**: Additional details about the packet are represented here. The contents of this column can vary greatly depending on packet contents.
 
-When a packet is selected in the top pane, you may notice one or more symbols appear in the first column. Open and/or closed brackets, as well as a straight horizontal line, can indicate whether or not a packet or group of packets are all part of the same back-and-forth conversation on the network. A broken horizontal line signifies that a packet is not part of said conver
+When a packet is selected in the top pane, you may notice one or more symbols appear in the first column. Open and/or closed brackets, as well as a straight horizontal line, can indicate whether or not a packet or group of packets are all part of the same back-and-forth conversation on the network. A broken horizontal line signifies that a packet is not part of said conversation.
+
+## Packet Details
+The details pane, found in the middle, presents the protocols and protocol fields of the selected packet in a collapsible format
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc2NTQxMDcsLTIwODg3NDY2MTJdfQ
+eyJoaXN0b3J5IjpbLTE5OTg0NTU4OTksLTIwODg3NDY2MTJdfQ
 ==
 -->
