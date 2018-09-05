@@ -33,9 +33,14 @@ Tcpdump is the premier network analysis tool for information security profession
 When using a tool that displays network traffic a more natural way the burden of analysis is placed directly on the human rather than the application. This approach cultivates continued and elevated understanding of the TCP/IP suite, and for this reason I strongly advocate using tcpdump instead of other tools whenever possible.
 
 ## <a id="basics">Basics</a>
-Below are a few options you can use when configuring tcpdump. They're easy to forget and/or confuse with other types of filters, e.g., Wireshark, so hopefully this page can serve as a reference for you, as it does me. Here are the main ones I like to keep in mind dependin
+Below are a few options you can use when configuring tcpdump. They're easy to forget and/or confuse with other types of filters, e.g., Wireshark, so hopefully this page can serve as a reference for you, as it does me. Here are the main ones I like to keep in mind depending on what I'm looking at.
+
+### *Options*
+- **-i any**: Listen on all interfaces just to see if you're seeing any traffic.
+- **-i eth0**: Listen on the eth0 interface.
+- **-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MjU2MDQ1LC0xMDM1MTI5ODEsMTk0Nz
+eyJoaXN0b3J5IjpbOTIxNDcwMzQ4LC0xMDM1MTI5ODEsMTk0Nz
 I2MzQ2Nl19
 -->
