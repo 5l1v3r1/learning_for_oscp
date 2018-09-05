@@ -227,7 +227,17 @@ Isolate TCP ACK flags.
 
 Isolate TCP PSH flags.
 ```bash
-# tcpdump 'tcp[
+# tcpdump 'tcp[13] & 8!=0'
+# tcpdump 'tcp[13] == tcp-psh'
+```
+
+Isolate TCP FIN flags.
+```bash
+# tcpdump 'tcp[13] & 1!=0'
+# tcpdump 'tcp[tcpflags] == tcp-fin'
+```
+
+
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -240,6 +250,6 @@ Isolate TCP PSH flags.
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjAzOTQxMCwtMTUzNTE5NjYzLC0xOT
+eyJoaXN0b3J5IjpbMTIyMzE4NDY3MiwtMTUzNTE5NjYzLC0xOT
 A2MTQwMjYyLC0xMDM1MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
