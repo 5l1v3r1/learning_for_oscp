@@ -21,7 +21,8 @@ At the bottom is the packet bytes pane, which displays the raw data of the selec
 
 Selecting a specific portion of this data automatically highlights its corresponding section in the packet details pane and vice versa. Any bytes that cannot be printed are instead represented by a period.
 
-You can choose to show this data in bit format as opposed to hexadecimal by right-clicking anywhere within the pane and selecting the appropriate option from the contex
+You can choose to show this data in bit format as opposed to hexadecimal by right-clicking anywhere within the pane and selecting the appropriate option from the context menu.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDI1NTMxNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyMjg5MDM1NDcsLTIwODg3NDY2MTJdfQ
+==
 -->
