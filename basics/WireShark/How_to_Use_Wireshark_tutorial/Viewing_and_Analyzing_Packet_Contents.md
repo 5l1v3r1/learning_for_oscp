@@ -17,7 +17,9 @@ When a packet is selected in the top pane, you may notice one or more symbols ap
 The details pane, found in the middle, presents the protocols and protocol fields of the selected packet in a collapsible format. In addition to expanding each selection, you can also apply individual Wireshark filters based on specific details as well as follow streams of data based on protocol type via the details context menu - accessible by right-clicking your mouse on the desired item within this pane.
 
 ## Packet Bytes
-At the bottom
+At the bottom is the packet bytes pane, which displays the raw data of the selected packet in a hexadecimal view. This hex dump contains 16 hexadecimal bytes and 16 ASCII bytes alongside the data offset.
+
+Selecting a specific portion of this data automatically highlights its corres
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDg0NDk3MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTM2MjQ5OTY5LC0yMDg4NzQ2NjEyXX0=
 -->
