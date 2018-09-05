@@ -46,9 +46,12 @@ Below are a few options you can use when configuring tcpdump. They're easy to fo
 - **-q**: Be less verbose (more quiet) with your output.
 - **-t**: Give human-readable timestamp output.
 - **-tttt**: Give maximally human-readable timestamp output.
-- **-X**: Show 
+- **-X**: Show the packet's contents in both HEX and ASCII
+- **-XX**: Same as -X, but also shows the ethernet header.
+- **-v, -vv, -vvv**: Increase the amount of packet information you get back
+- **-c**: Only get x number of packets and then stop
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODE4Nzg2NSwtMTAzNTEyOTgxLDE5ND
-cyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbOTAzOTQ5MTEzLC0xMDM1MTI5ODEsMTk0Nz
+I2MzQ2Nl19
 -->
