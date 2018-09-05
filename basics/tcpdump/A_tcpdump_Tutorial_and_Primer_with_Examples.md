@@ -15,7 +15,11 @@
 - [Advanced_Example](#Advanced_Example)
 	- [Isolate_Tcp_Flags](#Isolate_Tcp_Flags)
 	- [Find_Http_User_Agents](#Find_Http_User_Agents)
-	- [Find_Clear
+	- [Find_Cleartext_Http_Gets](#Find_Cleartext_Http_Gets)
+	- [Find_Http_Hosts](#Find_Http_Hosts)
+	- [Find_Http_Cookies](#Find_Http_Cookies)
+	- [Find_Ssh_Connections](#Find_Ssh_Connections)
+	- [Find_Dns_Traffic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NTI0NjIwXX0=
+eyJoaXN0b3J5IjpbLTEzNzcyNzg3MjZdfQ==
 -->
