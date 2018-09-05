@@ -170,7 +170,9 @@ tcpdump -nnvvS src 10.5.2.3 and dst port 3389
 ```
 
 ### From one network to another
-Let's look for all traffic coming from 192.168.x.x and going to the 10.x or 172.16.x.x networks, and we're showing hex output with no hostname 
+Let's look for all traffic coming from 192.168.x.x and going to the 10.x or 172.16.x.x networks, and we're showing hex output with no hostname resolution and one level of extra verbosity.
+```bash
+tcpdump -nvx src net 192.168.0.0/16 and dst net 10.0.0.0/8 or 172.
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -183,6 +185,6 @@ Let's look for all traffic coming from 192.168.x.x and going to the 10.x or 172.
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1ODcwNjY4LC0xOTA2MTQwMjYyLC0xMD
-M1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbMTkxNDE3NzQyNSwtMTkwNjE0MDI2MiwtMT
+AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
