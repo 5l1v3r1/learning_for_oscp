@@ -5,8 +5,8 @@ Filters can also be applied to a capture file that has already been created so t
 
 Wireshark provides a large number of predefined filters by default, letting you narrow down the number of visible packet with just a few keystrokes or mouse clicks. To use one of these existing filters, place its name in the Apply a display filter entry field (located directly below the Wireshark toolbar) or in the Enter a capture filter entry field (located in the center of the welcome screen).
 
-There are multiple ways to achieve this. If you already know the name of your filter, simply type it into the appropriate field. F
+There are multiple ways to achieve this. If you already know the name of your filter, simply type it into the appropriate field. For example, if you only wanted to display TCP packets you would type tcp. Wireshark's autocompleting feature will show suggested names as you begin typing 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYyMzY2OCwxNzM1ODc0MTE0XX0=
+eyJoaXN0b3J5IjpbOTA2MDU2NTY2LDE3MzU4NzQxMTRdfQ==
 -->
