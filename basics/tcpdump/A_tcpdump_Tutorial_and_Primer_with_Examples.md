@@ -18,47 +18,16 @@
 	- [Find_Cleartext_Http_Gets](#findcleartexthttpgets)
 	- [Find_Http_Hosts](#findhttphosts)
 	- [Find_Http_Cookies](#findhttpcookies)
-	- [Find_Ssh_Connections](#Find_Ssh_Connections)
-	- [Find_Dns_Traffic](#Find_Dns_Traffic)
-	- [Find_Ftp_Traffic](#Find_Ftp_Traffic)
-	- [Find_Cleartext_Passwords](#Find_Cleartext_Passwords)
-	- [Find_Packets_With_Evil_Bit](#Find_Packets_With_Evil_Bit)
-	- [Summary](#Summary)
+	- [Find_Ssh_Connections](#findsshconnections)
+	- [Find_Dns_Traffic](#finddnstraffic)
+	- [Find_Ftp_Traffic](#findftptraffic)
+	- [Find_Cleartext_Passwords](#findcleartextpasswords)
+	- [Find_Packets_With_Evil_Bit](#findpacketswithevilbit)
+	- [Summary](#summary)
 
 ## <a id="basicexamples">Basic Examples</a>
-a
-a
-a
-aa
-a
-aa
-a
-a
-a
-
-aa
-a
-
-a
-aa
-
-a
-a
-aa
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTU2OTk2MSwtMTAzNTEyOTgxLDE5ND
-cyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbLTEzNDcyNDY1NjIsLTEwMzUxMjk4MSwxOT
+Q3MjYzNDY2XX0=
 -->
