@@ -19,7 +19,11 @@
 	- [Find_Http_Hosts](#Find_Http_Hosts)
 	- [Find_Http_Cookies](#Find_Http_Cookies)
 	- [Find_Ssh_Connections](#Find_Ssh_Connections)
-	- [Find_Dns_Traffic
+	- [Find_Dns_Traffic](#Find_Dns_Traffic)
+	- [Find_Ftp_Traffic](#Find_Ftp_Traffic)
+	- [Find_Cleartext_Passwords](#Find_Cleartext_Passwords)
+	- [Find_Packets_With_Evil_Bit](#Find_Packets_With_Evil_Bit)
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcyNzg3MjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDY5MzQxMF19
 -->
