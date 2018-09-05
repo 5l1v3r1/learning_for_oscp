@@ -141,8 +141,10 @@ If you're looking for packets of a particular size you can use these options. Yo
 ### <a id="writingtofile">Reading / Writing captures to a file</a>
 It's often useful to save packet captures into a file for analysis in the future. These files are known as PCAP (PEE-cap) files, and they can be processed by hundreds of different applications, including network analyzers, intrusion detection systems, and of course by tcpdump itself. Here we're writing to a file called capture_file using the -w switch.
 ```bash
-# tcpdump p
-## <a id="advancedexamples"></a>
+# tcpdump port 80 -w capture_file
+```
+You can read PCAP files by using the **-r** switch. Note that you can use all the regular commands within tcpdump while reading in a file; you're only limited by the fact tah
+## <id="advancedexamples"></a>
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -155,6 +157,6 @@ It's often useful to save packet captures into a file for analysis in the future
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0ODYyODUxLC0xOTA2MTQwMjYyLC0xMD
-M1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTExODA5ODU2NzIsLTE5MDYxNDAyNjIsLT
+EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
