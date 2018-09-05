@@ -244,7 +244,8 @@ Both SYN and RST SET
 # tcpdump 'tcp[13] = 6'
 ```
 
-### <a id="findhttpuseragents"></a>
+### <a id="findhttpuseragents">Find http User Agents</a>
+# tcp
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
 ### <a id="findhttpcookies"></a>
@@ -256,6 +257,7 @@ Both SYN and RST SET
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgzMTMyMDEsLTE1MzUxOTY2MywtMT
-kwNjE0MDI2MiwtMTAzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDMwMDg3MjEsLTEwMDgzMTMyMDEsLT
+E1MzUxOTY2MywtMTkwNjE0MDI2MiwtMTAzNTEyOTgxLDE5NDcy
+NjM0NjZdfQ==
 -->
