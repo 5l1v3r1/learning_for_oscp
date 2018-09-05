@@ -117,9 +117,14 @@ You can find specific port traffic by using the **port** option followed by the 
 ```
 
 ### <a id="showtrafficbyprotocol">Show traffic of one protocol</a>
-If you're looking for oen
-### <a id="showipv6traffic"></a>
-### <a id="findtrafficusingportranges"></a>
+If you're looking for one particular kind of traffic, you can use tcp, udp, icmp, and many others as well.
+### <a id="showipv6traffic">Show only IP6 traffic</a>
+You can also find all IP6 traffic using the protocol option.
+```bash
+# tcpdump ip6
+```
+
+### <a id="findtrafficusingportranges">Find Traffic Using</a>
 ### <a id="findtrafficbasedonpacketsize"></a>
 ### <a id="writingtofile"></a>
 ## <a id="advancedexamples"></a>
@@ -135,6 +140,6 @@ If you're looking for oen
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDM3MDc1NzksLTE5MDYxNDAyNjIsLT
-EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbMTE4MTMxNzY2OCwtMTkwNjE0MDI2MiwtMT
+AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
