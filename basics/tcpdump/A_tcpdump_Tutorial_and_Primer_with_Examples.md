@@ -91,7 +91,9 @@ One of the most common queries, this will show you traffic from 1.2.3.4, whether
 # tcpdump host 1.2.3.4
 ```
 
+### Seeing more of the packet with hex output
+Hex output is useful when you want to see the content of the packets in question, and it's often best used when you're isolating a few candidates for closer scruitiny.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzUxOTA5NywtMTkwNjE0MDI2MiwtMT
+eyJoaXN0b3J5IjpbLTgwMzAzNzkzMywtMTkwNjE0MDI2MiwtMT
 AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
