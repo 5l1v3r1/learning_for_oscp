@@ -131,8 +131,15 @@ You can also use a range of ports to find traffic.
 ```
 
 ### <a id="findtrafficbasedonpacketsize">Find Traffic based on packet size</a>
-If you're looking for packets of a particular size you can use these options. You can use less, greater, or their associated symbols 
-### <a id="writingtofile"></a>
+If you're looking for packets of a particular size you can use these options. You can use less, greater, or their associated symbols that you would expect from mathematics.
+```bash
+# tcpdump less 32
+# tcpdump greater 64
+# tcpdump <= 128
+```
+
+### <a id="writingtofile">Reading / Writing captures to a file</a>
+It's often useful to save packet captures into a file for analy
 ## <a id="advancedexamples"></a>
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
@@ -146,6 +153,6 @@ If you're looking for packets of a particular size you can use these options. Yo
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNjUyODM2LC0xOTA2MTQwMjYyLC0xMD
-M1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTE3NTUzMjE0NzMsLTE5MDYxNDAyNjIsLT
+EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
