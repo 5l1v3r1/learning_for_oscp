@@ -107,9 +107,17 @@ It's quite easy to isolate traffic based on either source or destination using *
 ### <a id="showtrafficbynetwork">Finding packets by network</a>
 To find packets going to or from a particular network, use the **net** option. You can combine this with the **src** or **dst** options as well.
 ```bash
-# tcpdump net 1.2.3.4/234
-### <a id="showtrafficbyport"></a>
-### <a id="showtrafficbyprotocol"></a>
+# tcpdump net 1.2.3.4/24
+```
+
+### <a id="showtrafficbyport">Show traffic related to a specific port</a>
+You can find specific port traffic by using the **port** option followed by the port number.
+```bash
+# tcpdump port 3389
+```
+
+### <a id="showtrafficbyprotocol">Show traffic of one protocol</a>
+If you're looking for oen
 ### <a id="showipv6traffic"></a>
 ### <a id="findtrafficusingportranges"></a>
 ### <a id="findtrafficbasedonpacketsize"></a>
@@ -127,6 +135,6 @@ To find packets going to or from a particular network, use the **net** option. Y
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODAxNjcyOSwtMTkwNjE0MDI2MiwtMT
-AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbLTEwNDM3MDc1NzksLTE5MDYxNDAyNjIsLT
+EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
