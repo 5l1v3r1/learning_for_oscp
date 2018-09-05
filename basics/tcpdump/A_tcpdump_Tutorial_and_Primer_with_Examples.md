@@ -69,8 +69,19 @@ So, now that we've seen what our options are, let's look at some real-world exam
 
 ### <a id="basiccommunication">Basic Communication</a>
 Just see what's going on, by looking at all interfaces.
-```b # tcpdump -i any
+```bash
+# tcpdump -i any
+```
+
+### Specific interface
+Basic view of what's happening on a particular interface.
+```bash
+# tcpdump -i eth0
+```
+
+### Raw Output View
+Verbose
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTIyNzQ0MzQsLTE5MDYxNDAyNjIsLT
-EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbLTczOTQzMjM3MCwtMTkwNjE0MDI2MiwtMT
+AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
