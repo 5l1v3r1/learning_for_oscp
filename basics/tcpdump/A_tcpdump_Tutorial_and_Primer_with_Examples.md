@@ -98,8 +98,14 @@ Hex output is useful when you want to see the content of the packets in question
 ```
 
 ### <a id="filterbysourceandordestination">Filtering by source and destination
-It's quite easy to isolate traffic based on either source or destination using sr
+It's quite easy to isolate traffic based on either source or destination using **src** and **dst**
+```bash
+# tcpdump src 2.3.4.5
+# tcpdump dst 3.4.5.6
+```
+
+### <a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg3MTUyMTYsLTE5MDYxNDAyNjIsLT
-EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbMTAzMzE2Mzc2OCwtMTkwNjE0MDI2MiwtMT
+AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
