@@ -8,7 +8,10 @@ The packet list pane, located at the top of the window, shows all packets found 
 - **Souce**: This column contains the address(ip or other) where the packet originated.
 - **Destination**: This column contains the address that the packet is being sent to.
 - **Protocol**: The packet's protocol name(i.e., TCP)  can be found in this column.
-- **Length**: the packet length, in bytes
+- **Length**: the packet length, in bytes, is displayed in this column.
+- **Info**: Additional details about the packet are represented here. The contents of this column can vary greatly depending on packet contents.
+
+When a packet is selected in the top pane, you may notice one or more symbols appear
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTY3OTg0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTc5MDQzMzI4MywtMjA4ODc0NjYxMl19
 -->
