@@ -208,7 +208,15 @@ Isolate TCP SYN flags.
 # tcpdump 'tcp[tcpflags] == tcp-syn'
 ```
 
-Isolate packets 
+Isolate packets that have both the SYN and ACK flags set.
+```bash
+# tcpdump 'tcp[13]=18'
+```
+
+Isolate TCP URG flags.
+```bash
+# tcpdump 'tcp[13] & 32!=0'
+# tcp
 
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
@@ -222,6 +230,6 @@ Isolate packets
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDEwNTA0MiwtMTUzNTE5NjYzLC0xOT
-A2MTQwMjYyLC0xMDM1MTI5ODEsMTk0NzI2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTExMTk4MTM2MjAsLTE1MzUxOTY2MywtMT
+kwNjE0MDI2MiwtMTAzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
