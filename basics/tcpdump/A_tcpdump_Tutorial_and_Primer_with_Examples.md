@@ -245,6 +245,7 @@ Both SYN and RST SET
 ```
 
 ### <a id="findhttpuseragents">Find http User Agents</a>
+The **-l** switch lets you see the traffic as you're capturing it, and helps when 
 # tcp
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -257,7 +258,7 @@ Both SYN and RST SET
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMwMDg3MjEsLTEwMDgzMTMyMDEsLT
-E1MzUxOTY2MywtMTkwNjE0MDI2MiwtMTAzNTEyOTgxLDE5NDcy
-NjM0NjZdfQ==
+eyJoaXN0b3J5IjpbODUzMzI1NTUxLC0xMzAzMDA4NzIxLC0xMD
+A4MzEzMjAxLC0xNTM1MTk2NjMsLTE5MDYxNDAyNjIsLTEwMzUx
+Mjk4MSwxOTQ3MjYzNDY2XX0=
 -->
