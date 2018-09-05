@@ -38,9 +38,13 @@ Below are a few options you can use when configuring tcpdump. They're easy to fo
 ### *Options*
 - **-i any**: Listen on all interfaces just to see if you're seeing any traffic.
 - **-i eth0**: Listen on the eth0 interface.
-- **-
+- **-D**: Show the list of available interfaces
+- **-l**: Line-readable output (for viewing as you save, or sending to other commands)
+- **-A**: Display output in ASCII
+- **-n**: Don't resolve hostname
+- **-nn**: Don't
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNDcwMzQ4LC0xMDM1MTI5ODEsMTk0Nz
-I2MzQ2Nl19
+eyJoaXN0b3J5IjpbLTIwNjkzODIzNzQsLTEwMzUxMjk4MSwxOT
+Q3MjYzNDY2XX0=
 -->
