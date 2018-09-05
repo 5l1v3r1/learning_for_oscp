@@ -249,9 +249,13 @@ The **-l** switch lets you see the traffic as you're capturing it, and helps whe
 ```bash
 # tcpdump -vvAls0 | grep 'User-Agent:'
 ```
-# tcp
-### <a id="findcleartexthttpgets"></a>
-### <a id="findhttphosts"></a>
+
+### <a id="findcleartexthttpgets">Cleartext GET request</a>
+```bash
+# tcpdump -vvAls0 | grep 'GET'
+```
+### <a id="findhttphosts">Find http host header</a>
+
 ### <a id="findhttpcookies"></a>
 ### <a id="findsshconnections"></a>
 ### <a id="finddnstraffic"></a>
@@ -261,7 +265,7 @@ The **-l** switch lets you see the traffic as you're capturing it, and helps whe
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzIzMjM2OSwtMTMwMzAwODcyMSwtMT
+eyJoaXN0b3J5IjpbMTk1OTE2NzA2MywtMTMwMzAwODcyMSwtMT
 AwODMxMzIwMSwtMTUzNTE5NjYzLC0xOTA2MTQwMjYyLC0xMDM1
 MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
