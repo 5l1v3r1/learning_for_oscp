@@ -284,15 +284,14 @@ This one works regardless of what port the connection comes in on, because it's 
 
 ### <a id="findcleartextpasswords">Find Cleartext passwords</a>
 ```bash
-# tcpdump port http or port ftp or port smtp or port imap or port 
-
+# tcpdump port http or port ftp or port smtp or port imap or port pop3 or port telnet -lA | egrep -i B5 'pass=|pwd=|log=|login=|user=|username=|pw=|passw=|passwd=|password=|pass:|user:|username:|password:|login:|pass|user'
 ```
 
 ### <a id="findpacketswithevilbit"></a>
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzMTIwNjUyLC0xMzAzMDA4NzIxLC0xMD
-A4MzEzMjAxLC0xNTM1MTk2NjMsLTE5MDYxNDAyNjIsLTEwMzUx
-Mjk4MSwxOTQ3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbMTYzOTE3NzgxNCwtMTMwMzAwODcyMSwtMT
+AwODMxMzIwMSwtMTUzNTE5NjYzLC0xOTA2MTQwMjYyLC0xMDM1
+MTI5ODEsMTk0NzI2MzQ2Nl19
 -->
