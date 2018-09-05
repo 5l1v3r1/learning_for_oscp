@@ -164,7 +164,10 @@ Being able to do these various things individually is powerful, but the real mag
 Here are some examples of combined commands.
 
 ### From specific IP and destined for a specific port
-Let's find all traffic from 10.5.2.3
+Let's find all traffic from 10.5.2.3 going to any host on port 3389
+```bash
+tcpdump -nnvvS src 10.5.2.3 and dst port 3389
+```
 ### <a id="findhttpuseragents"></a>
 ### <a id="findcleartexthttpgets"></a>
 ### <a id="findhttphosts"></a>
@@ -177,6 +180,6 @@ Let's find all traffic from 10.5.2.3
 ### <a id="summary"></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODQwODcxOSwtMTkwNjE0MDI2MiwtMT
+eyJoaXN0b3J5IjpbLTEwNTA0OTI3MSwtMTkwNjE0MDI2MiwtMT
 AzNTEyOTgxLDE5NDcyNjM0NjZdfQ==
 -->
