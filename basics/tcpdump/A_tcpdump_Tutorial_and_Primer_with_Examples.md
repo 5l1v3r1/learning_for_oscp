@@ -69,7 +69,8 @@ So, now that we've seen what our options are, let's look at some real-world exam
 
 ### <a id="basiccommunication">Basic Communication</a>
 Just see what's going on, by looking at all interfaces.
+```b # tcpdump -i any
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDYxNDAyNjIsLTEwMzUxMjk4MSwxOT
-Q3MjYzNDY2XX0=
+eyJoaXN0b3J5IjpbLTIwNTIyNzQ0MzQsLTE5MDYxNDAyNjIsLT
+EwMzUxMjk4MSwxOTQ3MjYzNDY2XX0=
 -->
