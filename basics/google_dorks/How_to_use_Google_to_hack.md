@@ -144,7 +144,14 @@ You can find information about weather on google using this dork.
 weather: 01/08/2015 london
 
 ### related
-This will look for anything related to what 
+This will look for anything related to what you have entered next to related:.
+
+related:hacking
+
+google responds with sites about hacking stuffs.
+
+### link
+This one will works better instead of only looking in search url, it will also look in the 
 
 
 
@@ -154,6 +161,6 @@ This will look for anything related to what
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDMwNDM2NiwtMTgwNDg2MTgxNiwxOT
+eyJoaXN0b3J5IjpbLTc1NjAyNjc0NSwtMTgwNDg2MTgxNiwxOT
 k1Mzc5MzI4LC0xODI1MzU0MDQ0LDE3NTQ2NDUyOTddfQ==
 -->
