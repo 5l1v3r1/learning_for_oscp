@@ -88,11 +88,16 @@ intitle: index of mp3
 This is an example to download mp3 songs for free.
 
 ### inurl
-the inurl basically
+the inurl basically looks for anything after the : in the site urls.
+
+inurl:index.php?id=
+
+### intext
+You can find literally everything using intext, you could even use the inurl dorks with this.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDYxMDczNiwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTIxNDM4MDYxMDUsMTc1NDY0NTI5N119
 -->
