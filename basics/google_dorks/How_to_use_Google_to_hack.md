@@ -46,8 +46,8 @@ Similar to intext, but searches for all terms to be present in the text.
 Limits the search to a specific site only. site:nullbyte.com
 
 ## 3. The formula of google dorks
-
+Dorks: They are li
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzg5MjkwOCwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTEzODU3OTcwNCwxNzU0NjQ1Mjk3XX0=
 -->
