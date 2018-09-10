@@ -50,9 +50,13 @@ Dorks: They are like search criteria in which a search engine returns results re
 The process can be a little time consuming, but the outcome will be worth it after learning on how to use dorks.
 
 Basic Formula of dork, 
-
 "inurl:."domain"/"dorks""
 
+So you would normally understand it like this:
+"inurl" = input URL
+"domain" = your desired domain ex. .gov
+"dorks" = your dork of your ch
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDcyOTIxNywxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTEyNjk3MDA3OTAsMTc1NDY0NTI5N119
 -->
