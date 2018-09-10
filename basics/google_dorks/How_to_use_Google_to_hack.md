@@ -2,7 +2,11 @@
 [How to use Google to Hack](https://null-byte.wonderhowto.com/how-to/use-google-hack-googledorks-0163566/)
 
 ## 1. History
-The concept of "Google Hacking" date back to 2002, when Johnny Long began to collect interesting Google search queries that uncovered vulnerable systems and/or sensitive information disclosures - labeling them googleDorks.
+The concept of "Google Hacking" date back to 2002, when Johnny Long began to collect interesting Google search queries that uncovered vulnerable systems and/or sensitive information disclosures - labeling them googleDorks. some people call it googlehacking.
+
+Dorks:Someone 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI4MjkzNDFdfQ==
+eyJoaXN0b3J5IjpbLTY4NTkzMjQ5NF19
 -->
