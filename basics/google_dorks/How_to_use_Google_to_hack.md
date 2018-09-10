@@ -46,8 +46,13 @@ Similar to intext, but searches for all terms to be present in the text.
 Limits the search to a specific site only. site:nullbyte.com
 
 ## 3. The formula of google dorks
-Dorks: They are li
+Dorks: They are like search criteria in which a search engine returns results related to your dork.
+The process can be a little time consuming, but the outcome will be worth it after learning on how to use dorks.
+
+Basic Formula of dork, 
+
+"inurl:."domain"/"dorks""
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU3OTcwNCwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbMTMxNDcyOTIxNywxNzU0NjQ1Mjk3XX0=
 -->
