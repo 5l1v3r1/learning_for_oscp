@@ -109,7 +109,12 @@ Obvious, when we will use it, google will looks for a site.
 
 site:wonderhowto.com
 
-Google will look for any site related wit 
+Google will look for any site related with wonderhowto.
+
+### phonebook
+It will look for the phone number related to me, so use your victims name or your instead.
+
+phonebook:
 
 
 
@@ -117,6 +122,6 @@ Google will look for any site related wit
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDE2OTk1MiwtMTgyNTM1NDA0NCwxNz
+eyJoaXN0b3J5IjpbMTk5NTM3OTMyOCwtMTgyNTM1NDA0NCwxNz
 U0NjQ1Mjk3XX0=
 -->
