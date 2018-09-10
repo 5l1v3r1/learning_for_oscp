@@ -15,8 +15,12 @@ That information can be used for any number of illegal activities, including cyb
 ## 2. Operators
 As well as programming, google dorks also has its operators. Here are the most commonly used Operators.
 
-Lets take a look at the special google se
+Lets take a look at the special google search operators that are used to construct those high powered google hack search terms.
+
+intitle
+
+Specifying intitle, will tell google to show only those pages that have the term in their html title. For example intitle:"login page" will show those pag
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0MzQ1MzQ5XX0=
+eyJoaXN0b3J5IjpbMTQ1MDI3MjY0Ml19
 -->
