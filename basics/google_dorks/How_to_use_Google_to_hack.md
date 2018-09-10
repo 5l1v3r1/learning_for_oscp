@@ -158,7 +158,9 @@ link:index.php?id=
 This is very useful I would say even more than inurl.
 
 ## 4. Conclusion
-Google dorks are very important, so I advise before you start your exploits against a particular victim
+Google dorks are very important, so I advise before you start your exploits against a particular victim the best way is to use google and see what you can find about the victim, and believe me, but using google, a lot of times I did not even turn on Linux kali, by simple search on google, I found the password of my victim.
+
+## 5. Useful websites
 
 
 
@@ -167,7 +169,7 @@ Google dorks are very important, so I advise before you start your exploits agai
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDA0OTQ3NSwtMjY3MzkyNjM3LC0xOD
-A0ODYxODE2LDE5OTUzNzkzMjgsLTE4MjUzNTQwNDQsMTc1NDY0
-NTI5N119
+eyJoaXN0b3J5IjpbNDUzODc5MzE4LC0yNjczOTI2MzcsLTE4MD
+Q4NjE4MTYsMTk5NTM3OTMyOCwtMTgyNTM1NDA0NCwxNzU0NjQ1
+Mjk3XX0=
 -->
