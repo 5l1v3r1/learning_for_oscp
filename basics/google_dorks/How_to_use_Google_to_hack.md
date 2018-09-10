@@ -37,9 +37,14 @@ Similarly filetype:txt looks for files with extension .txt
 Similar to filetype. ext:pdf finds pdf extension files.
 
 ### intext
-Searches the content of the page. Somewhat like a plain google search. For example 
+Searches the content of the page. Somewhat like a plain google search. For example intext:"index of /".
+
+### allintext
+Similar to intext, but searches for all terms to be present in the text.
+
+###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjE4MzgwMiwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbMTcyMjc1NTUzNywxNzU0NjQ1Mjk3XX0=
 -->
