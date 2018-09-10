@@ -120,7 +120,12 @@ phonebook:Mrnakupenda
 Google will look on google maps for your search.
 
 ### books
-Google has an online librar
+Google has an online library store. If you want to find interesting books use this dork.
+
+book:java language
+
+### froogle:
+Used for froogle search 
 
 
 
@@ -128,6 +133,6 @@ Google has an online librar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE2MTA1OTcsLTE4MDQ4NjE4MTYsMT
-k5NTM3OTMyOCwtMTgyNTM1NDA0NCwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTc0Mzk3MjE0MCwtMTgwNDg2MTgxNiwxOT
+k1Mzc5MzI4LC0xODI1MzU0MDQ0LDE3NTQ2NDUyOTddfQ==
 -->
