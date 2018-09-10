@@ -55,8 +55,31 @@ Basic Formula of dork,
 So you would normally understand it like this:
 "inurl" = input URL
 "domain" = your desired domain ex. .gov
-"dorks" = your dork of your ch
+"dorks" = your dork of your choice
+
+Here is another example of that
+
+You can use following words instead of inurl:
+
+intitle:
+inurl:
+intext:
+define:
+site:
+phonebook:
+maps:
+book:
+froogle:
+info:
+movie:
+weather:
+related:
+link:
+
+All these also help you to find other things then vulnerables.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk3MDA3OTAsMTc1NDY0NTI5N119
+eyJoaXN0b3J5IjpbMTE3MDA1MjM3NSwxNzU0NjQ1Mjk3XX0=
 -->
