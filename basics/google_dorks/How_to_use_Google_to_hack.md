@@ -13,8 +13,10 @@ As a passive attack method, Google dorking can return usernames and passwords, e
 That information can be used for any number of illegal activities, including cyber terrorism, industrial espionage, identity theft and cyber stalking. 
 
 ## 2. Operators
+As well as programming, google dorks also has its operators. Here are the most commonly used Operators.
 
+Lets take a look at the special google se
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg0MTE0NTldfQ==
+eyJoaXN0b3J5IjpbNjQ0MzQ1MzQ5XX0=
 -->
