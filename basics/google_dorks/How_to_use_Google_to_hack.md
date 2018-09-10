@@ -6,8 +6,12 @@ The concept of "Google Hacking" date back to 2002, when Johnny Long began to col
 
 **Dorks**:Someone who has odd interests, and is often silly at times. A dork is also someone who can be themselves and not care what anyone thinks
 
-A Google Dork is an employee who unknowingly exp
+A Google Dork is an employee who unknowingly exposes sensitive corporate information on the Internet.
+
+As a passive attack method, Google dorking can return usernames and passwords, email lists, sensitive documents, personally identifiable financial information and website vulnerabilities.
+
+That information can be used for any number of illegal activities, including cyberterrorism, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTM2NzI4N119
+eyJoaXN0b3J5IjpbOTMxMjA0MDZdfQ==
 -->
