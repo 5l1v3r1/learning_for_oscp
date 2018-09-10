@@ -151,7 +151,13 @@ related:hacking
 google responds with sites about hacking stuffs.
 
 ### link
-This one will works better instead of only looking in search url, it will also look in the 
+This one will works better instead of only looking in search url, it will also look in the site for urls that possibly are vulnerable.
+
+link:index.php?id=
+
+This is very useful I would say even more than inurl.
+
+
 
 
 
@@ -161,6 +167,6 @@ This one will works better instead of only looking in search url, it will also l
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjAyNjc0NSwtMTgwNDg2MTgxNiwxOT
+eyJoaXN0b3J5IjpbLTI2NzM5MjYzNywtMTgwNDg2MTgxNiwxOT
 k1Mzc5MzI4LC0xODI1MzU0MDQ0LDE3NTQ2NDUyOTddfQ==
 -->
