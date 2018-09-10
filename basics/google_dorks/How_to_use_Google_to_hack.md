@@ -17,10 +17,16 @@ As well as programming, google dorks also has its operators. Here are the most c
 
 Lets take a look at the special google search operators that are used to construct those high powered google hack search terms.
 
-intitle
+### intitle
+Specifying intitle, will tell google to show only those pages that have the term in their html title. For example intitle:"login page" will show those pages which have the term "login page" in the title text.
 
-Specifying intitle, will tell google to show only those pages that have the term in their html title. For example intitle:"login page" will show those pag
+### allintitle
+Similar to intitle, but looks for all the specified terms in the title.
+
+### inurl
+Searches for the specified term in the url. For example inurl:"
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDI3MjY0Ml19
+eyJoaXN0b3J5IjpbMTcyNzA0ODEwMl19
 -->
