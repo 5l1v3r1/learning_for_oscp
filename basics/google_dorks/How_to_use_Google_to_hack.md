@@ -133,7 +133,15 @@ google looks for anything you inputted but only information about string which y
 info:firefox
 Above dork will show you a lot of things about firefox like what is firefox etc.
 
+### movie
+You can find information about movies on google using this dork.
 
+movie:watch Transformers online
+
+### weather
+You can find information about weather on google using this dork.
+
+weather: 0
 
 
 
@@ -141,6 +149,6 @@ Above dork will show you a lot of things about firefox like what is firefox etc.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU0NTQwMDAsLTE4MDQ4NjE4MTYsMT
-k5NTM3OTMyOCwtMTgyNTM1NDA0NCwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTg1ODMzMzA1OSwtMTgwNDg2MTgxNiwxOT
+k1Mzc5MzI4LC0xODI1MzU0MDQ0LDE3NTQ2NDUyOTddfQ==
 -->
