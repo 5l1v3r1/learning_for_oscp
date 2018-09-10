@@ -125,7 +125,15 @@ Google has an online library store. If you want to find interesting books use th
 book:java language
 
 ### froogle:
-Used for froogle search 
+Used for froogle search instead of google.
+
+### info
+google looks for anything you inputted but only information about string which you have putted next to info:
+
+info:firefox
+Above dork will show you a lot of things about firefox like what is firefox etc.
+
+
 
 
 
@@ -133,6 +141,6 @@ Used for froogle search
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mzk3MjE0MCwtMTgwNDg2MTgxNiwxOT
-k1Mzc5MzI4LC0xODI1MzU0MDQ0LDE3NTQ2NDUyOTddfQ==
+eyJoaXN0b3J5IjpbLTE3ODU0NTQwMDAsLTE4MDQ4NjE4MTYsMT
+k5NTM3OTMyOCwtMTgyNTM1NDA0NCwxNzU0NjQ1Mjk3XX0=
 -->
