@@ -148,7 +148,7 @@ You can read PCAP files by using the **-r** switch. Note that you can use all th
 # tcpdump -r capture_file
 ```
 
-## <id="advancedexamples">Advanced</a>
+## <a id="advancedexamples">Advanced</a>
 Now that we've seen what we can do with the basics through some examples, let's look at some more advanced stuff.
 
 ### *It's all about the combinations*
@@ -300,7 +300,7 @@ Here are the takeaways.
 2. The raw way it interfaces with traffic, combined with the precision it offers in inspecting packets make it the best possible tool for learning TCP/IP.
 3. Protocol Analyzers like Wireshark are great, but if you want to truly master packet-fu, you must become one with tcpdump first.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU0MDg4NjUsLTEzMDMwMDg3MjEsLT
-EwMDgzMTMyMDEsLTE1MzUxOTY2MywtMTkwNjE0MDI2MiwtMTAz
-NTEyOTgxLDE5NDcyNjM0NjZdfQ==
+eyJoaXN0b3J5IjpbODY2ODcwMjQwLC0xMzAzMDA4NzIxLC0xMD
+A4MzEzMjAxLC0xNTM1MTk2NjMsLTE5MDYxNDAyNjIsLTEwMzUx
+Mjk4MSwxOTQ3MjYzNDY2XX0=
 -->
