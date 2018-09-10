@@ -99,7 +99,10 @@ intext:"Design & Developed By Seawind Solution Pvt.Ltd."
 
 Google will give you all the websites created by IT Masons that recently has bypass Admin Page Vulnerability in some websites,
 
-to try just choose a target from google and add this to the url /adminpanel/
+### define
+Google will define this message and will look for what had this error for example,
+
+define:"sql syntax error"
 
 
 
@@ -107,5 +110,6 @@ to try just choose a target from google and add this to the url /adminpanel/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjUzNTQwNDQsMTc1NDY0NTI5N119
+eyJoaXN0b3J5IjpbLTY0MzA5NTcyMCwtMTgyNTM1NDA0NCwxNz
+U0NjQ1Mjk3XX0=
 -->
