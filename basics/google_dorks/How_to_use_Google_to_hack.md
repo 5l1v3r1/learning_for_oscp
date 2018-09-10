@@ -42,9 +42,12 @@ Searches the content of the page. Somewhat like a plain google search. For examp
 ### allintext
 Similar to intext, but searches for all terms to be present in the text.
 
-###
+### site
+Limits the search to a specific site only. site:nullbyte.com
+
+## 3. The formula of google dorks
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjc1NTUzNywxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTczNzg5MjkwOCwxNzU0NjQ1Mjk3XX0=
 -->
