@@ -97,11 +97,15 @@ You can find literally everything using intext, you could even use the inurl dor
 
 intext:"Design & Developed By Seawind Solution Pvt.Ltd."
 
-Google will give you all the websites created by IT Masons that recently has bypass A
+Google will give you all the websites created by IT Masons that recently has bypass Admin Page Vulnerability in some websites,
+
+to try just choose a target from google and add this to the url /adminpanel/
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzIwNjA0OCwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTE4MjUzNTQwNDQsMTc1NDY0NTI5N119
 -->
