@@ -95,9 +95,13 @@ inurl:index.php?id=
 ### intext
 You can find literally everything using intext, you could even use the inurl dorks with this.
 
+intext:"Design & Developed By Seawind Solution Pvt.Ltd."
+
+Google will give you all the websites created by IT Masons that recently has bypass A
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM4MDYxMDUsMTc1NDY0NTI5N119
+eyJoaXN0b3J5IjpbMTY5NzIwNjA0OCwxNzU0NjQ1Mjk3XX0=
 -->
