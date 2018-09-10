@@ -24,9 +24,16 @@ Specifying intitle, will tell google to show only those pages that have the term
 Similar to intitle, but looks for all the specified terms in the title.
 
 ### inurl
-Searches for the specified term in the url. For example inurl:"
+Searches for the specified term in the url. For example inurl:"login.php".
+
+### allinurl
+Same as inurl, but searches for all terms in the url.
+
+### filetype
+Searchs for specific file types. filetypes:pdf wil looks for pdf files in websites.
+Similarly filetype:txt looks for files with extension .txt
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzA0ODEwMl19
+eyJoaXN0b3J5IjpbMTc1NDY0NTI5N119
 -->
