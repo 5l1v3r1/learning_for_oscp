@@ -116,12 +116,18 @@ It will look for the phone number related to me, so use your victims name or you
 
 phonebook:Mrnakupenda
 
+### maps
+Google will look on google maps for your search.
+
+### books
+Google has an online librar
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ4NjE4MTYsMTk5NTM3OTMyOCwtMT
-gyNTM1NDA0NCwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTE5NDE2MTA1OTcsLTE4MDQ4NjE4MTYsMT
+k5NTM3OTMyOCwtMTgyNTM1NDA0NCwxNzU0NjQ1Mjk3XX0=
 -->
