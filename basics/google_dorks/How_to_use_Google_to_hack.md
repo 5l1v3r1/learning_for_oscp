@@ -78,8 +78,12 @@ link:
 
 All these also help you to find other things then vulnerables.
 
+Anyway now I am going to explain you how to use some for finding vulnerability in websites.
+
+### intit
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDA1MjM3NSwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTU3NzgwNTg5NiwxNzU0NjQ1Mjk3XX0=
 -->
