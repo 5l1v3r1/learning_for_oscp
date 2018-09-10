@@ -80,10 +80,19 @@ All these also help you to find other things then vulnerables.
 
 Anyway now I am going to explain you how to use some for finding vulnerability in websites.
 
-### intit
+### intitle
+You can use the intitle to find anything in the title of the website. Which also could be useful to find downloads or anything else.
+
+intitle: index of mp3
+
+This is an example to download mp3 songs for free.
+
+### inurl
+the inurl basically
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzgwNTg5NiwxNzU0NjQ1Mjk3XX0=
+eyJoaXN0b3J5IjpbLTY0MDYxMDczNiwxNzU0NjQ1Mjk3XX0=
 -->
