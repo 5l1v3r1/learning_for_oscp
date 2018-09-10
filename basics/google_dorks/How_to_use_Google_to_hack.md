@@ -141,7 +141,12 @@ movie:watch Transformers online
 ### weather
 You can find information about weather on google using this dork.
 
-weather: 0
+weather: 01/08/2015 london
+
+### related
+This will look for anything related to what 
+
+
 
 
 
@@ -149,6 +154,6 @@ weather: 0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODMzMzA1OSwtMTgwNDg2MTgxNiwxOT
+eyJoaXN0b3J5IjpbMTE4MDMwNDM2NiwtMTgwNDg2MTgxNiwxOT
 k1Mzc5MzI4LC0xODI1MzU0MDQ0LDE3NTQ2NDUyOTddfQ==
 -->
