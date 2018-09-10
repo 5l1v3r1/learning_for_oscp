@@ -10,8 +10,11 @@ A Google Dork is an employee who unknowingly exposes sensitive corporate informa
 
 As a passive attack method, Google dorking can return usernames and passwords, email lists, sensitive documents, personally identifiable financial information and website vulnerabilities.
 
-That information can be used for any number of illegal activities, including cyberterrorism, 
+That information can be used for any number of illegal activities, including cyber terrorism, industrial espionage, identity theft and cyber stalking. 
+
+## 2. Operators
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMjA0MDZdfQ==
+eyJoaXN0b3J5IjpbLTE2Nzg0MTE0NTldfQ==
 -->
