@@ -157,8 +157,8 @@ link:index.php?id=
 
 This is very useful I would say even more than inurl.
 
-
-
+## 4. Conclusion
+Google dorks are very important, so I advise before you start your exploits against a particular victim
 
 
 
@@ -167,6 +167,7 @@ This is very useful I would say even more than inurl.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzM5MjYzNywtMTgwNDg2MTgxNiwxOT
-k1Mzc5MzI4LC0xODI1MzU0MDQ0LDE3NTQ2NDUyOTddfQ==
+eyJoaXN0b3J5IjpbMTAyMDA0OTQ3NSwtMjY3MzkyNjM3LC0xOD
+A0ODYxODE2LDE5OTUzNzkzMjgsLTE4MjUzNTQwNDQsMTc1NDY0
+NTI5N119
 -->
