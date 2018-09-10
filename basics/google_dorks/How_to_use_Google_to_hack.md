@@ -33,7 +33,13 @@ Same as inurl, but searches for all terms in the url.
 Searchs for specific file types. filetypes:pdf wil looks for pdf files in websites.
 Similarly filetype:txt looks for files with extension .txt
 
+### ext
+Similar to filetype. ext:pdf finds pdf extension files.
+
+### intext
+Searches the content of the page. Somewhat like a plain google search. For example 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDY0NTI5N119
+eyJoaXN0b3J5IjpbMTY4NjE4MzgwMiwxNzU0NjQ1Mjk3XX0=
 -->
