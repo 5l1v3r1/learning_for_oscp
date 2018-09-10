@@ -104,12 +104,19 @@ Google will define this message and will look for what had this error for exampl
 
 define:"sql syntax error"
 
+### site
+Obvious, when we will use it, google will looks for a site.
+
+site:wonderhowto.com
+
+Google will look for any site related wit 
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzA5NTcyMCwtMTgyNTM1NDA0NCwxNz
+eyJoaXN0b3J5IjpbMTM5NDE2OTk1MiwtMTgyNTM1NDA0NCwxNz
 U0NjQ1Mjk3XX0=
 -->
