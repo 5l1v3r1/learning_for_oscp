@@ -13,7 +13,8 @@ DNS is a naming system for computers that converts human readable domain names i
 
 As soon as we type in google.com we get an output showing the server and an IP-address#port. This server is basically the current DNS server that will be serving our request. DNS uses UDP port 53 to serve its requests. We can also set the current DNS server by using the command "server ip-address"
 
-Ne
+Next line in the output shows "Non-authoritative answer". This basically means that our DNS server queried an external DNS server to fetch  the IP-Address. Below we can see all the IP-Address associated with google.com. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTAwNDIxMywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTIxMjYyMDIyMTEsLTIwODg3NDY2MTJdfQ
+==
 -->
