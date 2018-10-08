@@ -9,7 +9,9 @@ DNS is a naming system for computers that converts human readable domain names i
   $ nslookup
   set type=a
   google.com```
-  In the second line we set the type = a. This means
+  In the second line we set the type = a. This means that we are querying for the A records which will return us an IP-address in return for the domain we query.
+
+As soon as we type in google.com we get an output showing the server and an 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3ODk2MzE2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjA5NDExMzkzMCwtMjA4ODc0NjYxMl19
 -->
