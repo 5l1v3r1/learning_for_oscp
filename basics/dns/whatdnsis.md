@@ -17,11 +17,28 @@ As soon as we type in google.com we get an output showing the server and an IP-a
 Next line in the output shows "Non-authoritative answer". This basically means that our DNS server queried an external DNS server to fetch  the IP-Address. Below we can see all the IP-Address associated with google.com. This is usually the case with large organizations. They use multiple servers to serve the request as one server is generally not capable of handling all the requests.
 
 ### Resource Records and the Zone file
-A Zone file is basically a text file present on the server hosting the domain that contains entries for different resource records. Each line is represented by a different record. In some cases these records may exceed one line and hence must be enclosed within a parentheses. Each zone file must start with a Start of Authority (SOA) records containing an authoritative nameserver for the domain and a 
+A Zone file is basically a text file present on the server hosting the domain that contains entries for different resource records. Each line is represented by a different record. In some cases these records may exceed one line and hence must be enclosed within a parentheses. Each zone file must start with a Start of Authority (SOA) records containing an authoritative nameserver for the domain and an email address of someone responsible for the management of the nameserver. An example of a zone file is given below.
+
+$ORIGIN infosecinstitute.com.;This marks the beginning of the file
+  $TTL	86400 ; TTL is 24 hours , it could also be 1d or 1h
+  infosecinstitute.com  IN	 SOA ns1.infosecinstitute.com.	webmaster.infosecinstitute.com. (
+            		2002026801 ; serial number of this zone file
+            		2d ; refresh time for slave
+            		5h ; retry time for slave
+            		2w ; expiration time for slave
+            		1h ; maximum caching time
+            			     )
+         NS                    ns1.infosecinstitute.com.       ; ns1 is a nameserver for infosecinstitute.com
+         NS                    ns2.infosecinstitute.com.       ; ns2 is a backup nameserver for infosecinstitute.com
+         MX                    10 mail.infosecinstitute.com.   ; mail server
+  ns1     A                     192.168.1.1                    ; Ipv4 address for ns1.infosecinstitute.com
+  www    CNAME                 infosecinstitute.com            ; www.infosecinstitute.com is an alias for infosecinstitute.com
+  ftp    IN  CNAME             www.infosecinstitute.com.       ; CNAME for ftp
+  mail   A                     192.0.3.2                       ; Ipv4 address for mail.infosecinstitute.com
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjU1ODEyNSw4ODgxMjYzMDQsNDMyNz
-cwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzU2OTA2MjksODg4MTI2MzA0LDQzMjc3MD
+g5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
 -->
