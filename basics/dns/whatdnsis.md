@@ -17,11 +17,11 @@ As soon as we type in google.com we get an output showing the server and an IP-a
 Next line in the output shows "Non-authoritative answer". This basically means that our DNS server queried an external DNS server to fetch  the IP-Address. Below we can see all the IP-Address associated with google.com. This is usually the case with large organizations. They use multiple servers to serve the request as one server is generally not capable of handling all the requests.
 
 ### Resource Records and the Zone file
-
+A Zone file is basically a text file present on the server hosting the domain that contains entries for different resource records. Each 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NTU5MjM3LDQzMjc3MDg5OCw0MDc0OD
+eyJoaXN0b3J5IjpbODg4MTI2MzA0LDQzMjc3MDg5OCw0MDc0OD
 IxNDgsLTIwODg3NDY2MTJdfQ==
 -->
