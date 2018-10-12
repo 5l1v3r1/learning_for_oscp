@@ -36,9 +36,10 @@ $ORIGIN infosecinstitute.com.;This marks the beginning of the file
   ftp    IN  CNAME             www.infosecinstitute.com.       ; CNAME for ftp
   mail   A                     192.0.3.2                       ; Ipv4 address for mail.infosecinstitute.com
 
-
+As we can see that it contains a TTL value in the second line. this means that all the resource records have an expiration time 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2OTA2MjksODg4MTI2MzA0LDQzMjc3MD
-g5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTgxMTY1MDcxMywzNTY5MDYyOSw4ODgxMj
+YzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
+
 -->
