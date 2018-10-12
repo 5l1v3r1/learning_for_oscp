@@ -46,10 +46,10 @@ Different types of Resource Records exist within a Zone file. However we are goi
 	For e.g. 74.125. 236.890 for google.com
 - NS Records-Delegates a given zone to use the given authoritative nameserver.
 	For e.g. ns1.google.com is an authoritative nameserver for google.com
-- MX Records-
+- MX Records-This basically tells us which server is responsible for receiving mails sent to that domain name.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODAyMjk4NCwzNTY5MDYyOSw4ODgxMj
+eyJoaXN0b3J5IjpbLTE2OTIzNzcxNCwzNTY5MDYyOSw4ODgxMj
 YzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
 
 -->
