@@ -42,10 +42,12 @@ We can also see the different records that are present in the zone file. The gen
 
 Different types of Resource Records exist within a Zone file. However we are going to discuss some of the important ones.
 
-- A Records - Maps an IP Address  
+- A Records - Maps an IP Address to a hostname 
+	For e.g. 74.125. 236.890 for google.com
+- NS Records-Delegates a given zone to use the given authoritative nameser
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA0NDYwNzUsMzU2OTA2MjksODg4MT
-I2MzA0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJd
-fQ==
+eyJoaXN0b3J5IjpbLTI2OTcxOTAzMCwzNTY5MDYyOSw4ODgxMj
+YzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
+
 -->
