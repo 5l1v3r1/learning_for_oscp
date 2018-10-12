@@ -38,10 +38,14 @@ $ORIGIN infosecinstitute.com.;This marks the beginning of the file
 
 As we can see that it contains a TTL value in the second line. this means that all the resource records have an expiration time of 1hr. after this time every record will have to make another query and refresh it's data.
 
-We can also see the different records that are present in the zone file. The general way of writing a resource record is 
+We can also see the different records that are present in the zone file. The general way of writing a resource record is writing the domain name, record class, record type, and then some additional information.
+
+Different types of Resource Records exist within a Zone file. However we are going to discuss some of the important ones.
+
+- A Records - Maps an IP Address  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAzMjE0MCwzNTY5MDYyOSw4ODgxMj
-YzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
-
+eyJoaXN0b3J5IjpbLTIwMTA0NDYwNzUsMzU2OTA2MjksODg4MT
+I2MzA0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJd
+fQ==
 -->
