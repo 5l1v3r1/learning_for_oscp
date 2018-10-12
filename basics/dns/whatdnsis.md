@@ -36,10 +36,12 @@ $ORIGIN infosecinstitute.com.;This marks the beginning of the file
   ftp    IN  CNAME             www.infosecinstitute.com.       ; CNAME for ftp
   mail   A                     192.0.3.2                       ; Ipv4 address for mail.infosecinstitute.com
 
-As we can see that it contains a TTL value in the second line. this means that all the resource records have an expiration time 
+As we can see that it contains a TTL value in the second line. this means that all the resource records have an expiration time of 1hr. after this time every record will have to make another query and refresh it's data.
+
+We can also see the different records that are present in the zone file. The general way of writing a resource record is 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTY1MDcxMywzNTY5MDYyOSw4ODgxMj
+eyJoaXN0b3J5IjpbLTE2NjAzMjE0MCwzNTY5MDYyOSw4ODgxMj
 YzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
 
 -->
