@@ -57,9 +57,9 @@ In the first command in nslookup I set the type to A which means I want IP-addre
 
 In the third command I set the type to NS as I am interested in finding the nameservers for searching-eye.com. Type in the domain name as the fourth command and we get the corresponding nameservers for the domain searching-eye.com. Note that finding the nameservers can give us some information about the hosting provider of the domain. Some large organizations use their own nameservers e.g. ns2.google.com.
 
-I now set the current 
+I now set the current server to one of the nameservers. this is because I am interested in finding the latest information about the domain. Note that querying from your own dns server may not give you the accurate information every time. I set the type to MX and again type in the domain name. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg2MzQ1OTUsNzEzODExNDgzLC0xNj
-kyMzc3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQzMjc3MDg5OCw0
-MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMjE0MjM4ODU5MSw3MTM4MTE0ODMsLTE2OT
+IzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQw
+NzQ4MjE0OCwtMjA4ODc0NjYxMl19
 -->
