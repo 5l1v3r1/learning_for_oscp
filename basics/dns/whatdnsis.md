@@ -55,9 +55,11 @@ Let's do a demo to make this clear.
 
 In the first command in nslookup I set the type to A which means I want IP-address for a particular domain. I type in the domain name as the second command and get the corresponding IP-address for it.
 
-In the third command I set the type to NS as I am interested in finding the nameservers for searching-eye.com. Type in the domain name as the fourth command and we get the corresponding nameservers for the domain searching
+In the third command I set the type to NS as I am interested in finding the nameservers for searching-eye.com. Type in the domain name as the fourth command and we get the corresponding nameservers for the domain searching-eye.com. Note that finding the nameservers can give us some information about the hosting provider of the domain. Some large organizations use their own nameservers e.g. ns2.google.com.
+
+I now set the current 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE1NjM5MDcsNzEzODExNDgzLC0xNj
+eyJoaXN0b3J5IjpbLTEwMTg2MzQ1OTUsNzEzODExNDgzLC0xNj
 kyMzc3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQzMjc3MDg5OCw0
 MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
 -->
