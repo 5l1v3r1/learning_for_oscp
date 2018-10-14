@@ -61,9 +61,12 @@ I now set the current server to one of the nameservers. this is because I am int
 
 Next I set the type to CNAME and type in a subdomain. I get a canonical name as infosecinstitute.com. This means any request to the queried domain (in this case prateek.searching-eye.com) will be redirected to infosecinstitute.com.
 
-I will take this moment to introduce DIG which is a handy little tool, we can also do the same queries using DIG. Let's 
+The ***dig*** command can be used to do same things.
+
+### DNS Lookup and Reverse DNS Lookup
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTk0MzQxNCw3MTM4MTE0ODMsLTE2OT
-IzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQw
-NzQ4MjE0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjA5MjgyNTkzLDcxMzgxMTQ4MywtMTY5Mj
+M3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0MzI3NzA4OTgsNDA3
+NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
 -->
