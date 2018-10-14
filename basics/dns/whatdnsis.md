@@ -50,8 +50,11 @@ Different types of Resource Records exist within a Zone file. However we are goi
 - TXT Records-This consists of arbitrary human readable text in a record.
 - CNAME Records-Gives an alias of one name to another.
 
+Let's do a demo to make this clear.
+![]()
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OT
-A2MjksODg4MTI2MzA0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIw
-ODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTc4ODYxNDM0Myw3MTM4MTE0ODMsLTE2OT
+IzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQw
+NzQ4MjE0OCwtMjA4ODc0NjYxMl19
 -->
