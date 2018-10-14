@@ -59,9 +59,11 @@ In the third command I set the type to NS as I am interested in finding the name
 
 I now set the current server to one of the nameservers. this is because I am interested in finding the latest information about the domain. Note that querying from your own dns server may not give you the accurate information every time. I set the type to MX and again type in the domain name. What we get is a list of mail servers responsible for handling emails sent to that domain. The number before them denotes the priority with which to fetch mails. Lower the number, higher the priority.
 
-Next I set the type to CNAME and type in a subdomain. I get 
+Next I set the type to CNAME and type in a subdomain. I get a canonical name as infosecinstitute.com. This means any request to the queried domain (in this case prateek.searching-eye.com) will be redirected to infosecinstitute.com.
+
+I will take this moment to introduce DIG which is a handy little tool, we can also do the same queries using DIG. Let's 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjkzNjg5MCw3MTM4MTE0ODMsLTE2OT
+eyJoaXN0b3J5IjpbLTkwMTk0MzQxNCw3MTM4MTE0ODMsLTE2OT
 IzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQw
 NzQ4MjE0OCwtMjA4ODc0NjYxMl19
 -->
