@@ -51,10 +51,13 @@ Different types of Resource Records exist within a Zone file. However we are goi
 - CNAME Records-Gives an alias of one name to another.
 
 Let's do a demo to make this clear.
-![]()
+![demo](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/nslookup-detail.png)
 
+In the first command in nslookup I set the type to A which means I want IP-address for a particular domain. I type in the domain name as the second command and get the corresponding IP-address for it.
+
+In the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODYxNDM0Myw3MTM4MTE0ODMsLTE2OT
-IzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQw
-NzQ4MjE0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjU1MzE0NzQsNzEzODExNDgzLC0xNjkyMz
+c3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQzMjc3MDg5OCw0MDc0
+ODIxNDgsLTIwODg3NDY2MTJdfQ==
 -->
