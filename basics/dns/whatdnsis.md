@@ -48,10 +48,10 @@ Different types of Resource Records exist within a Zone file. However we are goi
 	For e.g. ns1.google.com is an authoritative nameserver for google.com
 - MX Records-This basically tells us which server is responsible for receiving mails sent to that domain name.
 - TXT Records-This consists of arbitrary human readable text in a record.
-- CNAME Rec
+- CNAME Records-Gives an alias of one name to another.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMzA5NTM3LC0xNjkyMzc3MTQsMzU2OT
+eyJoaXN0b3J5IjpbNzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OT
 A2MjksODg4MTI2MzA0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIw
 ODg3NDY2MTJdfQ==
 -->
