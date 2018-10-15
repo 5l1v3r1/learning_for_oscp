@@ -67,10 +67,10 @@ The ***dig*** command can be used to do same things.
 **DNS Lookup** Let's perform a DNS Lookup ourselves for infosecinstitute.com. We will do this by traversing the entire DNS hierarchy from the root servers to the top level domain. Open up the terminal and type in **dig**. You will get something as shown in the figure below
 ![resultofdig](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/dig.png)
 
-What we get is a list of the Root DNS Servers. Let's use this root DNS server to query infosecinstitute.com. We do this as 
+What we get is a list of the Root DNS Servers. Let's 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTUzNjU3NjMsNzIyMTE0MzQ2LDYwOT
-I4MjU5Myw3MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MDYyOSw4
-ODgxMjYzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0Nj
-YxMl19
+eyJoaXN0b3J5IjpbMTczODMxMjQ5NSw3MjIxMTQzNDYsNjA5Mj
+gyNTkzLDcxMzgxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4
+ODEyNjMwNCw0MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2Nj
+EyXX0=
 -->
