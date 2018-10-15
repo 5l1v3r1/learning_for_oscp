@@ -82,10 +82,11 @@ And at last, we can see that the ip-address for infosecinstitute.com is 104.199.
 As we can clearly see, this ip-address resolves to infosecinstitute.com. As Simple as that!
 
 ### Understanding Wildcard Entries
+**WildCard** - A wildcard entry is used to provide response for subdomains that do not exist. For e.g. let's say we have a domain example.com. If we set a wildcard record for *.example.com and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5NjY1NjE4LDE2MjU5MTMzMzEsMTQ4Nz
-M0NDYxNCwxNzQ0NTc2NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYs
-NjA5MjgyNTkzLDcxMzgxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNj
-I5LDg4ODEyNjMwNCw0MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4
-NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjA0NTQyMjI3NSwxNjI1OTEzMzMxLDE0OD
+czNDQ2MTQsMTc0NDU3NjUzLDIwMzc3MzYzNDAsNzIyMTE0MzQ2
+LDYwOTI4MjU5Myw3MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MD
+YyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4
+ODc0NjYxMl19
 -->
