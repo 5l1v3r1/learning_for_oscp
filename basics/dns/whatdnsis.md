@@ -100,9 +100,9 @@ A zone transfer reveals a lot of information about the domain. This forms a very
 To protect your nameservers from leaking valuable information, one must allow zone transfer to other nameservers of the same domain only. For e.g. ns1.example.com should allow zone transfer to ns2.example.com only and discard all the other requests.
 
 #### DNS Bruteforcing
-DNS Zone transfers may not work all the time. In fact, it will not work most of the time. Most of the DNS servers are properly configured and do not allow zone transfers to every client. Well what do we do then? Simple answer, the same thing we do when nothing works, BRUTEFORCE it! Basically we have a  wordlist containing a huge list of hosts. We first check for wildcard entries by checking if a random subdomain for e.g. 132qdssac.example.com resolves to the same IP-address as example.com. If his is the case, we know Wildcard entries are set. We then query the domain by using each of the word
+DNS Zone transfers may not work all the time. In fact, it will not work most of the time. Most of the DNS servers are properly configured and do not allow zone transfers to every client. Well what do we do then? Simple answer, the same thing we do when nothing works, BRUTEFORCE it! Basically we have a  wordlist containing a huge list of hosts. We first check for wildcard entries by checking if a random subdomain for e.g. 132qdssac.example.com resolves to the same IP-address as example.com. If his is the case, we know Wildcard entries are set. We then query the domain by using each of the word in our wordlist. For e.g. if one of the entries in the wordlist file is "ads". then we make a query for ads.example.com. If it resolves to a different IP-address then we sure that this subdomain actually exists. Hence we now have information about the name of sub 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTI2OTgzNywxOTIzNDY0NTI3LC0yNz
+eyJoaXN0b3J5IjpbMTEyMjc0OTg4MywxOTIzNDY0NTI3LC0yNz
 UxMDczMTksMTYyNTkxMzMzMSwxNDg3MzQ0NjE0LDE3NDQ1NzY1
 MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMsNzEzOD
 ExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQz
