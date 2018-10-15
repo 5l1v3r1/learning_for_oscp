@@ -87,11 +87,11 @@ As we can clearly see, this ip-address resolves to infosecinstitute.com. As Simp
 **Bypassing Wildcard entries** - In case wildcard entries are set on a particular domain, they could be bypassed to reveal information about it's subdomains. This is done by brute forcing the subdomains. We have a wordlist in which we contain the subdomain names we want to test the domain against. Then we do a ping of all these subdomains. if these domains resolve to an IP-address different than the host IP-address, then we can very surely say that this subdomain actually exists. However before performing a brute force it would be better to actually check if Wildcard entries are enabled or not. For that we can ping some random subdomains for e.g. 434234.example.com and see if it's IP-address is the same as the host IP-address(in this case example.com). If this is the case for some random subdomains, then we can clearly say that wildcard entries are enabled for this domain. We will perform a demo of this in the coming section.
 
 ### DNS Zone Transfer
-We saw in the previous exercises that every domain has some authoritative name servers associated with it. For e.g. in the case of google.com , the name servers were ns1.google.com. These Nameservers are used for handling requests related to the domain google.com. Let's say we have a domain example.com and it has it's two nameservers a 
+We saw in the previous exercises that every domain has some authoritative name servers associated with it. For e.g. in the case of google.com , the name servers were ns1.google.com. These Nameservers are used for handling requests related to the domain google.com. Let's say we have a domain example.com and it has it's two nameservers as ns1.example.com and ns2.example.com. Usually a big organization will have more than one nameservers so that if one goes down for some time, the other one is ready to back it up and handle the requests. Usually one of these servers will be the Master server and the other one will be the slave 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA5MDc2MzQsMTYyNTkxMzMzMSwxND
-g3MzQ0NjE0LDE3NDQ1NzY1MywyMDM3NzM2MzQwLDcyMjExNDM0
-Niw2MDkyODI1OTMsNzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OT
-A2MjksODg4MTI2MzA0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIw
-ODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTM1NTI2MjMyNiwxNjI1OTEzMzMxLDE0OD
+czNDQ2MTQsMTc0NDU3NjUzLDIwMzc3MzYzNDAsNzIyMTE0MzQ2
+LDYwOTI4MjU5Myw3MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MD
+YyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4
+ODc0NjYxMl19
 -->
