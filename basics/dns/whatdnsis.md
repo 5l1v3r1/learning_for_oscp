@@ -64,9 +64,10 @@ Next I set the type to CNAME and type in a subdomain. I get a canonical name as 
 The ***dig*** command can be used to do same things.
 
 ### DNS Lookup and Reverse DNS Lookup
+*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5MjgyNTkzLDcxMzgxMTQ4MywtMTY5Mj
-M3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0MzI3NzA4OTgsNDA3
-NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTI3ODYyODc3Nyw2MDkyODI1OTMsNzEzOD
+ExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQz
+Mjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
 -->
