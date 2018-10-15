@@ -100,11 +100,11 @@ A zone transfer reveals a lot of information about the domain. This forms a very
 To protect your nameservers from leaking valuable information, one must allow zone transfer to other nameservers of the same domain only. For e.g. ns1.example.com should allow zone transfer to ns2.example.com only and discard all the other requests.
 
 #### DNS Bruteforcing
-DNS 
+DNS Zone transfers may not work all the time. In fact, it will not work most of the time. Most of the DNS servers are properly configured and do not allow zone transfers to every client. Well what do we do then? Simple answer, the same thing we do when nothings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzEyMjAxLDE5MjM0NjQ1MjcsLTI3NT
-EwNzMxOSwxNjI1OTEzMzMxLDE0ODczNDQ2MTQsMTc0NDU3NjUz
-LDIwMzc3MzYzNDAsNzIyMTE0MzQ2LDYwOTI4MjU5Myw3MTM4MT
-E0ODMsLTE2OTIzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMy
-NzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3Mzk2OTg4NjUsMTkyMzQ2NDUyNywtMj
+c1MTA3MzE5LDE2MjU5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2
+NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMz
+gxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0
+MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
 -->
