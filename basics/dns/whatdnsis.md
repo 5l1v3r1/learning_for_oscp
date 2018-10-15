@@ -95,11 +95,11 @@ Let's see an example of a Zone transfer. We will be using the tool Fierce presen
 What fierce does is that it first finds out the nameservers for the domain. it then checks to see if they allow zone transfers. Since one of the nameservers is not properly configured. It allows zone transfer and what we see is a dump of all information 
 
 #### Why is Zone Transfer a Security issue?
-
+A zone transfer reveals a lot of information about the domain. This forms a very important part of the information gathering s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzQ2NDUyNywtMjc1MTA3MzE5LDE2Mj
-U5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2NTMsMjAzNzczNjM0
-MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMzgxMTQ4MywtMTY5Mj
-M3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0MzI3NzA4OTgsNDA3
-NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEwMDI4NDIzNDUsMTkyMzQ2NDUyNywtMj
+c1MTA3MzE5LDE2MjU5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2
+NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMz
+gxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0
+MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
 -->
