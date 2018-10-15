@@ -76,9 +76,9 @@ The second block started with 'infosecinstitute.com.' shows the list of authorit
 
 And at last, we can see that the ip-address for infosecinstitute.com is 104.199.119.187
 
-**Reverse DNS Lookup**-Performing Reverse DNS Lookup converts an IP-address into it's hostname. For this we need to write the IP-address in reverse order (for e.
+**Reverse DNS Lookup**-Performing Reverse DNS Lookup converts an IP-address into it's hostname. For this we need to write the IP-address in reverse order (for e.g. 192.168.1.1 will be 1.1.168.192) and then append ".in-addr.arpa." to it. Next we need to make a query for a PTR Record using DIG. Let's make a DNS PTR query for 216.92.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2Njk4NTk2LDE0ODczNDQ2MTQsMTc0ND
+eyJoaXN0b3J5IjpbMTQ0NjM2MjI4LDE0ODczNDQ2MTQsMTc0ND
 U3NjUzLDIwMzc3MzYzNDAsNzIyMTE0MzQ2LDYwOTI4MjU5Myw3
 MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMD
 QsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
