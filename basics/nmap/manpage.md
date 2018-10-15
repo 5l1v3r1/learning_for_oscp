@@ -7,9 +7,9 @@ The output from Nmap is a list of scanned targets, with supplemental information
 
 In addition to the interesting ports table, Nmap can provide further information on targets, including reverse DNS names, operating system guesses, device types, and MAC addresses.
 
-
+A typical Nmap scan is shown in Example 1. The only Nmap arguments used in this example are -A, to enable OS and version detection, script scanning, and traceroute; -T4 for faster execution; and then the hostname.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTQ2NDQ5NCwtMTI0OTc0NzgyNyw0Nj
+eyJoaXN0b3J5IjpbMTczNjQ2OTk4NiwtMTI0OTc0NzgyNyw0Nj
 c2NjM3NjYsLTEzNzc1NTgyMjgsMTc5MzYxODQ0OCwtMjA4ODc0
 NjYxMl19
 -->
