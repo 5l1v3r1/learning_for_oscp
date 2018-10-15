@@ -112,11 +112,11 @@ Let's see this through a demo. We will again use the tool "Fierce". Fierce is a 
 As we can see, Fierce dumps out information about the subdomains of google.com
 
 ### Conclusion
-DNS protocol is a very critical component of the internet as it resolves IP-address into hostnames and makes life a lot easier for us. However, if the nameservers are not properly configured they might leak out the whole DNS server database to any malicious hacker. Even if the servers are properly configured, they can be brute forced to leak information about their mail servers, IP addresses, etc. It is therefore important to properly configure your DNS servers and be aware of the security issues with 
+DNS protocol is a very critical component of the internet as it resolves IP-address into hostnames and makes life a lot easier for us. However, if the nameservers are not properly configured they might leak out the whole DNS server database to any malicious hacker. Even if the servers are properly configured, they can be brute forced to leak information about their mail servers, IP addresses, etc. It is therefore important to properly configure your DNS servers and be aware of the security issues with DNS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE5MzQwMTEsMTkyMzQ2NDUyNywtMj
-c1MTA3MzE5LDE2MjU5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2
-NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMz
-gxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0
-MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbODE5MzA1ODg4LDE5MjM0NjQ1MjcsLTI3NT
+EwNzMxOSwxNjI1OTEzMzMxLDE0ODczNDQ2MTQsMTc0NDU3NjUz
+LDIwMzc3MzYzNDAsNzIyMTE0MzQ2LDYwOTI4MjU5Myw3MTM4MT
+E0ODMsLTE2OTIzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMy
+NzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
 -->
