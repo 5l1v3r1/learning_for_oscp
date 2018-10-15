@@ -89,9 +89,12 @@ As we can clearly see, this ip-address resolves to infosecinstitute.com. As Simp
 ### DNS Zone Transfer
 We saw in the previous exercises that every domain has some authoritative name servers associated with it. For e.g. in the case of google.com , the name servers were ns1.google.com. These Nameservers are used for handling requests related to the domain google.com. Let's say we have a domain example.com and it has it's two nameservers as ns1.example.com and ns2.example.com. Usually a big organization will have more than one nameservers so that if one goes down for some time, the other one is ready to back it up and handle the requests. Usually one of these servers will be the Master server and the other one will be the slave server. Hence to stay in sync with each other. the slave server must query the Master server will provide the slave server with all the information it has. This is basically what is called a "Zone Transfer". It's like asking the nameserver "Give me everything you have". A properly configured nameserver should only be allowed to serve requests of Zone transfer from other Nameservers of the same domain. However if the server is not configured properly it will serve all requests of Zone transfer made to it without checking the querying client. This leads to leakage of valuable information. DNS Zone Transfer is sometimes referred through it's opcode mnemonic AXFR.
 
-Let's see an example of a Zone transfer. We will be using the tool Fierce present by default in Backtrack. Fierce is one of the best tools available out there for DNS Analysis. Type in the following command `perl fierce.pl -dns searching-eye.com". We get something as shown in the figure below.
+Let's see an example of a Zone transfer. We will be using the tool Fierce present by default in Backtrack. Fierce is one of the best tools available out there for DNS Analysis. Type in the following command `perl fierce.pl -dns searching-eye.com`. We get something as shown in the figure below.
+![](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/fierce-start-zone-transfer.png)
+
+What fierce does is that it first finds out the nameservers for the domain. it then checks to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDIxMTA5OSwtMjc1MTA3MzE5LDE2Mj
+eyJoaXN0b3J5IjpbMTA2ODY1NzY5OCwtMjc1MTA3MzE5LDE2Mj
 U5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2NTMsMjAzNzczNjM0
 MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMzgxMTQ4MywtMTY5Mj
 M3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0MzI3NzA4OTgsNDA3
