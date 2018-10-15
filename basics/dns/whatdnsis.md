@@ -76,9 +76,9 @@ The second block started with 'infosecinstitute.com.' shows the list of authorit
 
 And at last, we can see that the ip-address for infosecinstitute.com is 104.199.119.187
 
-**Reverse DNS Look
+**Reverse DNS Lookup**-Performing Reverse DNS Lookup converts an IP-address into it's hostname. For this we need to write the IP-address in reverse order (for e.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMDA0MTg4LDE0ODczNDQ2MTQsMTc0ND
+eyJoaXN0b3J5IjpbODU2Njk4NTk2LDE0ODczNDQ2MTQsMTc0ND
 U3NjUzLDIwMzc3MzYzNDAsNzIyMTE0MzQ2LDYwOTI4MjU5Myw3
 MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMD
 QsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
