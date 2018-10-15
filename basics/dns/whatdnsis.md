@@ -87,10 +87,11 @@ As we can clearly see, this ip-address resolves to infosecinstitute.com. As Simp
 **Bypassing Wildcard entries** - In case wildcard entries are set on a particular domain, they could be bypassed to reveal information about it's subdomains. This is done by brute forcing the subdomains. We have a wordlist in which we contain the subdomain names we want to test the domain against. Then we do a ping of all these subdomains. if these domains resolve to an IP-address different than the host IP-address, then we can very surely say that this subdomain actually exists. However before performing a brute force it would be better to actually check if Wildcard entries are enabled or not. For that we can ping some random subdomains for e.g. 434234.example.com and see if it's IP-address is the same as the host IP-address(in this case example.com). If this is the case for some random subdomains, then we can clearly say that wildcard entries are enabled for this domain. We will perform a demo of this in the coming section.
 
 ### DNS Zone Transfer
+We saw in the previous exercises that every domain h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTUyMTM5MiwxNjI1OTEzMzMxLDE0OD
-czNDQ2MTQsMTc0NDU3NjUzLDIwMzc3MzYzNDAsNzIyMTE0MzQ2
-LDYwOTI4MjU5Myw3MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MD
-YyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4
-ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzkzNjk5MDczLDE2MjU5MTMzMzEsMTQ4Nz
+M0NDYxNCwxNzQ0NTc2NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYs
+NjA5MjgyNTkzLDcxMzgxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNj
+I5LDg4ODEyNjMwNCw0MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4
+NzQ2NjEyXX0=
 -->
