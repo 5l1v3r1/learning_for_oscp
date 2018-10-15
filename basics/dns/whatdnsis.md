@@ -78,10 +78,14 @@ And at last, we can see that the ip-address for infosecinstitute.com is 104.199.
 
 **Reverse DNS Lookup**-Performing Reverse DNS Lookup converts an IP-address into it's hostname. For this we need to write the IP-address in reverse order (for e.g. 192.168.1.1 will be 1.1.168.192) and then append ".in-addr.arpa." to it. Next we need to make a query for a PTR Record using DIG. Let's make a DNS PTR query for 216.92.251.5, the command here would be `dig 5.251.92.216.in-addr.arpa PTR`
 ![reverse look up](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/dig-reverse-lookup.png)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTkxMzMzMSwxNDg3MzQ0NjE0LDE3ND
-Q1NzY1MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMs
-NzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2Mz
-A0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
 
+As we can clearly see, this ip-address resolves to infosecinstitute.com. As Simple as that!
+
+### Understanding Wildcard Entries
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTE5NjY1NjE4LDE2MjU5MTMzMzEsMTQ4Nz
+M0NDYxNCwxNzQ0NTc2NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYs
+NjA5MjgyNTkzLDcxMzgxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNj
+I5LDg4ODEyNjMwNCw0MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4
+NzQ2NjEyXX0=
 -->
