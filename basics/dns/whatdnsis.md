@@ -92,9 +92,12 @@ We saw in the previous exercises that every domain has some authoritative name s
 Let's see an example of a Zone transfer. We will be using the tool Fierce present by default in Backtrack. Fierce is one of the best tools available out there for DNS Analysis. Type in the following command `perl fierce.pl -dns searching-eye.com`. We get something as shown in the figure below.
 ![](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/fierce-start-zone-transfer.png)
 
-What fierce does is that it first finds out the nameservers for the domain. it then checks to 
+What fierce does is that it first finds out the nameservers for the domain. it then checks to see if they allow zone transfers. Since one of the nameservers is not properly configured. It allows zone transfer and what we see is a dump of all information 
+
+#### Why is Zone Transfer a Security issue?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODY1NzY5OCwtMjc1MTA3MzE5LDE2Mj
+eyJoaXN0b3J5IjpbMTkyMzQ2NDUyNywtMjc1MTA3MzE5LDE2Mj
 U5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2NTMsMjAzNzczNjM0
 MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMzgxMTQ4MywtMTY5Mj
 M3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0MzI3NzA4OTgsNDA3
