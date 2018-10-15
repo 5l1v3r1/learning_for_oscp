@@ -1,4 +1,5 @@
 # DNS
+quoted from 
 DNS is a naming system for computers that converts human readable domain names into computer readable IP-addresses. Some security vulnerabilities exist due to misconfigured DNS nameservers that can lead to information disclosure about the domain. This forms an important step of the information gathering stage during a Penestration test or Vulnerability assessment. 
 
 ### DNS Basics
@@ -102,11 +103,12 @@ To protect your nameservers from leaking valuable information, one must allow zo
 #### DNS Bruteforcing
 DNS Zone transfers may not work all the time. In fact, it will not work most of the time. Most of the DNS servers are properly configured and do not allow zone transfers to every client. Well what do we do then? Simple answer, the same thing we do when nothing works, BRUTEFORCE it! Basically we have a  wordlist containing a huge list of hosts. We first check for wildcard entries by checking if a random subdomain for e.g. 132qdssac.example.com resolves to the same IP-address as example.com. If his is the case, we know Wildcard entries are set. We then query the domain by using each of the word in our wordlist. For e.g. if one of the entries in the wordlist file is "ads". then we make a query for ads.example.com. If it resolves to a different IP-address then we sure that this subdomain actually exists. Hence we now have information about the name of subdomain and it's IP-address. If wildcard entries are not set, we do the same thing and see if we get response from any subdomain we query. If we get a response back, we could be sure that the subdomain actually exists. In the end what we get is a bunch of information about the domain. 
 
-Let's see this through a demo. We will again use the tool "Fierce". Fierce is a very handy tool for DNS Analysis and it is something everyone should have in their armory. Fierce will first check if Zone transfers are allowed or not, if zone transfers are allowed, it will dump all the information and exit happily, otherwise it will brute force it. We need to supply Fierce with a wordlist containing a list of all the possible 
+Let's see this through a demo. We will again use the tool "Fierce". Fierce is a very handy tool for DNS Analysis and it is something everyone should have in their armory. Fierce will first check if Zone transfers are allowed or not, if zone transfers are allowed, it will dump all the information and exit happily, otherwise it will brute force it. We need to supply Fierce with a wordlist containing a list of all the possible subdoain names. Fierce comes with an inbuilt wordlist file "hosts.txt" and we will be using the same for our demo.
+![](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/fierce-bruteforcing.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MDA5NDksMTkyMzQ2NDUyNywtMjc1MT
-A3MzE5LDE2MjU5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2NTMs
-MjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMzgxMT
-Q4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0MzI3
-NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTI1MjcyNjY5NCwxOTIzNDY0NTI3LC0yNz
+UxMDczMTksMTYyNTkxMzMzMSwxNDg3MzQ0NjE0LDE3NDQ1NzY1
+MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMsNzEzOD
+ExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQz
+Mjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
 -->
