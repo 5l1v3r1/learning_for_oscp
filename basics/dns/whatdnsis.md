@@ -95,11 +95,16 @@ Let's see an example of a Zone transfer. We will be using the tool Fierce presen
 What fierce does is that it first finds out the nameservers for the domain. it then checks to see if they allow zone transfers. Since one of the nameservers is not properly configured. It allows zone transfer and what we see is a dump of all information 
 
 #### Why is Zone Transfer a Security issue?
-A zone transfer reveals a lot of information about the domain. This forms a very important part of the information gathering stage during a penestration test. vulnerability assessment etc. We can figure out a lot of things by looking at the dump. For e.g. we can find different subdomains. Some of them might be running on different servers. Those servers may not be fully patched and hence be vulnerable. From this point. we can start thinking about Metasploit ,Nessus, Nmap etc and do a full vulnerability assessment of the domain. Hence this kind of information increases our attack vector by a fair amount, an amount which 
+A zone transfer reveals a lot of information about the domain. This forms a very important part of the information gathering stage during a penestration test. vulnerability assessment etc. We can figure out a lot of things by looking at the dump. For e.g. we can find different subdomains. Some of them might be running on different servers. Those servers may not be fully patched and hence be vulnerable. From this point. we can start thinking about Metasploit ,Nessus, Nmap etc and do a full vulnerability assessment of the domain. Hence this kind of information increases our attack vector by a fair amount, an amount which cannot be ignored.
+
+To protect your nameservers from leaking valuable information, one must allow zone transfer to other nameservers of the same domain only. For e.g. ns1.example.com should allow zone transfer to ns2.example.com only and discard all the other requests.
+
+#### DNS Bruteforcing
+DNS 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDg1Njc2OCwxOTIzNDY0NTI3LC0yNz
-UxMDczMTksMTYyNTkxMzMzMSwxNDg3MzQ0NjE0LDE3NDQ1NzY1
-MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMsNzEzOD
-ExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQz
-Mjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE5NzEyMjAxLDE5MjM0NjQ1MjcsLTI3NT
+EwNzMxOSwxNjI1OTEzMzMxLDE0ODczNDQ2MTQsMTc0NDU3NjUz
+LDIwMzc3MzYzNDAsNzIyMTE0MzQ2LDYwOTI4MjU5Myw3MTM4MT
+E0ODMsLTE2OTIzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMy
+NzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
 -->
