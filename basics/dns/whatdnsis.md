@@ -84,9 +84,11 @@ As we can clearly see, this ip-address resolves to infosecinstitute.com. As Simp
 ### Understanding Wildcard Entries
 **WildCard** - A wildcard entry is used to provide response for subdomains that do not exist. For e.g. let's say we have a domain example.com. If we set a wildcard record for *.example.com and give it the value example.com then the requests for all the non-existent subdomains of example.com (for e.g. abcd.example, blah.example.com) will point to example.com. In the information gathering stage of a penestration test of a website, it is important to identify the subdomains and the ip-addresses corresponding to them. Introducing a Wildcard feature reduces this to a small extent.
 
-**Bypassing Wildcard entries** - In case wildcard entries are set on a particular domain, they could be bypassed to reveal information about it's subdomains. This is done by brute forcing the subdomains. We have a wordlist in which we contain the subdomain names we want to test the domain against. Then we do a ping of all these subdomains. if these domains resolve to an IP-address different than the host IP-address, then we can very surely say that this subdomain actually exists. However before performing a brute force it would be better to actually check if Wildcard entries are enabled or not. For that we can better to actually check if 
+**Bypassing Wildcard entries** - In case wildcard entries are set on a particular domain, they could be bypassed to reveal information about it's subdomains. This is done by brute forcing the subdomains. We have a wordlist in which we contain the subdomain names we want to test the domain against. Then we do a ping of all these subdomains. if these domains resolve to an IP-address different than the host IP-address, then we can very surely say that this subdomain actually exists. However before performing a brute force it would be better to actually check if Wildcard entries are enabled or not. For that we can ping some random subdomains for e.g. 434234.example.com and see if it's IP-address is the same as the host IP-address(in this case example.com). If this is the case for some random subdomains, then we can clearly say that wildcard entries are enabled for this domain. We will perform a demo of this in the coming section.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjAzNTI2OSwxNjI1OTEzMzMxLDE0OD
+eyJoaXN0b3J5IjpbLTU5MzY3ODM3NSwxNjI1OTEzMzMxLDE0OD
 czNDQ2MTQsMTc0NDU3NjUzLDIwMzc3MzYzNDAsNzIyMTE0MzQ2
 LDYwOTI4MjU5Myw3MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MD
 YyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4
