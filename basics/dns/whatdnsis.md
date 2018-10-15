@@ -64,10 +64,10 @@ Next I set the type to CNAME and type in a subdomain. I get a canonical name as 
 The ***dig*** command can be used to do same things.
 
 ### DNS Lookup and Reverse DNS Lookup
-**DNS Lookup** Let's perform a DNS Lookup ourselves for infosecinstitute.com. We will do this by traversing the entire DNS hierarchy from the root servers to the top level domain. Open up the terminal and type in **dig**. You will 
+**DNS Lookup** Let's perform a DNS Lookup ourselves for infosecinstitute.com. We will do this by traversing the entire DNS hierarchy from the root servers to the top level domain. Open up the terminal and type in **dig**. You will get something as shown in the figure below
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODIyNjYzMDgsNjA5MjgyNTkzLDcxMz
-gxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0
-MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNzIyMTE0MzQ2LDYwOTI4MjU5Myw3MTM4MT
+E0ODMsLTE2OTIzNzcxNCwzNTY5MDYyOSw4ODgxMjYzMDQsNDMy
+NzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0NjYxMl19
 -->
