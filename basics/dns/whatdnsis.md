@@ -70,10 +70,11 @@ What we get is a list of the DNS Servers. Let' use this root DNS server to query
 
 ![enter image description here](https://lh3.googleusercontent.com/krbck4w1l9USwjtO-hpNoQeBW1Pmztxd85P9w0Mfv2blSb_aZ0pY_reFzwk2x6OtYM5XqPeu5Jo "result")
 
+The first block started with com. shows the list of authoritative nameservers for the com domain. Notice the dot at the end, this is what makes this a fully qualified domain name (FQDN). Let's use these 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI3NTY4MDMsMTQ4NzM0NDYxNCwxNz
-Q0NTc2NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkz
-LDcxMzgxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNj
-MwNCw0MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjA1MTA0NzU3OSwxNDg3MzQ0NjE0LDE3ND
+Q1NzY1MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMs
+NzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2Mz
+A0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
 
 -->
