@@ -84,11 +84,11 @@ As we can clearly see, this ip-address resolves to infosecinstitute.com. As Simp
 ### Understanding Wildcard Entries
 **WildCard** - A wildcard entry is used to provide response for subdomains that do not exist. For e.g. let's say we have a domain example.com. If we set a wildcard record for *.example.com and give it the value example.com then the requests for all the non-existent subdomains of example.com (for e.g. abcd.example, blah.example.com) will point to example.com. In the information gathering stage of a penestration test of a website, it is important to identify the subdomains and the ip-addresses corresponding to them. Introducing a Wildcard feature reduces this to a small extent.
 
-**Bypassing Wildcard entries** - In case wildcard entries are set on a particular domain, 
+**Bypassing Wildcard entries** - In case wildcard entries are set on a particular domain, they could be bypassed to reveal information about it's subdomains. This is done by brute forcing the subdomains. We have a wordlist in which we contain the subdomain names we want to test the domain against. Then we do a ping of all these subdomains. if these domains resolve to an IP-address different
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTY5MTA3NiwxNjI1OTEzMzMxLDE0OD
-czNDQ2MTQsMTc0NDU3NjUzLDIwMzc3MzYzNDAsNzIyMTE0MzQ2
-LDYwOTI4MjU5Myw3MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MD
-YyOSw4ODgxMjYzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4
-ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE0NTE4NTk5ODksMTYyNTkxMzMzMSwxND
+g3MzQ0NjE0LDE3NDQ1NzY1MywyMDM3NzM2MzQwLDcyMjExNDM0
+Niw2MDkyODI1OTMsNzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OT
+A2MjksODg4MTI2MzA0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIw
+ODg3NDY2MTJdfQ==
 -->
