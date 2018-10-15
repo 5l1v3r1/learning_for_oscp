@@ -72,9 +72,11 @@ What we get is a list of the DNS Servers. Let' use this root DNS server to query
 
 The first block started with 'com.' shows the list of authoritative nameservers for the com domain. Notice the dot at the end, this is what makes this a fully qualified domain name (FQDN). 
 
-The second block started with 'infosecinstitute.com.' shows the list of authoritative name 
+The second block started with 'infosecinstitute.com.' shows the list of authoritative name servers for infosecinstitute.com.
+
+And at last, we can get the list of authoritative nameservers for infosecinstitute.com. Now we need to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjAzMzk0MiwxNDg3MzQ0NjE0LDE3ND
+eyJoaXN0b3J5IjpbLTk4OTAwNjIwMSwxNDg3MzQ0NjE0LDE3ND
 Q1NzY1MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMs
 NzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2Mz
 A0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
