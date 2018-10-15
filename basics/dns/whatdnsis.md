@@ -70,9 +70,11 @@ What we get is a list of the DNS Servers. Let' use this root DNS server to query
 
 ![enter image description here](https://lh3.googleusercontent.com/krbck4w1l9USwjtO-hpNoQeBW1Pmztxd85P9w0Mfv2blSb_aZ0pY_reFzwk2x6OtYM5XqPeu5Jo "result")
 
-The first block started with com. shows the list of authoritative nameservers for the com domain. Notice the dot at the end, this is what makes this a fully qualified domain name (FQDN). Let's use these 
+The first block started with 'com.' shows the list of authoritative nameservers for the com domain. Notice the dot at the end, this is what makes this a fully qualified domain name (FQDN). 
+
+The second block started with 'infosecinstitute.com.' shows the list of authoritative name 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTA0NzU3OSwxNDg3MzQ0NjE0LDE3ND
+eyJoaXN0b3J5IjpbMTkxNjAzMzk0MiwxNDg3MzQ0NjE0LDE3ND
 Q1NzY1MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMs
 NzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2Mz
 A0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
