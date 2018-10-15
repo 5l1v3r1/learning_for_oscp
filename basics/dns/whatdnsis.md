@@ -68,10 +68,12 @@ The ***dig*** command can be used to do same things.
 ![resultofdig](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/dig.png)
 What we get is a list of the DNS Servers. Let' use this root DNS server to query infosecinstitute.com. We do this as shown in the figure below.
 
+![enter image description here](https://lh3.googleusercontent.com/krbck4w1l9USwjtO-hpNoQeBW1Pmztxd85P9w0Mfv2blSb_aZ0pY_reFzwk2x6OtYM5XqPeu5Jo "result")
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzM0NDYxNCwxNzQ0NTc2NTMsMjAzNz
-czNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMzgxMTQ4Mywt
-MTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0MzI3NzA4OT
-gsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEyMDI3NTY4MDMsMTQ4NzM0NDYxNCwxNz
+Q0NTc2NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkz
+LDcxMzgxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNj
+MwNCw0MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+
 -->
