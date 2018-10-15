@@ -95,11 +95,11 @@ Let's see an example of a Zone transfer. We will be using the tool Fierce presen
 What fierce does is that it first finds out the nameservers for the domain. it then checks to see if they allow zone transfers. Since one of the nameservers is not properly configured. It allows zone transfer and what we see is a dump of all information 
 
 #### Why is Zone Transfer a Security issue?
-A zone transfer reveals a lot of information about the domain. This forms a very important part of the information gathering stage during a penestration test. vulnerability assessment etc. We can figure out a lot of things by looking at the dump. For e.g. we can find different subdomains. Some of them might be running on different servers. Those servers may not be fully patched and hence be vulnerable. F
+A zone transfer reveals a lot of information about the domain. This forms a very important part of the information gathering stage during a penestration test. vulnerability assessment etc. We can figure out a lot of things by looking at the dump. For e.g. we can find different subdomains. Some of them might be running on different servers. Those servers may not be fully patched and hence be vulnerable. From this point. we can start thinking about Metasploit ,Nessus, Nmap etc and do a full vulnerability assessment of the domain. Hence this kind of information increases our attack vector by a fair amount, an amount which 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTkxNDkxNzgsMTkyMzQ2NDUyNywtMj
-c1MTA3MzE5LDE2MjU5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2
-NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMz
-gxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0
-MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTY1NDg1Njc2OCwxOTIzNDY0NTI3LC0yNz
+UxMDczMTksMTYyNTkxMzMzMSwxNDg3MzQ0NjE0LDE3NDQ1NzY1
+MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMsNzEzOD
+ExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQz
+Mjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
 -->
