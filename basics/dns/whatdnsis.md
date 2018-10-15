@@ -65,10 +65,10 @@ The ***dig*** command can be used to do same things.
 
 ### DNS Lookup and Reverse DNS Lookup
 **DNS Lookup** Let's perform a DNS Lookup ourselves for infosecinstitute.com. We will do this by traversing the entire DNS hierarchy from the root servers to the top level domain. Open up the terminal and type in **dig**. You will get something as shown in the figure below
-!
+![resultofdig](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/dig.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQyMDcxNDUsNzIyMTE0MzQ2LDYwOT
+eyJoaXN0b3J5IjpbLTE0MzAxNjE2OTAsNzIyMTE0MzQ2LDYwOT
 I4MjU5Myw3MTM4MTE0ODMsLTE2OTIzNzcxNCwzNTY5MDYyOSw4
 ODgxMjYzMDQsNDMyNzcwODk4LDQwNzQ4MjE0OCwtMjA4ODc0Nj
 YxMl19
