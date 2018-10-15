@@ -74,11 +74,11 @@ The first block started with 'com.' shows the list of authoritative nameservers 
 
 The second block started with 'infosecinstitute.com.' shows the list of authoritative name servers for infosecinstitute.com.
 
-And at last, we can get the list of authoritative nameservers for infosecinstitute.com. Now we need to 
+And at last, we can see that the ip-address for infosecinstitute.com is 104.199.119.187
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTAwNjIwMSwxNDg3MzQ0NjE0LDE3ND
-Q1NzY1MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMs
-NzEzODExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2Mz
-A0LDQzMjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMzc4MjQ4NzYsMTQ4NzM0NDYxNCwxNz
+Q0NTc2NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkz
+LDcxMzgxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNj
+MwNCw0MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
 
 -->
