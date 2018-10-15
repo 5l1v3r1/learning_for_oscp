@@ -107,10 +107,16 @@ DNS Zone transfers may not work all the time. In fact, it will not work most of 
 
 Let's see this through a demo. We will again use the tool "Fierce". Fierce is a very handy tool for DNS Analysis and it is something everyone should have in their armory. Fierce will first check if Zone transfers are allowed or not, if zone transfers are allowed, it will dump all the information and exit happily, otherwise it will brute force it. We need to supply Fierce with a wordlist containing a list of all the possible subdoain names. Fierce comes with an inbuilt wordlist file "hosts.txt" and we will be using the same for our demo.
 ![](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/fierce-bruteforcing.png)
+![](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/fierce-bruteforcing2.png)
+
+As we can see, Fierce dumps out information about the subdomains of google.com
+
+### Conclusion
+DNS protocol is a very critical component of the internet as it resolves IP-address into hostnames and makes life a lot easier for us. However, if the nameservers are not proper
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDExMDQyNSwxOTIzNDY0NTI3LC0yNz
-UxMDczMTksMTYyNTkxMzMzMSwxNDg3MzQ0NjE0LDE3NDQ1NzY1
-MywyMDM3NzM2MzQwLDcyMjExNDM0Niw2MDkyODI1OTMsNzEzOD
-ExNDgzLC0xNjkyMzc3MTQsMzU2OTA2MjksODg4MTI2MzA0LDQz
-Mjc3MDg5OCw0MDc0ODIxNDgsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTYzMzAxMTksMTkyMzQ2NDUyNywtMj
+c1MTA3MzE5LDE2MjU5MTMzMzEsMTQ4NzM0NDYxNCwxNzQ0NTc2
+NTMsMjAzNzczNjM0MCw3MjIxMTQzNDYsNjA5MjgyNTkzLDcxMz
+gxMTQ4MywtMTY5MjM3NzE0LDM1NjkwNjI5LDg4ODEyNjMwNCw0
+MzI3NzA4OTgsNDA3NDgyMTQ4LC0yMDg4NzQ2NjEyXX0=
 -->
