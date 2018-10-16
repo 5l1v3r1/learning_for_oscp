@@ -16,9 +16,8 @@ Two types of community strings:
 1. Read only: This mode permits querying the device and reading the information, but does not permit any kind of changes to the configuration. The default community string for this mode is "public"
 2. Read Write: In this mode, changes to the device are permitted; hence if one connects with this community string, we can even modify the remote device's configurations. The default community string for this mode is "private".
 
-snmpenum.pl (one of many snmp enumeration utilities which comes with backtrack) can be used for SNMP enumeration.
-`perl snmpenum.pl`
+As pen-testers, we have seen misconfigured SNMP devices which allow us to read the configuration, get important information, and even have a privilege to modify the configuration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM4NzkxMDYsLTIwOTI2NjY3MzcsOD
+eyJoaXN0b3J5IjpbLTE1OTUzMzAxMjEsLTIwOTI2NjY3MzcsOD
 Q4MTAwMjE0LDE5NzA4Mzc2MzcsLTEyNTUwNDE2OF19
 -->
