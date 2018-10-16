@@ -47,9 +47,9 @@ snmp-check supports the following enumerations:
 - uptime
 - user accounts
 
-`snmp-check -h`
+`snmp-check <host> -c public`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDEyMDIwNTcsLTg1MjM0NTc1NiwtMj
-A5MjY2NjczNyw4NDgxMDAyMTQsMTk3MDgzNzYzNywtMTI1NTA0
-MTY4XX0=
+eyJoaXN0b3J5IjpbLTEwMjkyOTY0MzksLTE5MDEyMDIwNTcsLT
+g1MjM0NTc1NiwtMjA5MjY2NjczNyw4NDgxMDAyMTQsMTk3MDgz
+NzYzNywtMTI1NTA0MTY4XX0=
 -->
