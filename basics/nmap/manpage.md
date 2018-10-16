@@ -28,10 +28,12 @@ I picked up options I think is often used.
 - -sV: Probe open ports to determine service/version info
 - -O: Enable OS detection
 - -T<0-5>: Set timing template (higher is faster)
+- -D <decoy1>: Cloak a scan with decoys
+- -S: Spoof source address
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg3OTYzNjksMTI3OTE1NTE3NywtMj
-MzNzY4NzUxLC0xNzE4MDc0MDE5LC04MjQwODQ1ODYsMTczNjQ2
-OTk4NiwtMTI0OTc0NzgyNyw0Njc2NjM3NjYsLTEzNzc1NTgyMj
-gsMTc5MzYxODQ0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjg4MzMyODgwLDEyNzkxNTUxNzcsLTIzMz
+c2ODc1MSwtMTcxODA3NDAxOSwtODI0MDg0NTg2LDE3MzY0Njk5
+ODYsLTEyNDk3NDc4MjcsNDY3NjYzNzY2LC0xMzc3NTU4MjI4LD
+E3OTM2MTg0NDgsLTIwODg3NDY2MTJdfQ==
 -->
