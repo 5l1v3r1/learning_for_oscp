@@ -18,9 +18,9 @@ Two types of community strings:
 
 As pen-testers, we have seen misconfigured SNMP devices which allow us to read the configuration, get important information, and even have a privilege to modify the configuration.
 
-## onesixtyone
-The **onesixtyone** tool can be used as a SNMP scanner 
+## snmp-check
+snmp-check allows you to enumerate the SNMP devices and places the output in a very human readable friendly 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY4NDg0NjcsLTIwOTI2NjY3MzcsOD
-Q4MTAwMjE0LDE5NzA4Mzc2MzcsLTEyNTUwNDE2OF19
+eyJoaXN0b3J5IjpbLTg1MjM0NTc1NiwtMjA5MjY2NjczNyw4ND
+gxMDAyMTQsMTk3MDgzNzYzNywtMTI1NTA0MTY4XX0=
 -->
