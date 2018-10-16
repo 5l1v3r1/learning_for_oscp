@@ -44,8 +44,12 @@ snmp-check supports the following enumerations:
 - system uptime
 - TCP connections
 - total memory
+- uptime
+- user accounts
+
+`snmp-check -h`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTEwNjYxMDQsLTg1MjM0NTc1NiwtMj
+eyJoaXN0b3J5IjpbLTE5MDEyMDIwNTcsLTg1MjM0NTc1NiwtMj
 A5MjY2NjczNyw4NDgxMDAyMTQsMTk3MDgzNzYzNywtMTI1NTA0
 MTY4XX0=
 -->
