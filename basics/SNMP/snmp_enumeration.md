@@ -26,8 +26,26 @@ snmp-check supports the following enumerations:
 - contact
 - description
 - detect write access
+- devices
+- domain
+- hardware and storage informations
+- hostname
+- IIS statistics
+- IP forwarding
+- llstening UDP ports
+- location
+- motd
+- mountpoints
+- network interfaces
+- network services
+- processes
+- routing information
+- software components
+- system uptime
+- TCP connections
+- total memory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Mjc4ODUwNSwtODUyMzQ1NzU2LC0yMD
-kyNjY2NzM3LDg0ODEwMDIxNCwxOTcwODM3NjM3LC0xMjU1MDQx
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTE5MTEwNjYxMDQsLTg1MjM0NTc1NiwtMj
+A5MjY2NjczNyw4NDgxMDAyMTQsMTk3MDgzNzYzNywtMTI1NTA0
+MTY4XX0=
 -->
