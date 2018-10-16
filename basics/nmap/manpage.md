@@ -24,10 +24,12 @@ summary is printed when Nmap is run with no arguments. It helps people remember 
 - -Pn: Treat all hosts as online
 - -PS/PA/PU/PY<portlist>: TCP syn/ack, udp or sctp discovery to given ports
 - -PE/PP/PM: ICMP echo, timestamp, and netmask request discovery probes
-- -PO<protocollist>
+- -PO<protocollist>: IP Protocol Ping
+- -n/-R: Never do DNS resolution/Always resolve
+- --dns-servers <server>: Specify custom DNS 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk3NTkzMDksLTIzMzc2ODc1MSwtMT
-cxODA3NDAxOSwtODI0MDg0NTg2LDE3MzY0Njk5ODYsLTEyNDk3
-NDc4MjcsNDY3NjYzNzY2LC0xMzc3NTU4MjI4LDE3OTM2MTg0ND
-gsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNzUzNjc3NjI5LC0yMzM3Njg3NTEsLTE3MT
+gwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5OTg2LC0xMjQ5NzQ3
+ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOCwxNzkzNjE4NDQ4LC
+0yMDg4NzQ2NjEyXX0=
 -->
