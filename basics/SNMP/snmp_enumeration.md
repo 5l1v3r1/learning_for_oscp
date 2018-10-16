@@ -15,7 +15,9 @@ Community strings is a text string used to authenticate communications between t
 Two types of community strings:
 1. Read only: This mode permits querying the device and reading the information, but does not permit any kind of changes to the configuration. The default community string for this mode is "public"
 2. Read Write: In this mode, changes to the device are permitted; hence if one connects with this community string, we can even modify the remote device's configurations. The default community string for this mode is "private".
+
+snmpenum.pl (one of many snmp enumeration utilities which comes with backtrack) can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4MTAwMjE0LDE5NzA4Mzc2MzcsLTEyNT
-UwNDE2OF19
+eyJoaXN0b3J5IjpbLTE3Mzc1MDM5LDg0ODEwMDIxNCwxOTcwOD
+M3NjM3LC0xMjU1MDQxNjhdfQ==
 -->
