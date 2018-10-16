@@ -4,7 +4,9 @@ SNMP (Simple Network Management Protocol) is an application layer protocol which
 
 SNMP enumeration is used to enumerate user accounts, passwords, groups, system names, devices on a target system.
 It consists of three major components:
-1. Managed Device: A Managed 
+1. Managed Device: A Managed is a device or a host (technically known as a node) which has the SNMP service enabled. These devices could be routers, switches, hubs, bridges, computers etc.
+2. Agent: An agent can be thought of as a piece of software that runs on a managed device. Its pri
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDgzNzYzNywtMTI1NTA0MTY4XX0=
+eyJoaXN0b3J5IjpbLTE4ODAzNjExNDUsMTk3MDgzNzYzNywtMT
+I1NTA0MTY4XX0=
 -->
