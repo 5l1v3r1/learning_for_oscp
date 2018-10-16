@@ -38,19 +38,8 @@ I picked up options I think is often used.
 - --privileged: Assume that the user is fully privileged
 - -V: Print version number
 
-## TARGET SPECIFICATION
-Everything on the Nmap command-line that isn't an option is treated as a target host specification. The simplest case is to specify a target IP address or hostname for scanning.
-
-Nmap supports CIDR-style, addressing. You can append /numbits to an IPv4 address or hostname and Nmap will scan every IP address for which the first numbits are the same as for the reference IP or hostname given. You can scan targets the whole Internet by specifing /0. 
-Nmap also supports octed range addressing. For e.g. 192.169.0.1-254. CIDR and octed ranges aren't yet supported for IPv6.
-
-Nmap accepts multiple host specifications on the command line. The following options are also available to control target selection:
-- iR Choose random targets
-- --exclude host1, host2: Exclude hosts/networks
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODYwMzk5MCwxMjc5MTU1MTc3LC0yMz
+eyJoaXN0b3J5IjpbLTExNTYzNjIzNSwxMjc5MTU1MTc3LC0yMz
 M3Njg3NTEsLTE3MTgwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5
 OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOC
 wxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
