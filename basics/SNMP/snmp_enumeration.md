@@ -14,7 +14,8 @@ Community strings is a text string used to authenticate communications between t
 
 Two types of community strings:
 1. Read only: This mode permits querying the device and reading the information, but does not permit any kind of changes to the configuration. The default community string for this mode is "public"
+2. Read Write: In this mode, changes to the device are permitted; hence if one connects with this community string, we can even modify the remote device's configurations. The default community string for this mode is "private".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ5NDE4NjksMTk3MDgzNzYzNywtMT
-I1NTA0MTY4XX0=
+eyJoaXN0b3J5IjpbODQ4MTAwMjE0LDE5NzA4Mzc2MzcsLTEyNT
+UwNDE2OF19
 -->
