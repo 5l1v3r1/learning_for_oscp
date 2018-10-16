@@ -19,8 +19,13 @@ I picked up options I think is often used.
 - -sn: Ping Scan
 - --dns-servers <server>: Specify custom DNS servers
 - --traceroute: Trace hop path to each host
+- -sU: UDP Scan
+- -sN/sF/sX: TCP Null, FIN, and Xmas scans
+- -sO: IP protocol scan
+- -p <port ranges>: Only scan specified ports
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDQ1ODExMywxMjc5MTU1MTc3LC0yMz
+eyJoaXN0b3J5IjpbMTUxMTQyNjA5MCwxMjc5MTU1MTc3LC0yMz
 M3Njg3NTEsLTE3MTgwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5
 OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOC
 wxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
