@@ -14,24 +14,12 @@ Example 1.A representative Nmap scan
 
 ## OPTIONS SUMMARY
 summary is printed when Nmap is run with no arguments. It helps people remember the most common options, but is no substitute for the in-depth in the rest of this manual.  
+I picked up options I think is often used.
 
-- -iL: Input from list of hosts/networks
-- -iR: Choose random targets
-- --exclude <host> Exclude hosts/networks
-- --excludefile <exclude_file>: Exclude list  from file
-- -sL: List Scan: simply list targets to scan
-- -sn: Ping Scan: disable port scan
-- -Pn: Treat all hosts as online
-- -PS/PA/PU/PY<portlist>: TCP syn/ack, udp or sctp discovery to given ports
-- -PE/PP/PM: ICMP echo, timestamp, and netmask request discovery probes
-- -PO<protocollist>: IP Protocol Ping
-- -n/-R: Never do DNS resolution/Always resolve
-- --dns-servers <server>: Specify custom DNS servers
-- --system-dns: Use OS's DNS resolver
-- --traceroute: Trace hop path to each host
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTE1NTE3NywtMjMzNzY4NzUxLC0xNz
-E4MDc0MDE5LC04MjQwODQ1ODYsMTczNjQ2OTk4NiwtMTI0OTc0
-NzgyNyw0Njc2NjM3NjYsLTEzNzc1NTgyMjgsMTc5MzYxODQ0OC
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE2MDkyNDE0NCwxMjc5MTU1MTc3LC0yMz
+M3Njg3NTEsLTE3MTgwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5
+OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOC
+wxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
 -->
