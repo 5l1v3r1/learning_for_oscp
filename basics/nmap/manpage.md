@@ -12,11 +12,16 @@ A typical Nmap scan is shown in Example 1. The only Nmap arguments used in this 
 Example 1.A representative Nmap scan
 `nmap -A -T4 scanme.nmap.org`
 
-## OPTIONS SUMMARYoOptions 
+## OPTIONS SUMMARY
 summary is printed when Nmap is run with no arguments. It helps people remember the most common options, but is no substitute for the in-depth in the rest of this manual.  
+
+- -iL: Input from list of hosts/networks
+- -iR: Choose random targets
+- --exclude <host> Exclude hosts/networks
+- --exl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzc2ODc1MSwtMTcxODA3NDAxOSwtOD
-I0MDg0NTg2LDE3MzY0Njk5ODYsLTEyNDk3NDc4MjcsNDY3NjYz
-NzY2LC0xMzc3NTU4MjI4LDE3OTM2MTg0NDgsLTIwODg3NDY2MT
-JdfQ==
+eyJoaXN0b3J5IjpbNzQ4MDQ5OTQ0LC0yMzM3Njg3NTEsLTE3MT
+gwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5OTg2LC0xMjQ5NzQ3
+ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOCwxNzkzNjE4NDQ4LC
+0yMDg4NzQ2NjEyXX0=
 -->
