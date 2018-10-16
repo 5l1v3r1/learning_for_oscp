@@ -6,7 +6,7 @@ SMTP is a service that can be found in most infrastructure penestration tests. T
 The role of the EXPN command is to reveal the actual address of users aliases and lists of email and VRFY which can confirm the existence of names of valid users.
 
 The SMTP enumeration can be performed manually through utilities like telnet and netcat or automatically via
-a variety of tools like metasploit, nmap and smtp-user-enum. The following 2 screenshots are showing how we can enumerate 
+a variety of tools like metasploit, nmap and smtp-user-enum. The following 2 screenshots are showing how we can enumerate users with the VRFY and RCPT commands by using the telnet service.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5MTUzOTQ2LDIwMTQyMTA5MDNdfQ==
+eyJoaXN0b3J5IjpbMTY5OTY3MTc3NywyMDE0MjEwOTAzXX0=
 -->
