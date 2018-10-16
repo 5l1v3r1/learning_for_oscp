@@ -16,10 +16,13 @@ It also can be used for discovery valid email addresses.
 `perl smtp-user-enum.pl -M VRFY -D metasploitable.localdomain -U users.txt -t 172.16.212.133`
 
 SMTP enumeration can be implemented through the Nmap as well. There is a script in the NSE(Nmap Scripting Engine) that can be used for SMTP user enumeration.
-`nmap --sc
+`nmap --script smtp-enum-users.nse 172.16.212.133`
+
+## Conclusion
+SMTP is a common service that can be found in every network. Administrators need to properly configured the mail servers by disallowing the execution
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ0Nzg2NSwxNjk5NjcxNzc3LDIwMT
-QyMTA5MDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NTY2NDcwNDEsMTY5OTY3MTc3NywyMD
+E0MjEwOTAzXX0=
 -->
