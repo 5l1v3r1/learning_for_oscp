@@ -17,7 +17,10 @@ Two types of community strings:
 2. Read Write: In this mode, changes to the device are permitted; hence if one connects with this community string, we can even modify the remote device's configurations. The default community string for this mode is "private".
 
 As pen-testers, we have seen misconfigured SNMP devices which allow us to read the configuration, get important information, and even have a privilege to modify the configuration.
+
+## onesixtyone
+The **onesixtyone** tool can be used 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUzMzAxMjEsLTIwOTI2NjY3MzcsOD
-Q4MTAwMjE0LDE5NzA4Mzc2MzcsLTEyNTUwNDE2OF19
+eyJoaXN0b3J5IjpbOTk3MTczMDkyLC0yMDkyNjY2NzM3LDg0OD
+EwMDIxNCwxOTcwODM3NjM3LC0xMjU1MDQxNjhdfQ==
 -->
