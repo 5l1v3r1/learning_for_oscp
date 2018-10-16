@@ -39,9 +39,11 @@ I picked up options I think is often used.
 - -V: Print version number
 
 ## TARGET SPECIFICATION
+Everything on the Nmap command-line that isn't an option is treated as a target host specification. The simplest case is to specify a target IP address or hostname for scanning.
 
+Nmap supports CIDR-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTk1MDY3NywxMjc5MTU1MTc3LC0yMz
+eyJoaXN0b3J5IjpbMTY2NzI4MjUzOCwxMjc5MTU1MTc3LC0yMz
 M3Njg3NTEsLTE3MTgwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5
 OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOC
 wxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
