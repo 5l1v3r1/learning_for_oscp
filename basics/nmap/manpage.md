@@ -30,10 +30,12 @@ I picked up options I think is often used.
 - -T<0-5>: Set timing template (higher is faster)
 - -D <decoy1>: Cloak a scan with decoys
 - -S: Spoof source address
-- 
+- --spoof-mac <mac address?: Spoof your MAC address
+- -v: Increase verbosity level
+- --open: Only 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4MzMyODgwLDEyNzkxNTUxNzcsLTIzMz
-c2ODc1MSwtMTcxODA3NDAxOSwtODI0MDg0NTg2LDE3MzY0Njk5
-ODYsLTEyNDk3NDc4MjcsNDY3NjYzNzY2LC0xMzc3NTU4MjI4LD
-E3OTM2MTg0NDgsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTk2NDQwOTg3NiwxMjc5MTU1MTc3LC0yMz
+M3Njg3NTEsLTE3MTgwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5
+OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOC
+wxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
 -->
