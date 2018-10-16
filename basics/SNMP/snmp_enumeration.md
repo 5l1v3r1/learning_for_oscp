@@ -10,8 +10,11 @@ It consists of three major components:
 
 An agent running on every SNMP device will be providing access to a read and writable database. The database is referred to as the management information base (MIB) which is organized hierarchically and is a virtual database containing a formal description of all the network objects identified by a specific object identifier (OID) that can be managed using SNMP, It's a giant repository of values and settings. There is a manager involved in the process, and the manager will query the agent for various details.
 
-Community strings is a text string used to authenticate communications between the management stations and network devices on which SNMP agents are hosted. Community Strings travel in clear text over the network, hence are subject to network sniffing attacks. Community Strings are sent with every network packet exchanged 
+Community strings is a text string used to authenticate communications between the management stations and network devices on which SNMP agents are hosted. Community Strings travel in clear text over the network, hence are subject to network sniffing attacks. Community Strings are sent with every network packet exchanged between the node and management station.
+
+Two types of community strings:
+1. Read only: This mode permits querying the device and reading the information, but does not permit any kind of changes to the configuration. The default community string for this mode is "public"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDIyNjI4NDUsMTk3MDgzNzYzNywtMT
+eyJoaXN0b3J5IjpbLTEzMzQ5NDE4NjksMTk3MDgzNzYzNywtMT
 I1NTA0MTY4XX0=
 -->
