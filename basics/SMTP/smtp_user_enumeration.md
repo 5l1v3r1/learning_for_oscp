@@ -19,10 +19,10 @@ SMTP enumeration can be implemented through the Nmap as well. There is a script 
 `nmap --script smtp-enum-users.nse 172.16.212.133`
 
 ## Conclusion
-SMTP is a common service that can be found in every network. Administrators need to properly configured the mail servers by disallowing the execution
+SMTP is a common service that can be found in every network. Administrators need to properly configured the mail servers by disallowing the execution of the commands EXPN, VRFY, and RCPT in order to avoid this leakage. From the other side penestration testers can use the usernames that have been obtained from this enumeration to to conduct further attacks on other systems.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY2NDcwNDEsMTY5OTY3MTc3NywyMD
-E0MjEwOTAzXX0=
+eyJoaXN0b3J5IjpbMTAwOTYyODc5MSwxNjk5NjcxNzc3LDIwMT
+QyMTA5MDNdfQ==
 -->
