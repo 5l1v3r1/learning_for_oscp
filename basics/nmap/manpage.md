@@ -45,10 +45,13 @@ Nmap supports CIDR-style, addressing. You can append /numbits to an IPv4 address
 Nmap also supports octed range addressing. For e.g. 192.169.0.1-254. CIDR and octed ranges aren't yet supported for IPv6.
 
 Nmap accepts multiple host specifications on the command line. The following options are also available to control target selection:
-- iR 
+- iR Choose random targets
+- --exclude host1, host2: Exclude hosts/networks
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNTk4MDcsMTI3OTE1NTE3NywtMjMzNz
-Y4NzUxLC0xNzE4MDc0MDE5LC04MjQwODQ1ODYsMTczNjQ2OTk4
-NiwtMTI0OTc0NzgyNyw0Njc2NjM3NjYsLTEzNzc1NTgyMjgsMT
-c5MzYxODQ0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTA3ODYwMzk5MCwxMjc5MTU1MTc3LC0yMz
+M3Njg3NTEsLTE3MTgwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5
+OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOC
+wxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
 -->
