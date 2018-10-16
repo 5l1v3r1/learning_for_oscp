@@ -12,10 +12,11 @@ a variety of tools like metasploit, nmap and smtp-user-enum. The following 2 scr
 
 Another tool that can be used is **smtp-user-enum** representative way to use it in backtrack is shown below.
 `perl smtp-user-enum.pl -M VRFY -U users.txt -t 172.16.212.133` 
-It also can be used for user
+It also can be used for discovery valid email addresses.
+`perl smtp-user-enum.pl -M VRFY -D 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNTg0NTg2NCwxNjk5NjcxNzc3LDIwMT
+eyJoaXN0b3J5IjpbLTkwNjk4MjkxOCwxNjk5NjcxNzc3LDIwMT
 QyMTA5MDNdfQ==
 -->
