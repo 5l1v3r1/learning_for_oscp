@@ -41,10 +41,10 @@ I picked up options I think is often used.
 ## TARGET SPECIFICATION
 Everything on the Nmap command-line that isn't an option is treated as a target host specification. The simplest case is to specify a target IP address or hostname for scanning.
 
-Nmap supports CIDR-style, addressing. You can append /numbits to an IPv4 address or hostname and Nmap will scan every IP address for which the first numbits are the same as for the reference IP or hostname given.
+Nmap supports CIDR-style, addressing. You can append /numbits to an IPv4 address or hostname and Nmap will scan every IP address for which the first numbits are the same as for the reference IP or hostname given. You can scan targets the whole Internet by specifing /0. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc1NDAwNjUsMTI3OTE1NTE3NywtMj
-MzNzY4NzUxLC0xNzE4MDc0MDE5LC04MjQwODQ1ODYsMTczNjQ2
-OTk4NiwtMTI0OTc0NzgyNyw0Njc2NjM3NjYsLTEzNzc1NTgyMj
-gsMTc5MzYxODQ0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTQ3NDI2MjQ0LDEyNzkxNTUxNzcsLTIzMz
+c2ODc1MSwtMTcxODA3NDAxOSwtODI0MDg0NTg2LDE3MzY0Njk5
+ODYsLTEyNDk3NDc4MjcsNDY3NjYzNzY2LC0xMzc3NTU4MjI4LD
+E3OTM2MTg0NDgsLTIwODg3NDY2MTJdfQ==
 -->
