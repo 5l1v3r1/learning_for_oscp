@@ -10,9 +10,12 @@ In addition to the interesting ports table, Nmap can provide further information
 A typical Nmap scan is shown in Example 1. The only Nmap arguments used in this example are -A, to enable OS and version detection, script scanning, and traceroute; -T4 for faster execution; and then the hostname.
 
 Example 1.A representative Nmap scan
-nmap -A -T4 scanme.nmap.org
+`nmap -A -T4 scanme.nmap.org`
+
+## OPTIONS SUMMARY
+Options summary is printed when Nmap is run with no arguments. It helps people remember the most common options, but is nos substitute for the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDA4NDU4NiwxNzM2NDY5OTg2LC0xMj
-Q5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOCwxNzkzNjE4
-NDQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE0MjMwOTE4MTUsLTgyNDA4NDU4NiwxNz
+M2NDY5OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1
+ODIyOCwxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
 -->
