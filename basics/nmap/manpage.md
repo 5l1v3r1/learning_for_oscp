@@ -43,9 +43,12 @@ Everything on the Nmap command-line that isn't an option is treated as a target 
 
 Nmap supports CIDR-style, addressing. You can append /numbits to an IPv4 address or hostname and Nmap will scan every IP address for which the first numbits are the same as for the reference IP or hostname given. You can scan targets the whole Internet by specifing /0. 
 Nmap also supports octed range addressing. For e.g. 192.169.0.1-254. CIDR and octed ranges aren't yet supported for IPv6.
+
+Nmap accepts multiple host specifications on the command line. The following options are also available to control target selection:
+- iR 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTYwNjk2NzQsMTI3OTE1NTE3NywtMj
-MzNzY4NzUxLC0xNzE4MDc0MDE5LC04MjQwODQ1ODYsMTczNjQ2
-OTk4NiwtMTI0OTc0NzgyNyw0Njc2NjM3NjYsLTEzNzc1NTgyMj
-gsMTc5MzYxODQ0OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzQwNTk4MDcsMTI3OTE1NTE3NywtMjMzNz
+Y4NzUxLC0xNzE4MDc0MDE5LC04MjQwODQ1ODYsMTczNjQ2OTk4
+NiwtMTI0OTc0NzgyNyw0Njc2NjM3NjYsLTEzNzc1NTgyMjgsMT
+c5MzYxODQ0OCwtMjA4ODc0NjYxMl19
 -->
