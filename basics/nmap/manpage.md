@@ -32,10 +32,12 @@ I picked up options I think is often used.
 - -S: Spoof source address
 - --spoof-mac <mac address?: Spoof your MAC address
 - -v: Increase verbosity level
-- --open: Only 
+- --open: Only show open ports
+- -6: Enable IPv6 scanning
+- -A: Enable OS detection, version detection, script scanning
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDQwOTg3NiwxMjc5MTU1MTc3LC0yMz
-M3Njg3NTEsLTE3MTgwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5
-OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOC
-wxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE0NDczMTM4MjgsMTI3OTE1NTE3NywtMj
+MzNzY4NzUxLC0xNzE4MDc0MDE5LC04MjQwODQ1ODYsMTczNjQ2
+OTk4NiwtMTI0OTc0NzgyNyw0Njc2NjM3NjYsLTEzNzc1NTgyMj
+gsMTc5MzYxODQ0OCwtMjA4ODc0NjYxMl19
 -->
