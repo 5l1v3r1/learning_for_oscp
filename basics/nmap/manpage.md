@@ -26,10 +26,12 @@ summary is printed when Nmap is run with no arguments. It helps people remember 
 - -PE/PP/PM: ICMP echo, timestamp, and netmask request discovery probes
 - -PO<protocollist>: IP Protocol Ping
 - -n/-R: Never do DNS resolution/Always resolve
-- --dns-servers <server>: Specify custom DNS 
+- --dns-servers <server>: Specify custom DNS servers
+- --system-dns: Use OS's DNS resolver
+- --traceroute: Trace hop path to each host
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzNjc3NjI5LC0yMzM3Njg3NTEsLTE3MT
-gwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5OTg2LC0xMjQ5NzQ3
-ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOCwxNzkzNjE4NDQ4LC
-0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTI3OTE1NTE3NywtMjMzNzY4NzUxLC0xNz
+E4MDc0MDE5LC04MjQwODQ1ODYsMTczNjQ2OTk4NiwtMTI0OTc0
+NzgyNyw0Njc2NjM3NjYsLTEzNzc1NTgyMjgsMTc5MzYxODQ0OC
+wtMjA4ODc0NjYxMl19
 -->
