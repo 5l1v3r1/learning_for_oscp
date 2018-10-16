@@ -10,10 +10,10 @@ a variety of tools like metasploit, nmap and smtp-user-enum. The following 2 scr
 ![](https://pentestlab.files.wordpress.com/2012/11/smtp5.jpeg)
 ![](https://pentestlab.files.wordpress.com/2012/11/smtp6.jpeg?w=500)
 
-Another tool that can be used is **smtp-user-eum
+Another tool that can be used is **smtp-user-enum** representative way to use it is showed 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NTg4ODAyLDE2OTk2NzE3NzcsMjAxND
-IxMDkwM119
+eyJoaXN0b3J5IjpbMTQ5MDcwNTEwNywxNjk5NjcxNzc3LDIwMT
+QyMTA5MDNdfQ==
 -->
