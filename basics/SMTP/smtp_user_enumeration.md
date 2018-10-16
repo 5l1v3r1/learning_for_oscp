@@ -10,10 +10,12 @@ a variety of tools like metasploit, nmap and smtp-user-enum. The following 2 scr
 ![](https://pentestlab.files.wordpress.com/2012/11/smtp5.jpeg)
 ![](https://pentestlab.files.wordpress.com/2012/11/smtp6.jpeg?w=500)
 
-Another tool that can be used is **smtp-user-enum** representative way to use it is showed 
+Another tool that can be used is **smtp-user-enum** representative way to use it in backtrack is shown below.
+`perl smtp-user-enum.pl -M VRFY -U users.txt -t 172.16.212.133` 
+It also can be used for user
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDcwNTEwNywxNjk5NjcxNzc3LDIwMT
+eyJoaXN0b3J5IjpbLTMzNTg0NTg2NCwxNjk5NjcxNzc3LDIwMT
 QyMTA5MDNdfQ==
 -->
