@@ -18,9 +18,13 @@ summary is printed when Nmap is run with no arguments. It helps people remember 
 - -iL: Input from list of hosts/networks
 - -iR: Choose random targets
 - --exclude <host> Exclude hosts/networks
-- --exl
+- --excludefile <exclude_file>: Exclude list  from file
+- -sL: List Scan: simply list targets to scan
+- -sn: Ping Scan: disable port scan
+- -Pn: Treat all hosts as online
+- -PS/PA/PU/PY
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4MDQ5OTQ0LC0yMzM3Njg3NTEsLTE3MT
+eyJoaXN0b3J5IjpbNjQ5NzM5MDc0LC0yMzM3Njg3NTEsLTE3MT
 gwNzQwMTksLTgyNDA4NDU4NiwxNzM2NDY5OTg2LC0xMjQ5NzQ3
 ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1ODIyOCwxNzkzNjE4NDQ4LC
 0yMDg4NzQ2NjEyXX0=
