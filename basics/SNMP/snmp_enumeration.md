@@ -1,4 +1,4 @@
-# SNMP Enumeration
+# SNMP(Simple Network Monitoring Protocol) Enumeration
 quoted from [this site](https://www.greycampus.com/opencampus/ethical-hacking/snmp-enumeration)
 SNMP (Simple Network Management Protocol) is an application layer protocol which uses UDP protocol to maintain and manage routers, hubs and switches other network devices on an IP network. SNMP is a very common protocol found enabled on a variety of operating systems like Windows Server, Linux & Unix servers as well as network devices like routers, switches etc.
 
@@ -19,6 +19,6 @@ Two types of community strings:
 snmpenum.pl (one of many snmp enumeration utilities which comes with backtrack) can be used for SNMP enumeration.
 `perl snmpenum.pl`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI2NjY3MzcsODQ4MTAwMjE0LDE5Nz
-A4Mzc2MzcsLTEyNTUwNDE2OF19
+eyJoaXN0b3J5IjpbLTEzMDM4NzkxMDYsLTIwOTI2NjY3MzcsOD
+Q4MTAwMjE0LDE5NzA4Mzc2MzcsLTEyNTUwNDE2OF19
 -->
