@@ -12,10 +12,9 @@ A typical Nmap scan is shown in Example 1. The only Nmap arguments used in this 
 Example 1.A representative Nmap scan
 `nmap -A -T4 scanme.nmap.org`
 
-## OPTIONS SUMMARY
-Options summary is printed when Nmap is run with no arguments. It helps people remember the most common options, but is nos substitute for the 
+## OPTIONS SUMMARYoOptions summary is printed when Nmap is run with no arguments. It helps people remember the most common options, but is no substitute for the for the in-depth in the rest of this manual.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMwOTE4MTUsLTgyNDA4NDU4NiwxNz
+eyJoaXN0b3J5IjpbLTE3MTgwNzQwMTksLTgyNDA4NDU4NiwxNz
 M2NDY5OTg2LC0xMjQ5NzQ3ODI3LDQ2NzY2Mzc2NiwtMTM3NzU1
 ODIyOCwxNzkzNjE4NDQ4LC0yMDg4NzQ2NjEyXX0=
 -->
