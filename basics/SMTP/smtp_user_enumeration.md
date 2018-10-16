@@ -7,6 +7,11 @@ The role of the EXPN command is to reveal the actual address of users aliases an
 
 The SMTP enumeration can be performed manually through utilities like telnet and netcat or automatically via
 a variety of tools like metasploit, nmap and smtp-user-enum. The following 2 screenshots are showing how we can enumerate users with the VRFY and RCPT commands by using the telnet service.
+![](https://pentestlab.files.wordpress.com/2012/11/smtp5.jpeg)
+![](https://pentestlab.files.wordpress.com/2012/11/smtp6.jpeg?w=500)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTY3MTc3NywyMDE0MjEwOTAzXX0=
+eyJoaXN0b3J5IjpbLTE0MDA0MDM0ODIsMTY5OTY3MTc3NywyMD
+E0MjEwOTAzXX0=
 -->
