@@ -93,8 +93,11 @@ Assume our %eip is pointing to the **func** call in **main**. The following step
 7. After **func** gets over we need to reset the previous stack frame. So set %esp back to %ebp. Then pop the earlier %ebp from stack, store it back in %ebp. So the base pointer register points back to where it pointed in main.
 8. Pop the return address from stack and set %eip to it. The control flow comes back to main, just after the **func** function call.
 
-This is how the stack wou
+This is how the stack would look while in **func**
+![](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/stack.png)
+Souce: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/stack.png](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/stack.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDM5Njc2MSwtMTMxNTYyNzA3OSwtMz
+eyJoaXN0b3J5IjpbMTQ0NDUwNzkwNCwtMTMxNTYyNzA3OSwtMz
 UwNDI2OTMwXX0=
 -->
