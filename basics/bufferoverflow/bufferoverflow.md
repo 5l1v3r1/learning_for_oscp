@@ -47,7 +47,11 @@ Let's start by first examining the memory layout of a C program, especially the 
 ![layout](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_layout.png)
 Source: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_layout.png](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_layout.png)
 
+1. Command line arguments and environment variables:
+	The arguments passed to a program before running and the environment variables are stored in this section
+2. Stack:
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTAxNDY4NywtMzUwNDI2OTMwXX0=
+eyJoaXN0b3J5IjpbMTYyNTUxMjU5NiwtMzUwNDI2OTMwXX0=
 -->
