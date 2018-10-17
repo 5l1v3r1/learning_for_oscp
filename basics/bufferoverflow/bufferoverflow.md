@@ -58,7 +58,11 @@ Source: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_la
 5. Initialized data(Data Segment):
 	All the initialized data is stored here. This consists of all global and static variables which are initialized by the programmer.
 6. Text:
-7. 
+	This is the section where the executable code is stored. The loader loads instruction from here and executes them. It is often read only.
+
+## Some common registers
+1. %eip
+	The **Instruction Pointer Register**. It stores the address of the next instruction to be executed. After every instruction execution
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY4MjI0MjYsLTM1MDQyNjkzMF19
+eyJoaXN0b3J5IjpbLTg2OTEyODExOSwtMzUwNDI2OTMwXX0=
 -->
