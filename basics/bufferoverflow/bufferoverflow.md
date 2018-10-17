@@ -105,9 +105,11 @@ Let's compile above sample code.
 > For 32 bit systems
 
 `gcc vuln.c -o vuln -fno-stack-protector`
-> For 
+> For 64 bit systems
+
+`gcc vuln.c -o vuln -fno-stack-protector
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTQzMzUxOCw4ODIxNzMyMCwtMTMxNT
-YyNzA3OSwtMzUwNDI2OTMwXX0=
+eyJoaXN0b3J5IjpbMTc0NjExNjA0NywxNjA5NDMzNTE4LDg4Mj
+E3MzIwLC0xMzE1NjI3MDc5LC0zNTA0MjY5MzBdfQ==
 -->
