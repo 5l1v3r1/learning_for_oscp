@@ -80,8 +80,12 @@ void func(int a, int b)
 void main()
 {
 	func(1, 2);
-	// next instr
+	// next instruction
+}
 ```
+Assume our %eip is pointing to the **func** call in **main**. The following steps would be taken.
+1. A function call is found, push parameters on the stack from right to left(in reverse order). So 2 will be pushed first and then 1.
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjg4OTA0MCwtMzUwNDI2OTMwXX0=
+eyJoaXN0b3J5IjpbMzU3MTM1NDQ5LC0zNTA0MjY5MzBdfQ==
 -->
