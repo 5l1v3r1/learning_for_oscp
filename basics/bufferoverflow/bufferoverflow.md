@@ -41,7 +41,10 @@ int main()
 We can call the **secretFunction** by just modifying the input. There are better ways to do this if the binary is local. We can use **gdb** to modify the %eip. But in case the binary is running as a service on some other machine, we can make it call other functions or even custom code by just modifying the input.
 
 ## Memory Layout of a C program
-Let's start by first examining the memory layout of a C pro
+Let's start by first examining the memory layout of a C program, especially the stack, it's content and it's working during function calls and returns. We will also go into the machine registers **esp**, **ebp**, etc.
+
+## Divisions of memory for a running process
+[layout](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_layout.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjI3NDkzMywtMzUwNDI2OTMwXX0=
+eyJoaXN0b3J5IjpbMjY0NDUwODIsLTM1MDQyNjkzMF19
 -->
