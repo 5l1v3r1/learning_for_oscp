@@ -99,8 +99,10 @@ Souce: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/stack.png]
 
 ## Buffer overflow vulnerability
 Buffer overflow is a vulnerability in low level codes of C and C++. An attacker can cause the program to crash, make data corrupt, steal some private information or run his/her own code.
-It basically means to access any buffer outside of it's allocated memory space. This happens quite frequently in the case of arrays. Now as the variables are stored together in stack/heap/etc. accessing any out of bound index can cause read/write of bytes of some other variable. Normally the program
+It basically means to access any buffer outside of it's allocated memory space. This happens quite frequently in the case of arrays. Now as the variables are stored together in stack/heap/etc. accessing any out of bound index can cause read/write of bytes of some other variable. Normally the program would crash, but we can skillfully make some vulnerable code to do any of the above mentioned attacks. Here we shall modify the return address and try to execute the return address.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzQ4ODIzMCwtMTMxNTYyNzA3OSwtMz
-UwNDI2OTMwXX0=
+eyJoaXN0b3J5IjpbODgyMTczMjAsLTEzMTU2MjcwNzksLTM1MD
+QyNjkzMF19
 -->
