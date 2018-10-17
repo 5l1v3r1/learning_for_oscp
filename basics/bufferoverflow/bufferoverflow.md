@@ -114,10 +114,12 @@ Let's begin to exploit the binary. First of all we would like to see the disasse
 `objdump -d vuln`
 Running this we would get the entire disassembly. Let's focus on the part that we are interested in.
 
+![https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/disassembly.png](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/disassembly.png)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA3ODM3NDEsOTg2NjI4NTYsMTYwOT
-QzMzUxOCw4ODIxNzMyMCwtMTMxNTYyNzA3OSwtMzUwNDI2OTMw
-XX0=
+eyJoaXN0b3J5IjpbMTk2Nzk3OTI0Nyw5ODY2Mjg1NiwxNjA5ND
+MzNTE4LDg4MjE3MzIwLC0xMzE1NjI3MDc5LC0zNTA0MjY5MzBd
+fQ==
 -->
