@@ -9,7 +9,18 @@ We will simply exploit the buffer by smashing the stack and modifying the return
 2. be a little familiar with **gcc** and the linux command line.
 3. Basic x86 assembly language.
 
+## Machine Requirements
+latest distro's of **linux**. We are going to create a 32 bit binary.
 
+## Sample Vulnerable program
+```c
+#include <stdio.h>
+
+void secretFunction()
+{
+	printf("Congratulations!\n");
+	printf("You have entered in the 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTcxMjcxMTEsLTM1MDQyNjkzMF19
+eyJoaXN0b3J5IjpbMTc1NTUwNTk3LC0zNTA0MjY5MzBdfQ==
 -->
