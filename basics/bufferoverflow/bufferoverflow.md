@@ -102,7 +102,8 @@ Buffer overflow is a vulnerability in low level codes of C and C++. An attacker 
 It basically means to access any buffer outside of it's allocated memory space. This happens quite frequently in the case of arrays. Now as the variables are stored together in stack/heap/etc. accessing any out of bound index can cause read/write of bytes of some other variable. Normally the program would crash, but we can skillfully make some vulnerable code to do any of the above mentioned attacks. Here we shall modify the return address and try to execute the return address.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMTczMjAsLTEzMTU2MjcwNzksLTM1MD
-QyNjkzMF19
+eyJoaXN0b3J5IjpbOTExMDg0MzEwLDg4MjE3MzIwLC0xMzE1Nj
+I3MDc5LC0zNTA0MjY5MzBdfQ==
 -->
