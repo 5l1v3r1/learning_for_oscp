@@ -90,8 +90,11 @@ Assume our %eip is pointing to the **func** call in **main**. The following step
 4. As we are in a new function we need to update %ebp. Before updating we save it on the stack so that we can return later back to **main**. So %ebp is pushed on the stack.
 5. Set %ebp to be equal to %esp. %ebp now points to current stack pointer.
 6. Push local variables onto the stack/reserver space for them on stack. %esp will be changed in this step.
-7. After **func** gets over we need to reset the previous stack frame. So set %esp back to %ebp
+7. After **func** gets over we need to reset the previous stack frame. So set %esp back to %ebp. Then pop the earlier %ebp from stack, store it back in %ebp. So the base pointer register points back to where it pointed in main.
+8. Pop the return address from stack and set %eip to it. The control flow comes back to main, just after the **func** function call.
+
+This is how the stack wou
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzA0MDA1LC0xMzE1NjI3MDc5LC0zNT
-A0MjY5MzBdfQ==
+eyJoaXN0b3J5IjpbLTk1NDM5Njc2MSwtMTMxNTYyNzA3OSwtMz
+UwNDI2OTMwXX0=
 -->
