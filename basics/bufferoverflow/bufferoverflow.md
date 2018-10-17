@@ -52,8 +52,9 @@ Source: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_la
 2. Stack:
 	This is the place where all the function parameters, return addressed and the local variables of the function are stored. It's a **LIFO** structure. It grows downward in memory as new function calls are made. We will examine the stack in more detail later.
 3. Heap:
-	All the dynamically allocated memory resides here. Whene
-
+	All the dynamically allocated memory resides here. Whenever we use **malloc** to get memory dynamically, it is allocated from the heap. The heap grows upwards in memory as more and more memory is required.
+4. Uninitialized data(Bss Segment): 
+	All the uninitialized data is stored here. This consists of all global and static varia
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NTc2OTY4LC0zNTA0MjY5MzBdfQ==
+eyJoaXN0b3J5IjpbLTMwMTE4NzY4LC0zNTA0MjY5MzBdfQ==
 -->
