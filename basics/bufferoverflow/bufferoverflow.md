@@ -19,8 +19,23 @@ latest distro's of **linux**. We are going to create a 32 bit binary.
 void secretFunction()
 {
 	printf("Congratulations!\n");
-	printf("You have entered in the 
+	printf("You have entered in the secret function!\n");
+}
+
+void echo() 
+{
+	char buffer[20];
+	
+	printf("Enter some text:\n");
+	scanf("%s", buffer);
+	printf("You entered: %s\n", buffer);
+}
+
+int main()
+{
+	echo();
+	return 0;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTUwNTk3LC0zNTA0MjY5MzBdfQ==
+eyJoaXN0b3J5IjpbMjg5NzMzNjAwLC0zNTA0MjY5MzBdfQ==
 -->
