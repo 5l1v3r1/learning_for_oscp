@@ -64,7 +64,9 @@ Source: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_la
 1. %eip
 	The **Instruction Pointer Register**. It stores the address of the next instruction to be executed. After every instruction execution it's value is incremented depending upon the size of an instruction.
 2. %esp
-	The **Stack Pointer Register**. It stores the address of the top of the stack. This is the address of the last element on the stack. The stack grows downward in memory. So the %esp points to the value in stack at the lowes
+	The **Stack Pointer Register**. It stores the address of the top of the stack. This is the address of the last element on the stack. The stack grows downward in memory. So the %esp points to the value in stack at the lowest memory address.
+3. %ebp
+	The **Base Pointer Register**. The %ebp register usually set to %esp at the start of the function. This is done to keep tab of function parameters and local variables. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MzM1ODU1LC0zNTA0MjY5MzBdfQ==
+eyJoaXN0b3J5IjpbLTEzNjYwODI2MzEsLTM1MDQyNjkzMF19
 -->
