@@ -124,10 +124,11 @@ Running this we would get the entire disassembly. Let's focus on the part that w
 3. The address of buffer starts 1c in hex or 28 in decimal bytes before %ebp. This means that 28bytes are reserved for buffer even though we asked for 20bytes.
 `80484cf: 8d 45 e4 lea -0x1c(%ebp), %eax`
 
-## Designing 
+## Designing payload
+Now we know that 28 bytes are reserved for **buffer**, it is right next to %ebp(the base pointer of the main function). Hence the next 4 bytes 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyMzE5NDIsLTMyMzg5NzA3NCw5ODY2Mj
-g1NiwxNjA5NDMzNTE4LDg4MjE3MzIwLC0xMzE1NjI3MDc5LC0z
-NTA0MjY5MzBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzQ3Mjg3NTQsLTMyMzg5NzA3NCw5OD
+Y2Mjg1NiwxNjA5NDMzNTE4LDg4MjE3MzIwLC0xMzE1NjI3MDc5
+LC0zNTA0MjY5MzBdfQ==
 -->
