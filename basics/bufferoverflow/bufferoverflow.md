@@ -50,8 +50,10 @@ Source: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_la
 1. Command line arguments and environment variables:
 	The arguments passed to a program before running and the environment variables are stored in this section
 2. Stack:
-	
+	This is the place where all the function parameters, return addressed and the local variables of the function are stored. It's a **LIFO** structure. It grows downward in memory as new function calls are made. We will examine the stack in more detail later.
+3. Heap:
+	All the dynamically allocated memory resides here. Whene
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTUxMjU5NiwtMzUwNDI2OTMwXX0=
+eyJoaXN0b3J5IjpbNjU3NTc2OTY4LC0zNTA0MjY5MzBdfQ==
 -->
