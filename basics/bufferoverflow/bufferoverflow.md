@@ -115,8 +115,9 @@ Let's begin to exploit the binary. First of all we would like to see the disasse
 Running this we would get the entire disassembly. Let's focus on the part that we are interested in.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY0NDY2OTksOTg2NjI4NTYsMTYwOT
+eyJoaXN0b3J5IjpbLTE4MDA3ODM3NDEsOTg2NjI4NTYsMTYwOT
 QzMzUxOCw4ODIxNzMyMCwtMTMxNTYyNzA3OSwtMzUwNDI2OTMw
 XX0=
 -->
