@@ -66,7 +66,7 @@ Source: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_la
 2. %esp
 	The **Stack Pointer Register**. It stores the address of the top of the stack. This is the address of the last element on the stack. The stack grows downward in memory. So the %esp points to the value in stack at the lowest memory address.
 3. %ebp
-	The **Base Pointer Register**. The %ebp register usually set to %esp at the start of the function. This is done to keep tab of function parameters and local variables. 
+	The **Base Pointer Register**. The %ebp register usually set to %esp at the start of the function. This is done to keep tab of function parameters and local variables. Local variables are accessed by subtracting offsets from %ebp and function parameters are accessed by add
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjYwODI2MzEsLTM1MDQyNjkzMF19
+eyJoaXN0b3J5IjpbMTQ1NTM4NDgxMywtMzUwNDI2OTMwXX0=
 -->
