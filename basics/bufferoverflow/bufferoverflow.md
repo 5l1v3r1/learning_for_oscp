@@ -107,9 +107,14 @@ Let's compile above sample code.
 `gcc vuln.c -o vuln -fno-stack-protector`
 > For 64 bit systems
 
-`gcc vuln.c -o vuln -fno-stack-protector
+`gcc vuln.c -o vuln -fno-stack-protector`
+You can now run it using ***./vuln***.
+
+Let's begin to exploit the binary. First of all we would like to see the disassembly of the binary. For that we'll use **objdump**
+`objdump -d vuln`
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjExNjA0NywxNjA5NDMzNTE4LDg4Mj
-E3MzIwLC0xMzE1NjI3MDc5LC0zNTA0MjY5MzBdfQ==
+eyJoaXN0b3J5IjpbOTg2NjI4NTYsMTYwOTQzMzUxOCw4ODIxNz
+MyMCwtMTMxNTYyNzA3OSwtMzUwNDI2OTMwXX0=
 -->
