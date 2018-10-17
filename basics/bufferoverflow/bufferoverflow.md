@@ -35,7 +35,10 @@ int main()
 {
 	echo();
 	return 0;
+}
 ```
+
+We can call the **secretFunction** by just modifying the input. There are better ways to do this if the binary is local. We can use **gdb** to modify the %eip. But in case the binary is running as a service on some other machine, we can make it call other functions or even custom code by 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NzMzNjAwLC0zNTA0MjY5MzBdfQ==
+eyJoaXN0b3J5IjpbMTIwMTE1OTE5NiwtMzUwNDI2OTMwXX0=
 -->
