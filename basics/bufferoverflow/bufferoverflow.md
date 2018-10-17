@@ -62,7 +62,9 @@ Source: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_la
 
 ## Some common registers
 1. %eip
-	The **Instruction Pointer Register**. It stores the address of the next instruction to be executed. After every instruction execution
+	The **Instruction Pointer Register**. It stores the address of the next instruction to be executed. After every instruction execution it's value is incremented depending upon the size of an instruction.
+2. %esp
+	The **Stack Pointer Register**. It stores the address of the top of the stack. This is the address of the last element on the stack. The stack grows downward in memory. So the %esp points to the value in stack at the lowes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTEyODExOSwtMzUwNDI2OTMwXX0=
+eyJoaXN0b3J5IjpbNzI1MzM1ODU1LC0zNTA0MjY5MzBdfQ==
 -->
