@@ -87,7 +87,10 @@ Assume our %eip is pointing to the **func** call in **main**. The following step
 1. A function call is found, push parameters on the stack from right to left(in reverse order). So 2 will be pushed first and then 1.
 2. We need to know where to return after **func** is completed, so push the address of the next instruction on the stack.
 3. Find the address of func and set %eip to that value. The control has been transferred to func().
-4. As we are in a new function we need to update %ebp.
+4. As we are in a new function we need to update %ebp. Before updating we save it on the stack so that we can return later back to **main**. So %ebp is pushed on the stack.
+5. Set %ebp to be equal to %esp. %ebp now points to current stack pointer.
+6. Push local variables onto 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU2MjcwNzksLTM1MDQyNjkzMF19
+eyJoaXN0b3J5IjpbMTk1Nzk0MDYyNiwtMTMxNTYyNzA3OSwtMz
+UwNDI2OTMwXX0=
 -->
