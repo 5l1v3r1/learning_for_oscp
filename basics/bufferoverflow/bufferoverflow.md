@@ -116,12 +116,16 @@ Running this we would get the entire disassembly. Let's focus on the part that w
 
 ![https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/disassembly.png](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/disassembly.png)
 1. The address of secretFunction is 0804849d in hex
-2. . 38 in hex or 56 in decimal bytes are reserved for the local variables of echo function
+`0804849d <secretFunction>:`
 
+2. 38 in hex or 56 in decimal bytes are reserved for the local variables of echo function
+`80484c0: 83 ec 38 sub $0x38, %esp`
+
+3. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDYwNDE2MDUsOTg2NjI4NTYsMTYwOT
-QzMzUxOCw4ODIxNzMyMCwtMTMxNTYyNzA3OSwtMzUwNDI2OTMw
-XX0=
+eyJoaXN0b3J5IjpbLTMyMzg5NzA3NCw5ODY2Mjg1NiwxNjA5ND
+MzNTE4LDg4MjE3MzIwLC0xMzE1NjI3MDc5LC0zNTA0MjY5MzBd
+fQ==
 -->
