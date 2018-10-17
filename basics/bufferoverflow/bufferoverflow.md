@@ -121,11 +121,11 @@ Running this we would get the entire disassembly. Let's focus on the part that w
 2. 38 in hex or 56 in decimal bytes are reserved for the local variables of echo function
 `80484c0: 83 ec 38 sub $0x38, %esp`
 
-3. 
+3. The address of buffer starts 1c in he
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzg5NzA3NCw5ODY2Mjg1NiwxNjA5ND
-MzNTE4LDg4MjE3MzIwLC0xMzE1NjI3MDc5LC0zNTA0MjY5MzBd
-fQ==
+eyJoaXN0b3J5IjpbMTg4NTY3MjUzNSwtMzIzODk3MDc0LDk4Nj
+YyODU2LDE2MDk0MzM1MTgsODgyMTczMjAsLTEzMTU2MjcwNzks
+LTM1MDQyNjkzMF19
 -->
