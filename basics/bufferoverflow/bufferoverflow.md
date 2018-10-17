@@ -97,7 +97,10 @@ This is how the stack would look while in **func**
 ![](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/stack.png)
 Souce: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/stack.png](https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/stack.png)
 
+## Buffer overflow vulnerability
+Buffer overflow is a vulnerability in low level codes of C and C++. An attacker can cause the program to crash, make data corrupt, steal some private information or run his/her own code.
+It basically means to access any buffer outside of it's allocated memory space. This happens quiite
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDUwNzkwNCwtMTMxNTYyNzA3OSwtMz
+eyJoaXN0b3J5IjpbMTI0NzE0OTgzMSwtMTMxNTYyNzA3OSwtMz
 UwNDI2OTMwXX0=
 -->
