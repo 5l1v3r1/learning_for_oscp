@@ -112,9 +112,11 @@ You can now run it using ***./vuln***.
 
 Let's begin to exploit the binary. First of all we would like to see the disassembly of the binary. For that we'll use **objdump**
 `objdump -d vuln`
+Running this we would get the entire disassembly. Let's focus on the part that we are interested in.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NjI4NTYsMTYwOTQzMzUxOCw4ODIxNz
-MyMCwtMTMxNTYyNzA3OSwtMzUwNDI2OTMwXX0=
+eyJoaXN0b3J5IjpbLTEyNDY0NDY2OTksOTg2NjI4NTYsMTYwOT
+QzMzUxOCw4ODIxNzMyMCwtMTMxNTYyNzA3OSwtMzUwNDI2OTMw
+XX0=
 -->
