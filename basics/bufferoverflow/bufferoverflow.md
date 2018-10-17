@@ -54,7 +54,11 @@ Source: [https://dhavalkapil.com/assets/images/Buffer-Overflow-Exploit/memory_la
 3. Heap:
 	All the dynamically allocated memory resides here. Whenever we use **malloc** to get memory dynamically, it is allocated from the heap. The heap grows upwards in memory as more and more memory is required.
 4. Uninitialized data(Bss Segment): 
-	All the uninitialized data is stored here. This consists of all global and static varia
+	All the uninitialized data is stored here. This consists of all global and static variables which are not initialized by the programmer. The kernel initializes them to arithmetic 0 by default.
+5. Initialized data(Data Segment):
+	All the initialized data is stored here. This consists of all global and static variables which are initialized by the programmer.
+6. Text:
+7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTE4NzY4LC0zNTA0MjY5MzBdfQ==
+eyJoaXN0b3J5IjpbLTExNjY4MjI0MjYsLTM1MDQyNjkzMF19
 -->
