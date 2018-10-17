@@ -121,11 +121,13 @@ Running this we would get the entire disassembly. Let's focus on the part that w
 2. 38 in hex or 56 in decimal bytes are reserved for the local variables of echo function
 `80484c0: 83 ec 38 sub $0x38, %esp`
 
-3. The address of buffer starts 1c in he
+3. The address of buffer starts 1c in hex or 28 in decimal bytes before %ebp. This means that 28bytes are reserved for buffer even though we asked for 20bytes.
+`80484cf: 8d 45 e4 lea -0x1c(%ebp), %eax`
 
+## Designing 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTY3MjUzNSwtMzIzODk3MDc0LDk4Nj
-YyODU2LDE2MDk0MzM1MTgsODgyMTczMjAsLTEzMTU2MjcwNzks
-LTM1MDQyNjkzMF19
+eyJoaXN0b3J5IjpbNzQyMzE5NDIsLTMyMzg5NzA3NCw5ODY2Mj
+g1NiwxNjA5NDMzNTE4LDg4MjE3MzIwLC0xMzE1NjI3MDc5LC0z
+NTA0MjY5MzBdfQ==
 -->
